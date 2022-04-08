@@ -1,6 +1,5 @@
 type = normal
 name = DCSS
-species = Human
-background = Fighter
-weapon = falchion
+species = Octopode
+background = Transmuter
 fully_random = no

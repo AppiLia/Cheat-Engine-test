@@ -1,0 +1,115 @@
+Version: Dungeon Crawl Stone Soup 0.13.1K.1U
+Platform: Windows
+Bits: 32
+Game mode: normal
+Tiles: yes
+
+Command line: C:\Users\ab975\Desktop\git\Cheat-Engine-test\test games\DCSS 0.13.1K.1U\crawl.exe
+
+RC options:
+restart_after_game = true
+
+
+Unable to get stack trace on this platform.
+Unable to get stack trace on this platform.
+
+Compilation info:
+<<<<<<<<<<<
+Compiled with GCC 4.4.0 on Jan 10 2014 at 22:58:55
+Build platform: mingw32
+Platform: mingw32
+CFLAGS: -O2 -pipe -Wall -Wformat-security -Wmissing-declarations -DWINMM_PLAY_SOUNDS -DUSE_GETTEXT -DKR -DUSE_TILE -DUSE_TILE_LOCAL -DUSE_SDL -DUSE_GL -DUSE_FT -Wundef -Wno-array-bounds -Wno-parentheses -Wno-unused-parameter -Wwrite-strings -Wshadow -Wuninitialized -Icontrib/install/mingw32/include -Iutil -I. -Irltiles -Icontrib/install/mingw32/include/SDL -Icontrib/install/mingw32/include/freetype2 -DWIZARD -DASSERTS -DPROPORTIONAL_FONT="contrib/fonts/DejaVuSans.ttf" -DMONOSPACED_FONT="contrib/fonts/DejaVuSansMono.ttf" -DREGEX_PCRE -DCLUA_BINDINGS
+LDFLAGS: -O2 
+>>>>>>>>>>>
+
+Place info:
+branch = 0, depth = 1
+
+Level id: D:1
+Level build method = ABSENT, level layout type  = ABSENT, absdepth0 = 0
+
+Markers:
+<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>
+
+Messages:
+<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>
+
+Game state:
+
+mouse_enabled: 0, waiting_for_command: 0, terminal_resized: 0
+io_inited: 0, need_save: 0, saving_game: 0, updating_scores: 0:
+seen_hups: 0, map_stat_gen: 0, type: 1, arena_suspended: 0
+
+prev_cmd = CMD_NO_CMD
+repeat_cmd = CMD_NO_CMD
+
+Player:
+{{{{{{{{{{{
+Name:       []
+Species:    Yak
+Job:        Unemployed
+
+class_name: 
+
+HP: 0/0; mods: 0/0
+MP: 0/0; mods: 0/0
+Stats: 0 (0) 0 (0) 0 (0)
+Position: (0, 0) <OoB>, god: No God (0), turn_is_over: 0, banished: 0
+
+Skills (mode: auto)
+Name            | can_train | train | training | level | points | progress
+Fighting        |           |   0   |     0    |    0  |      0 | 0/50
+Short Blades    |           |   0   |     0    |    0  |      0 | 0/50
+Long Blades     |           |   0   |     0    |    0  |      0 | 0/50
+Axes            |           |   0   |     0    |    0  |      0 | 0/50
+Maces & Flails  |           |   0   |     0    |    0  |      0 | 0/50
+Polearms        |           |   0   |     0    |    0  |      0 | 0/50
+Staves          |           |   0   |     0    |    0  |      0 | 0/50
+Slings          |           |   0   |     0    |    0  |      0 | 0/50
+Bows            |           |   0   |     0    |    0  |      0 | 0/50
+Crossbows       |           |   0   |     0    |    0  |      0 | 0/50
+Throwing        |           |   0   |     0    |    0  |      0 | 0/50
+Armour          |           |   0   |     0    |    0  |      0 | 0/50
+Dodging         |           |   0   |     0    |    0  |      0 | 0/50
+Stealth         |           |   0   |     0    |    0  |      0 | 0/50
+Stabbing        |           |   0   |     0    |    0  |      0 | 0/50
+Shields         |           |   0   |     0    |    0  |      0 | 0/50
+Traps           |           |   0   |     0    |    0  |      0 | 0/50
+Unarmed Combat  |           |   0   |     0    |    0  |      0 | 0/50
+Spellcasting    |           |   0   |     0    |    0  |      0 | 0/50
+Conjurations    |           |   0   |     0    |    0  |      0 | 0/50
+Hexes           |           |   0   |     0    |    0  |      0 | 0/50
+Charms          |           |   0   |     0    |    0  |      0 | 0/50
+Summonings      |           |   0   |     0    |    0  |      0 | 0/50
+Necromancy      |           |   0   |     0    |    0  |      0 | 0/50
+Translocations  |           |   0   |     0    |    0  |      0 | 0/50
+Transmutations  |           |   0   |     0    |    0  |      0 | 0/50
+Fire Magic      |           |   0   |     0    |    0  |      0 | 0/50
+Ice Magic       |           |   0   |     0    |    0  |      0 | 0/50
+Air Magic       |           |   0   |     0    |    0  |      0 | 0/50
+Earth Magic     |           |   0   |     0    |    0  |      0 | 0/50
+Poison Magic    |           |   0   |     0    |    0  |      0 | 0/50
+Invocations     |           |   0   |     0    |    0  |      0 | 0/50
+Evocations      |           |   0   |     0    |    0  |      0 | 0/50
+
+Spell bugs:
+
+Durations:
+
+Attributes:
+
+Mutations:
+
+Inventory bugs:
+
+Equipment:
+
+}}}}}}}}}}}
+
+
+Screenshot:
+@
+
+clua stack:

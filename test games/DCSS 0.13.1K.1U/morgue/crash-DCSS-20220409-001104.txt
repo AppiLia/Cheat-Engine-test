@@ -1,0 +1,239 @@
+ASSERT(val <= max_val) in 'output.cc' at line 334 failed.
+
+Version: Dungeon Crawl Stone Soup 0.13.1K.1U
+Platform: Windows
+Bits: 32
+Game mode: normal
+Tiles: yes
+
+Command line: C:\Users\ab975\Desktop\git\Cheat-Engine-test\test games\DCSS 0.13.1K.1U\crawl.exe
+
+RC options:
+restart_after_game = true
+
+
+Unable to get stack trace on this platform.
+Unable to get stack trace on this platform.
+
+Compilation info:
+<<<<<<<<<<<
+Compiled with GCC 4.4.0 on Jan 10 2014 at 22:58:55
+Build platform: mingw32
+Platform: mingw32
+CFLAGS: -O2 -pipe -Wall -Wformat-security -Wmissing-declarations -DWINMM_PLAY_SOUNDS -DUSE_GETTEXT -DKR -DUSE_TILE -DUSE_TILE_LOCAL -DUSE_SDL -DUSE_GL -DUSE_FT -Wundef -Wno-array-bounds -Wno-parentheses -Wno-unused-parameter -Wwrite-strings -Wshadow -Wuninitialized -Icontrib/install/mingw32/include -Iutil -I. -Irltiles -Icontrib/install/mingw32/include/SDL -Icontrib/install/mingw32/include/freetype2 -DWIZARD -DASSERTS -DPROPORTIONAL_FONT="contrib/fonts/DejaVuSans.ttf" -DMONOSPACED_FONT="contrib/fonts/DejaVuSansMono.ttf" -DREGEX_PCRE -DCLUA_BINDINGS
+LDFLAGS: -O2 
+>>>>>>>>>>>
+
+Place info:
+branch = 0, depth = 1
+
+Level id: D:1
+Level build method = random_map_for_place, level layout type  = misc, absdepth0 = 0
+Level vaults:
+    minmay_entry_nine_rooms
+    layout_misc
+    minivault_5
+    cheibriados_altar_1
+
+Markers:
+<<<<<<<<<<<<<<<<<<<<<<
+Marker 0 at (59, 61): feature (stone_stairs_up_i)
+>>>>>>>>>>>>>>>>>>>>>>
+
+Messages:
+<<<<<<<<<<<<<<<<<<<<<<
+환영한다,옥토퍼드 변이술사 DCSS.
+당신이 다른 사람들이 실패한 이곳에서 승리할 수 있을까? 당신이 조트의 오브를 가질 수 있을까?
+?를 누르면 명령 일람 및 기타 정보를 확인할 수 있습니다.
+휴대용 고기를 발견했다. A 던전 밖으로 향하는 계단을 발견했다.
+정말로 메인 던전에서 도망칠 것인가?  게임에서 패배하게 된다! 
+[Y]예/[N]아니오 로 대답해 주세요.
+정말로 메인 던전에서 도망칠 것인가?  게임에서 패배하게 된다! 
+좋아, 계속 탐험하게!
+c - 휴대용 고기
+여기에는 마른 분수가 있다.
+여기에는 맑은 물의 분수가 있다.
+오크제 손 도끼를 발견했다.
+오크제 창을 발견했다.
+여기에는 맑은 물의 분수가 있다.
+여기에는 맑은 물의 분수가 있다.
+여기에는 오크제 창이 있다.
+여기에는 오크제 손 도끼가 있다.
+여기에는 오크제 창이 있다.
+e - 오크제 창
+여기에는 오크제 손 도끼가 있다.
+f - 오크제 손 도끼
+어느 것을 먹겠는가? (? : 메뉴 , Esc : 종료)
+좋아, 그럼.
+여기에는 맑은 물의 분수가 있다.
+당신은 문을 열었다.
+여기에는 열린 문이 있다.
+단검을 발견했다.
+7개의 다트를 발견했다.
+쥐가 시야 내로 들어왔다.
+여기에는 단검이 있다.
+g - 단검
+e - 저주받지 않은 오크제 창 (무장중)
+f - 저주받지 않은 오크제 손 도끼 (무장중)
+그것은 당신의 촉수에 달라붙어 떨어지지 않는다!
+g - 저주받은 단검 (무장중)
+무기를 해제하거나 교체할 수 없다!
+투척(i - 소지품창. (,) - 전환): e - 저주받지 않은 오크제 창 (보조)
+? - 도움말, Shift-Dir - 커서 연속 이동, f - 쥐
+조준: a 쥐 (잠을 자고 있다)
+당신은 저주받지 않은 오크제 창을 던졌다.
+저주받지 않은 오크제 창은 쥐를 맞추지 못하고 빗나갔다.
+분홍색 물약을 발견했다.
+여기에는 저주받지 않은 오크제 창이 있다.
+e - 저주받지 않은 오크제 창
+16개의 폭발의 다트를 발견했다.
+무기를 해제하거나 교체할 수 없다!
+무기를 해제하거나 교체할 수 없다!
+무기를 해제하거나 교체할 수 없다!
+무기를 해제하거나 교체할 수 없다!
+쥐는 당신의 공격을  아슬아슬하게 피했다.
+당신의 공격은 쥐를 맞추지 못했다. 당신은 쥐의 공격을 아슬아슬하게 피했다.
+당신은 쥐를 공격했다.
+당신은 쥐를 움켜잡았다. 
+쥐는 어느 정도 상처를 입고 있다.
+당신은 쥐의 몸을 감아 조였다.
+쥐는 당신을 물어뜯었지만, 아무 손상도 입히지 못했다.
+당신은 쥐를 공격했다.
+당신은 쥐를 죽였다!
+여기에는 쥐 의 시체가 있다.
+h - 쥐 의 시체
+여기에는 16개의 폭발의 다트가 있다.
+i - 16개의 폭발의 다트
+고리 갑옷을 발견했다.
+j - 분홍색 물약
+홉고블린 그리고 코볼트가 시야에 들어왔다.
+홉고블린이 큰 소리로 외쳤다! 코볼트가 큰 소리로 외쳤다!
+코볼트는 다트를 던졌다 . 다트가 당신에게 명중했다!
+여기에는 다트가 있다.
+무기를 해제하거나 교체할 수 없다!
+무기를 해제하거나 교체할 수 없다!
+무기를 해제하거나 교체할 수 없다!
+코볼트는 당신을 공격했다. 
+12개의 금화를 발견했다. A 아래층으로 향하는 돌계단을 발견했다.
+코볼트는 당신의 공격을  아슬아슬하게 피했다.
+당신의 공격은 코볼트를 맞추지 못했다.
+코볼트는 당신을 공격했다. 
+
+>>>>>>>>>>>>>>>>>>>>>>
+
+Game state:
+
+mouse_enabled: 0, waiting_for_command: 0, terminal_resized: 0
+io_inited: 1, need_save: 1, saving_game: 0, updating_scores: 0:
+seen_hups: 0, map_stat_gen: 0, type: 1, arena_suspended: 0
+
+prev_cmd = CMD_NO_CMD
+repeat_cmd = CMD_NO_CMD
+
+Player:
+{{{{{{{{{{{
+Name:       [DCSS]
+Species:    Octopode
+Job:        Transmuter
+
+class_name: Transmuter
+
+HP: 29/13; mods: 0/10
+MP: 1/1; mods: 0/0
+Stats: 9 (9) 15 (15) 12 (12)
+Position: (44, 25), god: No God (0), turn_is_over: 0, banished: 0
+Standing on/in/over feature: floor
+
+Skills (mode: auto)
+Name            | can_train | train | training | level | points | progress
+Fighting        |     X     |   1   |     1    |    1  |     51 | 1/100
+Short Blades    |     X     |   1   |     1    |    0  |      0 | 0/50
+Long Blades     |           |   1   |     0    |    0  |      0 | 0/50
+Axes            |     X     |   1   |     0    |    0  |      0 | 0/50
+Maces & Flails  |           |   1   |     0    |    0  |      0 | 0/50
+Polearms        |     X     |   1   |     0    |    0  |      0 | 0/50
+Staves          |           |   1   |     0    |    0  |      0 | 0/50
+Slings          |           |   1   |     0    |    0  |      0 | 0/50
+Bows            |           |   1   |     0    |    0  |      0 | 0/50
+Crossbows       |           |   1   |     0    |    0  |      0 | 0/50
+Throwing        |     X     |   1   |     0    |    0  |      0 | 0/50
+Armour          |           |   1   |     0    |    0  |      0 | 0/1410790100
+Dodging         |     X     |   1   |    15    |    2  |    151 | 1/150
+Stealth         |     X     |   1   |     3    |    0  |      0 | 0/25
+Stabbing        |           |   1   |     0    |    0  |      0 | 0/50
+Shields         |           |   1   |     0    |    0  |      0 | 0/50
+Traps           |           |   1   |     0    |    0  |      0 | 0/42
+Unarmed Combat  |     X     |   1   |    50    |    3  |    311 | 11/200
+Spellcasting    |     X     |   1   |    17    |    2  |    179 | 1/178
+Conjurations    |           |   1   |     0    |    0  |      0 | 0/50
+Hexes           |           |   1   |     0    |    0  |      0 | 0/50
+Charms          |           |   1   |     0    |    0  |      0 | 0/50
+Summonings      |           |   1   |     0    |    0  |      0 | 0/50
+Necromancy      |           |   1   |     0    |    0  |      0 | 0/50
+Translocations  |           |   1   |     0    |    0  |      0 | 0/50
+Transmutations  |     X     |   1   |    13    |    2  |    151 | 1/150
+Fire Magic      |           |   1   |     0    |    0  |      0 | 0/50
+Ice Magic       |           |   1   |     0    |    0  |      0 | 0/50
+Air Magic       |           |   1   |     0    |    0  |      0 | 0/50
+Earth Magic     |           |   1   |     0    |    0  |      0 | 0/50
+Poison Magic    |           |   1   |     0    |    0  |      0 | 0/35
+Invocations     |           |   1   |     0    |    0  |      0 | 0/42
+Evocations      |           |   1   |     0    |    0  |      0 | 0/35
+
+Spell bugs:
+
+Durations:
+
+Attributes:
+    #27: 1
+
+Mutations:
+    camouflage: 1 (innate)
+    gelatinous body: 1 (innate)
+
+Inventory bugs:
+
+Equipment:
+    eq slot #0, inv slot #6: cursed -1,-3 short sword
+
+}}}}}}}}}}}
+
+
+Screenshot:
+           #.#
+           #.##
+           #...
+     ..    #..
+     #.    #..
+  #. #.#####.#
+  #.##.#...#.#
+  #........#.#        #####
+  #[.........######## #...#
+  #......(..........# #...#
+###.##.g.##########.###...#
+........@#        #......##
+.....#..K#        #...##.#
+ ... #...#        #....#.#
+ .  $..#.#        #....#.##
+   ......#        #.......#
+  .......#        #.#.....#
+   ......#        #.#.....#
+    ..>...        #.####.##.#
+       ..#      ###(####.# .#
+                .........##.#
+                ##........#.#
+                 #..........#
+
+clua stack:
+
+
+dlua stack:
+
+
+Lua persistent data:
+<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>
+
+Lua marker contents:
+<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>
