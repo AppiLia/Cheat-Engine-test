@@ -1,0 +1,621 @@
+# This file contains the messages used to "announce" a spell, like
+# "The wizard mumbles some strange words."  The messages are looked
+# up in the following order by the following keys:
+#
+# 1) If the monster is a wizard or priest which has been polymorphed into
+#    a wizard without hands which is trying to cast a spell it kept across
+#    the polymorph, then the first key will be "polymorphed wizard" or
+#    "polymorphed priest".
+# 2) The name of the spell being cast:
+#   a) If being cast by a wizard or priest monster with arms, first try
+#      with the suffix "real".
+#   b) If being cast by a monster of normal or higher intelligence with arms,
+#      try with the suffix "gestures".
+#   c) Next, try without any suffix.
+# 3) The name of the monster's type.
+# 4) The name of the monster's species.
+# 5) The name of the monster's genus.
+# 6) "priest" if the monster is a priest type, "wizard" if it's a wizard type,
+#    or "demon" if it's demonic.
+# 7) If the spell uses a targeted, visible beam, it will try
+#    "<beam_short_name> beam cast", then "beam catchall cast".
+#
+# For 1 and 3 to 6, if the spell has a target it will first add the suffix
+# "targeted" to the lookup key before trying without the suffix.
+#
+# For all lookups, if the monster is unseen by the player it will add the
+# prefix "unseen" to the key, or if the player or monster is silenced
+# it will prefix "silent" to the key (if the monster is both unseen and
+# unheard no message is ever given). If using the prefix "silent" gives
+# no results it will try again without the prefix, assuming that the
+# spell has no sound component.
+#
+# To give no message use the string "__NONE", and to skip the current
+# lookup method and move onto the next one use the string "__NEXT".
+
+#####################################################
+# Individual spells.
+#####################################################
+%%%%
+Airstrike cast
+
+@The_monster@은(는) 커다란 원을 그리며, @arms@을(를) 휘둘렀다.
+%%%%
+unseen Airstrike cast
+
+어디선가 맹렬한 바람이 불어 오는 소리를 들었다.
+%%%%
+unseen Animate Dead cast real
+
+당신은 무엇인가 죽은 것이 다시 일어나는 소리를 들었다.
+%%%%
+Animate Dead cast real
+
+@The_monster@은(는) 주문을 외우며, 주변을 가리키며 손짓했다.
+
+@The_monster@은(는) 주문을 외우며, @arms@을(를) 크게 휘둘렀다.
+%%%%
+Animate Dead cast gestures
+
+@The_monster@은(는) 주문을 외우며, 주변을 가리키며 손짓했다.
+
+@The_monster@은(는) 주문을 외우며, @arms@을(를) 크게 휘둘렀다.
+%%%%
+Flame Tongue cast
+
+@The_monster@은(는) 솟구치는 화염을 일으켜냈다.
+
+@The_monster@은(는) 화염의 분출을 일으켰다.
+
+@The_monster@은(는) 불꽃의 혀끝을 시전했다.
+%%%%
+Lesser Healing cast real
+
+__NEXT
+%%%%
+Lesser Healing cast gestures
+
+@The_monster@은(는) 작은 손짓을 취했고, 잠시 온 몸이 밝게 빛났다.
+%%%%
+Lesser Healing cast
+
+@The_monster@의 모습이 잠시 빛났다.
+%%%%
+Greater Healing cast real
+
+__NEXT
+%%%%
+Greater Healing cast gestures
+
+@The_monster@은(는) 큰 손짓을 취했고, 잠시 온 몸이 밝게 빛났다.
+%%%%
+Greater Healing cast
+
+@The_monster@의 모습이 잠시 밝게 빛났다.
+%%%%
+Mislead cast
+
+@The_monster@은(는) 분신을 만들어냈다.
+
+@The_monster@은(는) 당신을 환각시켰다.
+
+@The_monster@이(가) 당신의 마음을 요동치게했다.
+%%%%
+unseen Mislead cast
+
+무엇인가가 당신에게 환각을 가했다!
+
+무엇인가가 당신의 분신을 만들어냈다!
+%%%%
+Mara Summon cast
+
+@The_monster@은(는) 분신을 만들어냈다.
+
+@The_monster@의 모습이 약하게 빛났다.
+%%%%
+unseen Mara summon cast
+
+무엇인가가 분신을 만들어냈다!
+%%%%
+Symbol of Torment cast
+
+@The_monster@은(는) 어둠의 힘을 불러 일으켰다!
+%%%%
+unseen Symbol of Torment cast
+
+무엇인가가 어둠의 힘을 불러 일으켰다!
+%%%%
+Holy Word cast
+
+@The_monster@은(는) 천상의 힘을 불러냈다!
+%%%%
+unseen Holy Word cast
+
+무엇인가가 천상의 힘을 불러냈다!
+%%%%
+Orb of Destruction orb spider cast
+
+@The_monster@은(는) 빛나는 구체를 만들어냈다.
+%%%%
+Orb of Destruction cast
+
+@The_monster@은(는) 빛나는 구체를 만들어냈다.
+
+@The_monster@은(는) 순수한 마력의 구체를 만들어냈다.
+
+@The_monster@은(는) 파괴 마법의 구를 발사했다.
+%%%%
+Sticky Flame cast
+
+@The_monster@은(는) 끈적한 액상 화염을 흩뿌렸다.
+%%%%
+Sunray cast
+
+@The_monster@은(는) 손을 높이 들었다.
+
+@The_monster@은(는) 빛의 광선을 불러냈다.
+%%%%
+unseen Sunray cast
+
+갑자기, 밝은 태양빛이 어디선가부터 쬐어오기 시작했다!
+
+강렬한 빛이, 잠시 당신의 눈을 멀게 했다.
+%%%%
+Holy Flames cast
+
+@The_monster@은(는) 정화의 불꽃을 일으켰다!
+%%%%
+unseen Holy Flames cast
+
+정화의 불꽃이 눈 앞에 일어났다!
+%%%%
+Silver Blast cast
+
+정화의 불꽃이 눈 앞에 일어났다!
+%%%%
+Silver Blast cast
+
+@The_monster@은(는) 은빛의 화살을 발사했다!
+%%%%
+Call Lost Soul cast
+
+@The_monster@은(는) 들썩이는 영혼들을 밖으로 불러냈다!
+%%%%
+Haste Plants cast
+
+@The_monster@ empowers the plants around itself!
+%%%%
+Druid's Call cast
+
+@The_monster@ calls out to the beasts of the land!
+#####################################################
+# Individual innate spells (breathing and spitting).
+#####################################################
+%%%%
+Spit Acid cast
+
+@The_monster@은(는) @target@에게 산성 침을 뱉었다.
+%%%%
+unseen Spit Acid cast
+
+무엇인가 내뱉는 소리가 들렸다.
+%%%%
+unseen Cold Breath cast
+
+으르렁거리는 소리가 들렸다.
+%%%%
+Cold Breath cast
+
+@The_monster@은(는) @target@에게 @beam@을(를) 내뿜었다.
+%%%%%
+Draconian Breath cast
+
+@The_monster@은(는) @target@에게 @beam@을(를) 내뿜었다.
+%%%%
+unseen Fire Breath cast
+
+으르렁거리는 소리가 들렸다.
+%%%%
+Fire Breath cast
+
+@The_monster@은(는) @target@에게 @beam@을(를) 내뿜었다.
+%%%%%
+unseen Draconian Breath cast
+
+으르렁거리는 소리가 들렸다.
+%%%%
+Spit Poison cast
+
+@The_monster@은(는) @target@에게 독을 뱉었다.
+%%%%
+unseen Spit Poison cast
+
+무엇인가 내뱉는 소리가 들렸다.
+%%%%
+Sticky Flame Splash cast
+
+@The_monster@은(는) @target@에게 끈적이는 화염을 내뱉었다.
+%%%%
+unseen Sticky Flame Splash cast
+
+무엇인가 내뱉는 소리가 들렸다.
+%%%%
+Petrifying Cloud cast
+
+@The_monster@은(는) @target@에게 석화의 연기를 내뿜었다.
+%%%%
+Chaos Breath cast
+
+@The_monster@은(는) @target@에게 @beam@을(를) 내뿜었다.
+%%%%
+Frenzy cast
+
+@The_monster@은(는) 분노로 경련을 일으켰다.
+%%%%
+Volley of Thorns cast
+
+@The_monster@은(는) @target@에게 가시를 발사했다.
+########################################################################
+# Unique monsters
+########################################################################
+%%%%
+Frances cast
+
+@The_monster@은(는) 끔찍한 목소리로 중얼거렸다.
+
+@The_monster@은(는) 해석할 수 없는 말들을 속삭였다.
+
+@The_monster@은(는) 악마의 입을 빌려, 구절을 암송했다.
+
+@The_monster@은(는) 마력의 주문을 내질렀다!
+%%%%
+Gastronok cast targeted
+
+@The_monster@은(는) @target@을(를) 쳐다보며 주문을 외웠다.
+
+@The_monster@은(는) @target@을(를) 응시하고, 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) @target@을(를) 향해 주문을 외웠다.
+%%%%
+Dissolution cast
+
+@The_monster@은(는) 쏴~ 하는 소리를 내며, 동료 슬라임들을 불러냈다.
+
+@The_monster@은(는) 말했다. "@God@님은 모든 것에 통달하셨다!"
+%%%%
+Gastronok cast
+
+@The_monster@은(는) 눈자루를 떨며, 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) 뒤뚱거리며, 주문을 시전했다.
+
+@The_monster@은(는) 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) 주문을 외웠다.
+%%%%
+Geryon cast
+
+@The_monster@은(는) 거대한 은빛 뿔나팔을 불었다.
+%%%%
+unseen Geryon cast
+
+당신은 기분 나쁘고 울적한 소리를 들었다.
+%%%%
+Wiglaf cast
+
+@The_monster@은(는) 손을 번쩍 올리고, 기도의 말을 읊었다.
+
+@The_monster@이(가) @possessive_God@의 힘을 발동시키자, 두 눈이 빛나기 시작했다.
+
+@The_monster@은(는) 큰 소리로 기도했다.
+%%%%
+unseen Wiglaf cast
+
+당신은 무엇인가가 드워프의 언어로 기도하는 소리를 들었다.
+
+당신은 갑자기 한 곳에서 빛이 반짝이는 것을 보았다.
+
+무엇인가가 큰 소리로 기도하는 소리가 들렸다.
+%%%%
+# Roxanne can't gesture or point either.
+Roxanne cast
+
+@sphinx cast@
+%%%%
+Berserker Rage Rupert cast
+
+@The_monster@은(는) 미친듯이 고함을 쳤고, 곧 광폭화 상태에 돌입했다!
+%%%%
+Paralyse Rupert cast
+
+@The_monster@은(는) 고함을 쳤고, @target@을(를) 공포로 얼어붙게했다!
+%%%%
+Confuse Rupert cast
+
+# Hrm, this could use more variables to sound acceptable.
+@The_monster@은(는) 크게 소리를 쳐, @target@을(를) 풀죽게 만들었다.
+%%%%
+Ensnare Arachne cast
+
+@The_monster@은(는) 지팡이로 @target@을(를) 가리키고, 희끄무레한 줄기를 발사했다.
+
+@The_monster@은(는) 지팡이로 희끄무레한 줄기를 발사했다.
+%%%%
+unseen Ensnare Arachne cast
+
+어딘가에서 희끄무레한 줄기가 쏘아져나왔다.
+%%%%
+Pan cast
+
+@The_monster@은(는) 소름끼치는 곡조를 연주했다.
+
+@The_monster@은(는) 으스스한 멜로디를 연주했다.
+%%%%
+########################################################################
+# Individual monsters
+########################################################################
+brain worm cast
+
+@The_monster@의 부풀어오른 머리가 고동쳤다.
+%%%%
+giant orange brain cast
+
+@The_monster@의 심장이 고동쳤다.
+%%%%
+orb of fire cast
+
+@The_monster@이(가) 노란 색으로 빛났다.
+
+@The_monster@이(가) 밝은 자주빛으로 빛났다.
+
+@The_monster@이(가) 보라빛으로 빛났다.
+
+@The_monster@이(가) 붉게 빛났다.
+
+@The_monster@이(가) 현란한 붉은 빛을 내뿜었다.
+%%%%
+silver star cast
+
+@The_monster@이(가) 밝게 빛났다.
+%%%%
+# Sphinxes can't gesture or point.
+sphinx cast
+
+@The_monster@은(는) 무언가 기묘한 말을 중얼거렸다.
+
+@The_monster@은(는) 주문을 외웠다.
+%%%%
+eidolon cast targeted
+
+@The_monster@은(는) @target@을(를) 뚫어져라 응시했다.
+%%%%
+basilisk cast targeted
+
+@giant eyeball cast targeted@
+%%%%
+wretched star cast
+
+@The_monster@이(가) 격렬한 빛을 뿜어냈다.
+%%%%
+thrashing horror cast
+
+@The_monster@이(가) 격렬하게 뒤틀렸다!
+%%%%
+Airstrike wind drake cast
+
+@The_monster@은(는) @target@을(를) 향해 날개를 펄럭였다.
+%%%%
+dryad cast
+
+@The_monster@은(는) 자연의 힘을 불러냈다.
+%%%%
+Minor Healing dryad cast
+
+@The_monster@은(는) 자연의 힘으로 치유를 시도했다.
+%%%%
+Summon Water Elementals elemental wellspring cast
+
+@The_monster@이(가) 물 속에서 솟아올라 형태를 갖추었다!
+%%%%
+Cause Fear satyr cast
+
+@The_monster@은(는) 피리를 불어 무시무시한 곡조를 연주했다!
+%%%%
+Sleep satyr cast
+
+@The_monster@은(는) 피리를 불어 졸음을 불러일으키는 곡조를 연주했다!
+########################################################################
+# Monster species and genus messages.
+########################################################################
+%%%%
+angel cast targeted
+
+@The_monster@은(는) @target@에게 @possessive_God@의 분노를 내렸다.
+%%%%
+chaos butterfly cast
+
+@The_monster@은(는) 사납게 날개를 펄럭였다.
+%%%%
+dragon cast targeted
+
+@The_monster@은(는) @target@에게 @beam@을(를) 내뿜었다.
+%%%%
+dragon cast
+
+@The_monster@은(는) 울부짖었다!
+%%%%
+unseen dragon cast
+
+당신은 울부짖는 소리를 들었다.
+%%%%
+drake cast targeted
+
+@dragon cast targeted@
+%%%%
+curse skull cast
+
+@The_monster@은(는) 이빨을 달그락 소리를 내며 부딪혀댔다.
+%%%%
+silent curse skull cast
+
+@The_monster@은(는) 주문을 시전했다.
+%%%%
+unseen curse skull cast
+
+무언가가 이빨을 달그락거리며 부딫히는 소리가 들렸다.
+%%%%
+giant eyeball cast targeted
+
+@The_monster@은(는) @target@을(를) 응시했다.
+%%%%
+giant eyeball cast
+
+@The_monster@은(는) 주변을 둘러보았다.
+%%%%
+guardian serpent cast targeted
+
+@The_monster@은(는) 스스로 몸을 꼬아서, @target@을(를) 노려보며 상체를 치켜들었다.
+
+@The_monster@은(는) @target@을 향해 주문을 시전했다.
+%%%%
+guardian serpent cast
+
+@The_monster@은(는) 스스로의 몸을 꼬아, 신비한 뱀의 춤을 추었다.
+
+@The_monster@은(는) 주문을 외웠다.
+
+@The_monster@은(는) 자신의 꼬리로 제스쳐를 취했다.
+
+@The_monster@은(는) 자신의 혀끝으로, 복잡한 문양을 자아냈다.
+%%%%
+Bolt of Fire ophan cast
+
+@The_monster@은(는) 정화의 불꽃의 마력을 활용했다!
+%%%%
+unseen Bolt of Fire ophan cast
+
+무엇인가가 정화의 불꽃의 마력을 활용했다!
+%%%%
+shedu cast
+
+@The_monster@은(는) @possessive_God@의 이름으로 한 치유의 의식을 시작했다.
+%%%%
+# Should only be casting spells at each other.
+shedu cast targeted
+
+@The_monster@은(는) @possessive_God@에게 자신의 동료를 치유해줄 것을 간청했다!
+###########################################################################
+# Generic messages for priests and wizards which have been polymorphed into
+# something without hands.
+###########################################################################
+%%%%
+polymorphed wizard cast targeted
+
+@The_monster@은(는) @target@을(를) 향해 주문을 시전했다.
+%%%%
+polymorphed wizard cast
+
+@The_monster@은(는) 주문을 외웠다.
+%%%%
+polymorphed unseen wizard cast
+
+어디에선가 기묘한 주문의 말이 들려왔다.
+######################################################
+# Generic priest, wizard and demonic casting messages.
+######################################################
+%%%%
+Haste Other priest cast
+
+@The_monster@은(는) 신의 힘을 빌어, @target@을(를) 가속시켰다.
+%%%%
+Heal Other priest cast
+
+@The_monster@은(는) 신의 힘을 빌어, @target@을(를) 치유했다.
+%%%%
+Might Other priest cast
+
+@The_monster@은(는) 신의 힘을 빌어, @target@에게 힘을 부여했다.
+%%%%
+Malign Offering priest cast
+
+@The_monster@ utters a dark prayer and points at @target@.
+%%%%
+priest cast targeted
+
+@The_monster@은(는) @target@을 향해, @God@의 분노를 끌어냈다.
+
+@The_monster@은(는) @target@을(를) 응시하며, 무언가 기묘한 기도의 말을 중얼거렸다.
+
+@The_monster@은(는) @target@을(를) 바라보며, @God@의 천벌을 요청했다.
+%%%%
+priest cast
+
+@The_monster@은(는) @God@에게 기도를 올렸다.
+
+@The_monster@은(는) 무언가 기묘한 기도의 말을 중얼거렸다.
+
+@The_monster@은(는) @God@에게 도움을 요청했다.
+%%%%
+unseen priest cast targeted
+
+무엇인가가 @target@을 향해, @God@의 분노를 끌어내는 소리가 들렸다.
+
+무엇인가 기묘한 기도의 말을 중얼거리는 소리가 들렸다.
+
+무엇인가가 @target@을(를) 향해, @God@의 천벌을 요청하는 듯한 소리가 들렸다.
+%%%%
+unseen priest cast
+
+무엇인가 기묘한 기도의 말을 중얼거리는 소리가 들렸다.
+%%%%
+non-humanoid wizard cast targeted
+
+@The_monster@은(는) @target@을(를) 응시하며, 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) @target@에게 주문을 시전했다.
+%%%%
+non-humanoid wizard cast
+
+@The_monster@은(는) 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) 주문을 외웠다.
+%%%%
+unseen non-humanoid wizard cast
+
+어디에선가 기묘한 주문의 말이 들려왔다.
+%%%%
+wizard cast targeted
+
+@The_monster@은(는) @target@을(를) 향해 거칠게 손짓했다.
+
+@The_monster@은(는) @target@을(를) 가리키며, 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) @target@에게 주문을 시전했다.
+%%%%
+wizard cast
+
+@The_monster@은(는) 거칠게 손짓했다.
+
+@The_monster@은(는) 무언가 기묘한 주문의 말을 중얼거렸다.
+
+@The_monster@은(는) 주문을 외웠다.
+%%%%
+unseen wizard cast
+
+어디에선가 기묘한 주문의 말이 들려왔다.
+%%%%
+demon cast targeted
+
+@The_monster@은(는) @target@을(를) 향하여 손짓했다.
+%%%%
+demon cast
+
+@The_monster@은(는) 손짓했다.
+%%%%
+######################################################
+# Generic beam messages.
+######################################################
+beam catchall cast
+
+@The_monster@은(는) @target@에게 @beam@을(를) 던졌다.
+%%%%

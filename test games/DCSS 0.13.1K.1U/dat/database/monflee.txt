@@ -1,0 +1,22 @@
+###############################################################################
+# Voices of fleeing monsters.
+# 'flee' is for when they start running.
+# 'fleeing' is for flight in progress (sometimes).
+# 'cornered' is when they realize they have nowhere to go.
+#########
+%%%%
+sheep flee
+
+w:30
+@The_monster@은(는) 공포에 질려 울부짖었다.
+
+VISUAL:@The_monster@은(는) 공포에 사로잡혔다!
+
+VISUAL:@The_monster@은(는) 공황에 빠지고, 도망을 시도했다.
+
+VISUAL:@monster@이(가) 겁을 먹고, 도망을 시도했다.
+
+VISUAL:@The_monster@은(는) 뒤도 안 보고 도망가기 시작했다.
+
+VISUAL:@The_monster@은(는) 놀라서 도망쳤다.
+%%%%

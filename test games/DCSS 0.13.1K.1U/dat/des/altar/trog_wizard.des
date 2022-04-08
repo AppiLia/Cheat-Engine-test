@@ -1,0 +1,74 @@
+##############################################################################
+# Variation on classic trog_book - this time he's caught a real live wizard.
+# (mumra)
+
+{{
+
+function callback.trog_wizard_convert_wizard(data, triggerable,
+                                          triggerer, marker, ev)
+  if data.turns ~= you.turns() then
+    data.tc = data.tc + 1
+    data.turns = you.turns()
+  end
+
+-- Allow slightly longer than trog_book for the situation to sink in
+-- since there's nothing to apport
+  if data.tc < 5 then
+    return
+  end
+
+  if data.triggered == true then
+    return
+  end
+
+  local m = dgn.find_marker_positions_by_prop("slave_name", "trog_wizard")[1]
+  if m ~= nil then
+    local _x, _y = m:xy()
+
+    -- Only burn the wizard when you see both the altar and the wizard.
+    if not you.see_cell(_x, _y) then
+      return
+    end
+
+    dgn.place_cloud(_x, _y, "flame", 15)
+    crawl.god_speaks("Trog", "불꽃이 마법사의 몸 속으로부터 피어올랐다! "
+                          .. "트로그는 만족감에 찬 함성을 질렀다!") 
+    data.triggered = true
+  end
+end
+
+}}
+
+
+NAME:   trog_wizard
+TAGS:   uniq_altar_trog temple_overflow_trog generate_awake
+TAGS:   no_item_gen no_monster_gen no_trap_gen
+DEPTH:  D:3-17
+KFEAT:  _ = altar_trog
+{{
+local tm = TriggerableFunction:new{func="callback.trog_wizard_convert_wizard",
+  repeated=true, data={turns=you.turns(), tc=0, triggered=false} }
+tm:add_triggerer(DgnTriggerer:new{type="player_los"})
+lua_marker('#', tm)
+}}
+FTILE:  .#_ = FLOOR_PEBBLE_BROWN
+FTILE:  1 = FLOOR_PEBBLE_DARKGRAY
+COLOUR: . = brown
+COLOUR: 1 = darkgray
+KFEAT:  1 = .
+# A terrified wizard whose spells have been taken away
+# (he refused to convert)
+MARKER: 1 = lua:portal_desc {slave_name="trog_wizard"}
+KMONS:  1 = wizard perm_ench:mute spells:. dbname:붙잡힌_마법사 ; nothing
+MARKER: 1 = lua:MonPropsMarker:new {description="초조한 눈빛을 하고 있는 마법사다. 무언가를 미친듯이 중얼거리며 팔을 움직이는 모습이 매우 당황스러운 듯 보이지만, 현재는 아무 주문도 쓸 수 없는 듯 보인다.\n"}
+KPROP:  1 = no_rtele_into
+KFEAT:  # = iron_grate
+MAP
+ccccccccc
+c.......c
+c.ccc...ccc
+c.c1#._....@
+c.ccc...ccc
+c.......c
+ccccccccc
+ENDMAP

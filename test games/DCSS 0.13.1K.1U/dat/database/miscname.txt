@@ -1,0 +1,431 @@
+######################################################
+# Miscellaneous
+# -------------
+# miscname.txt: lookup miscellaneous names
+#
+# This file contains a list of names for miscellaneous things.
+######################################################
+%%%%
+# Any word other than "glowing" itself will work here.
+_glowing_adj_
+
+밝은
+
+빛나는
+
+어두운
+
+둔탁한
+
+희미한
+
+얼룩진
+
+옅은
+
+찬란한
+
+반짝이는
+
+형광색
+%%%%
+_colour_name_
+
+가지색
+
+담청색
+
+베이지색
+
+검은색
+
+파란색
+
+군청색
+
+갈색
+
+암회색
+
+연노랑색
+
+암청색
+
+청록색
+
+황금색
+
+회갈색
+
+초록색
+
+회색
+
+남색
+
+연녹색
+
+황록색
+
+자주색
+
+연두색
+
+연주홍색
+
+연보라색
+
+황토색
+
+주황색
+
+분홍색
+
+보라색
+
+빨간색
+
+루비색
+
+진홍색
+
+은색
+
+암갈색
+
+흰색
+
+청갈색
+
+노란색
+%%%%
+# "dust glows XXX", "eyes glow XXX", "hands glow XXX", "<actor> glows XXX".
+# If a language needs these keys split, please say so.
+#
+# Also used by Tome of Destruction below.
+glowing_colour_name
+
+@_glowing_adj_@ @_colour_name_@
+%%%%
+_writing_adj_
+
+구부러진
+
+선명한
+
+스친듯한
+
+구불구불한
+
+얼룩진
+
+모난
+
+희미하게 빛나는
+
+강렬하게 빛나는
+%%%%
+_writing_noun_
+
+메모
+
+낙서
+
+인장
+
+룬 문자
+
+상형문자
+
+속기문자
+
+활자
+
+이진부호
+
+그림문자
+
+기호
+
+문장
+%%%%
+# Tome of Destruction: "The book opens to a page covered in XXX."
+writing_name
+
+@_colour_name_@ @_writing_noun_@
+
+@glowing_colour_name@ @_writing_noun_@
+
+@_writing_adj_@ @_colour_name_@ @_writing_noun_@
+
+@_writing_adj_@ @_writing_noun_@
+%%%%
+# random uselessness: "You smell XXX."
+smell_name
+
+갓 구운 빵 냄새
+
+머리카락이 불타는 냄새
+
+커피 냄새
+
+불과 유황의 냄새
+
+후추 냄새
+
+짠 소금 냄새
+
+무엇인가 기묘한 냄새
+
+유황 냄새
+
+차 냄새
+
+젖은 양모의 냄새
+%%%%
+# This doesn't necessarily have to make sense. For example, a name of a
+# fruit or an insect will work here.
+_roaring_animal_name_
+
+알비노 용
+
+용
+
+가지
+
+개구리
+
+인간
+
+노래기
+
+쥐며느리
+
+민달팽이
+
+야크
+%%%%
+# random uselessness: "You hear XXX."
+sound_name
+
+무언가 부서지는 소리
+
+매우 기묘한 소리
+
+전에 들어본적 없는 기묘 소음
+
+누군가를 부르는 목소리
+
+불길이 이글거리는 소리
+
+노래의 한 소절
+
+멀리서 @roaring_animal_name@이(가) 분노로 울부짖는 소리
+
+먼 곳에서 종이 울리는 소리
+
+작은 벨이 울리는 소리
+%%%%
+# Used both by Summon Horrible Things and Malign Gateway.
+SHT_int_loss
+
+Your mind reels, touched by the horrors through the portal.
+
+You quiver within your mortal coil, caressed by the liquid insanity through the scintillating gateway.
+
+# Bal-Sagoth
+The summoning rite seems to take a not insignificant toll on your sanity.
+
+You have a brief vision of a great black cyclopean cityscape with towering stygian walls.
+
+Your vision is obscured by outlandish glyphs which seem to writhe squamously and alter their shape.
+
+You feel inexorably dogged by some nameless and implacable gloom.
+#-----------
+
+You reel in agony as your mind is raked by horrors beyond mortal ken.
+
+Your mind is seduced by sublime insanity as you glimpse through the portal into the nether beyond.
+
+You cackle madly at the sight of the eldritch monstrosity.
+
+You are seized by madness!
+
+Attempting to comprehend the unknowable depths of infinity takes a toll on your sanity.
+
+Your thoughts are inescapably tormented by a ceaseless, buzzing drone.
+
+Your mind collapses in madness at the sight of this blasphemy against creation!
+
+Your mind briefly shatters, though you barely manage to hold yourself together.
+
+You feel your tenuous grasp on sanity beginning to erode.
+
+Penetrating whispers of deepest heresy ceaselessly assail your thoughts.
+
+Your mind aches with revulsion at the sight of the undulating horrors you have wrought.
+
+For but a moment your mind is laid bare before the towering infinitude of the unimaginable.
+
+Your skull pulses and throbs as words spoken in an unspeakable tongue drift across your psyche.
+
+A thin, monotonous whinny from outside of time grows ever louder in your ears.
+
+Shapeless horrors persist on the edge of your vision, drawing ever closer.
+
+You are overcome with an inexorable feeling of implacable gloom.
+
+Coherent, reasonable thoughts seem alien to you.
+
+Tendrils of madness seep and wend into the darkest crevices of your mind.
+
+You struggle to grasp the nature of the incomprehensible forces at work.
+
+Nightmarish fiends assault your waking thoughts!
+
+Seething terrors besiege your sanity!
+
+Lucidity slithers from your feeble grasp.
+%%%%
+welcome_spam
+
+당신이 다른 사람들이 실패한 이곳에서 승리할 수 있을까? 당신이 조트의 오브를 가질 수 있을까?
+
+이 던전의 심장부에는 가장 강력한 유물인 조트의 오브가 있다.
+
+당신이 던전의 깊은 곳에서 대단한 조트의 오브를 가져올 것인가?
+
+세계의 운명은 조트의 오브에 달려있다. 내려가서 쟁취하라!
+
+사람들은 조트의 오브가 깊고 깊은 곳에 있지만 누구도 거기에 도달하지 못했다고 한다.
+%%%%
+welcome_spam Zot Defence
+
+몬스터들이 당신의 오브를 훔치려고 한다!
+
+몬스터들을 물리치고 오브를 사수하라!
+
+신성한 조트의 오브를 지킬 수 있을지는, 오로지 당신에게 달려있다.
+%%%%
+hell_effect
+
+{{
+if you.can_smell() then
+    return "독한 유황 냄새를 맡았다."
+else
+    return "유황이 비처럼 쏟아졌다."
+end
+}}
+
+길을 읽고 미아가 된 느낌이다...
+
+무엇인가 커다란 공포로 온 몸이 떨렸다.
+
+무서운 죽음의 예감을 느꼈다...
+
+뭔가 무서운 일이 일어났다.
+
+고대의 악이 당신을 감시하는 것을 느꼈다...
+
+돌연, 왜소하고 약해진 것 같다.
+
+적대적인 존재를 느꼈다.
+
+"너는 여기서 살아서 나갈 수 없다."
+
+"네 놈은 여기서 걸어 나갈 수 없다!"
+
+"죽어라, 유한한 존재여!"
+
+"사라져라, 필멸자여!"
+
+"우리를 거역하고 이곳에 침입한 자는 용서받지 못한다!!"
+
+"침입자가 환영 받을것이라는 생각 따위 버려라!!"
+
+"여긴 네 놈 같은 존재가 있을 곳이 아니다!!"
+
+"빨리 꺼져라, 우물쭈물 하지 말고!"
+
+"너는 이제 우리의 것이다!"
+
+SOUND:몸 깊은 곳까지 떨리게한는 절규가 대기를 채웠다!
+
+SOUND:기괴하고 무서운 말을 들었다...
+
+SOUND:악마와 같은 웃음소리를 들었다!
+%%%%
+eating_cheese
+
+Mmm...@_cheese_kind_@.
+%%%%
+_cheese_kind_
+
+체다
+
+에담
+
+윈즐리데일
+
+까망베르
+
+염소젖
+
+과일
+
+모짜렐라
+
+양젖
+
+야크젖
+%%%%
+eating_pizza
+
+@_carni_mmm_@ 햄과 파인애플 피자다.
+
+@_carni_mmm_@ 슈퍼 스프림 피자다.
+
+# Apparently, in some locales "pepperoni" is a word for sausage rather than
+# a type of bell peppers like in Europe.
+@_carni_mmm_@ 페퍼로니 피자다.
+
+{{
+if you.race() == "Ghoul" then
+    return "민물고기라... 당신에게도 썩 좋은 재료는 아니다."
+else
+    return "우웩! 비릿한 민물고기 피자다."
+end
+}}
+
+@_carni_mmm_@ 치킨 피자다.
+
+음... 이 맛은 전설의 판데모니움 피자?
+
+음... 치즈 피자다.
+
+@_herbi_mmm_@ 야채 피자다.
+
+@_herbi_mmm_@ 핫 페퍼 피자다.
+
+@_herbi_mmm_@ 버섯 피자다.
+%%%%
+_carni_mmm_
+
+{{
+if you.mutation("herbivorous") > 0 then
+    return "우웩!"
+else
+    return "음..."
+end
+}}
+%%%%
+_herbi_mmm_
+
+{{
+if you.mutation("carnivorous") > 0 then
+    return "우웩!"
+else
+    return "음..."
+end
+}}
+%%%%

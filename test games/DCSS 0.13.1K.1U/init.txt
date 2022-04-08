@@ -1,0 +1,2750 @@
+####################################################
+# Dungeon Crawl Stonesoup Sound Add-On Package     #
+# for DCSS Korean Version 0.12.0K (Test Version 1) #
+# Made by Crawler, DECEIT                          #
+#################################################### 
+
+#other high priority
+sound += 당신은 이제 맨손:se\non.wav 
+sound += 당신은 이제 금화:se\coins.wav
+sound += 당신은 이제 광채를 내지 않는다:se\buffend.wav
+
+#danger
+sound += 악! 이건 정말로 아프다!:se\heartbeat3.wav
+sound += 경고! 생명력이 낮음:se\heartbeat3.wav
+
+#warning
+sound += 의해 막혀있다:se\warning.wav
+sound += 피는 정말로 맛이:se\drink.wav
+sound += 정말로 그러길 원한다고 생각하지 않는다:se\warning.wav
+sound += 정말로 :se\warning.wav
+sound += 정말로,:se\warning.wav
+sound += 대답해 주세요.:se\warning.wav
+sound += 당신은 육체에서 마력을:se\warning.wav
+sound += 당신은 그 주문을 시전하기 위한 충분한 마나를:se\warning.wav
+sound += 나중에 후회하지:se\warning.wav
+sound += 계속하겠는가:se\warning.wav
+sound += 금화를 내겠는가:se\warning.wav
+sound += 금화를 줄 것인가:se\warning.wav
+
+#weapon brands
+sound += 은의 무기가:se\pain.wav
+sound += 불꽃을 내뿜었다:se\flameenc.wav
+sound += 불길에 휩싸였다:se\flameenc.wav
+sound += 화염 폭발에 휩싸였다:se\flame3.wav
+sound += 차가운 얼음빛으로 빛났다:se\freezeenc.wav
+sound += 서리로 뒤덮였다:se\freezeenc.wav
+sound += 서리가 일기 시작했다:se\freezeenc.wav
+sound += 독액을 떨어트리기 시작했다:se\venomenc.wav
+sound += 독액이 떨어지기 시작했다:se\venomenc.wav
+sound += 독을 떨어뜨리기 시작했다:se\venomenc.wav
+sound += 당신은 사악한 기운을 감지했다:se\drainenc.wav
+sound += 사악한 기운이 느껴졌다:se\drainenc.wav
+sound += 무시무시한 배고픔이 느껴졌다:se\vampenc.wav
+sound += 약간의 공허감이 느껴졌다:se\vampenc.wav
+sound += 공기중에 피비린내가 나기 시작했다:se\vampenc.wav
+sound += 피에 굶주린 황홀감이 느껴졌다:se\vampenc.wav
+sound += 성스러운 빛으로 부드럽게 빛났다:se\halo.wav
+sound += 신성한 빛으로 부드럽게 빛나기 시작했다:se\halo.wav
+sound += 주변의 공간이 잠시 일그러졌다:se\summtentacle.wav
+sound += 주변의 공간이 심하게 요동친다:se\distort2.wav
+sound += 주변의 공간들이 구부러졌다:se\bend.wav
+sound += 주변의 공간이 일그러졌다:se\bend.wav
+sound += 용을 죽이고 싶어졌다:se\dragonenc.wav
+ound += 용 살육의 :se\dragonenc.wav
+sound += 오크를 죽이고 싶어졌다:se\orcenc.wav
+sound += 자살충동을 느꼈다:se\orcenc.wav
+sound += 가 근질근질해졌다!:se\haste2.wav
+sound += 이 근질근질해졌다!:se\haste2.wav
+sound += 무기에서 전기 불꽃이 튀었다:se\elecenc.wav
+sound += 전기의 폭음이 들려왔다:se\elecenc.wav
+sound += 주변으로 그림자가 깔리기 시작했다:se\fearaura.wav
+sound += 무기 주위에 그림자가 깔리기 시작했다:se\fearaura.wav
+sound += 극도로 사악한 기분이 느껴졌다:se\fearaura.wav
+sound += 떨림이 당신의 척추를 타고 내려갔다:se\fearaura.wav
+sound += 반짝반짝 빛나는 형형색색의 오라에 둘러싸였다:se\chaosenc.wav
+sound += 형형색색의 우스꽝스러운 빛을 내었다:se\chaosenc.wav
+sound += 빛나는 형형색색의 오라에 둘러싸였다:se\chaosenc.wav
+sound += 마력의 차단을 느꼈다:se\antimagic.wav
+sound += 피에 목말라가는것이 느껴졌다:se\antimagic.wav
+sound += 피에 목말라 가는것이 느껴졌다:se\antimagic.wav
+sound += 마력이 공중으로 사라졌다:se\antimagic2.wav
+sound += 마력이 새어 나가는 것을 느꼈다:se\antimagic.wav
+sound += 은 잠시 불안정하게 떨었다:se\antimagic3.wav
+sound += 는 잠시 불안정하게 떨었다:se\antimagic3.wav
+sound += 이 당신에게 되돌아왔다:se\return.wav
+sound += 가 당신에게 되돌아왔다:se\return.wav
+sound += 온 몸이 날렵해진 것을:se\airbuffend.wav
+sound += 온 몸이 날렵해짐을:se\airbuffend.wav
+sound += 온 몸이 가벼워진 느낌이 들었다:se\airbuffend.wav
+sound += 쑤시기 시작했다!:se\painenc.wav
+sound += 끔찍한 고통이 당신의 팔을 타며 작열했다:se\painenc.wav
+sound += 무기로부터 기묘한 힘이 느껴졌으나:se\painenc.wav
+sound += 은 밝은 빛을 발했다!:se\vorpal.wav
+sound += 는 밝은 빛을 발했다!:se\vorpal.wav
+
+#noisy weapon
+sound += 노래하는 검이야:se\singing2.wav
+sound += 노래하는 검은 기쁘게 콧노래를 흥얼거리기 시작했다:se\singing2.wav
+sound += 노래하는 검이 한숨을 쉬었다:se\airbuffend.wav
+sound += 비명지르는 검:se\singing.wav
+
+##player
+
+#shaft
+sound += 구덩이 안으로 떨어졌다:se\fall.wav
+sound += 구덩이에 빠졌다:se\fall.wav
+
+#dead
+sound += 죽었다...:se\DeathofSimon.wav
+sound += 당신의 육체는 잠시 반짝이다가 사라졌다:se\DeathofSimon3.wav
+sound += 당신의 육체는 형형색색으로 반짝이다가 사라졌다:se\DeathofSimon3.wav
+sound += 당신의 육체는 기묘한 무지개색으로 반짝이다가 사라졌다:se\DeathofSimon3.wav
+
+#branches
+#sound += 메인 던전에 돌아온 것을:
+sound += 만신전에 온 것을:se\temple.wav
+sound += 오크 광산에 온 것을:se\mine.wav
+sound += 오크 광산에 돌아온 것을:se\mine.wav
+#sound += 엘프의 방에 온 것을
+sound += 짐승 소굴에 온 것을:se\lair2.wav
+sound += 짐승 소굴에 돌아온 것을:se\lair.wav
+sound += 해안에 온 것을:se\shoal.wav
+sound += 뱀 소굴에 온 것을:se\snakepit.wav
+sound += 늪지에 온 것을:se\swamp.wav
+sound += 거미 둥지에 온 것을:se\spidernest.wav
+sound += 슬라임 구덩이에 온 것을:se\water3.wav
+sound += 보물창고에 온 것을:se\vault.wav
+sound += 보물창고에 돌아온 것을:se\vault.wav
+#sound += 칼날의 방에 온 것을
+sound += 납골당에 온 것을:se\crypt.wav
+sound += 납골당에 돌아온 것을:se\crypt.wav
+#sound += 고대인의 무덤에 온 것을:
+
+#naga
+sound += 의 몸이 조여들었다\tight.wav
+sound += 은 조여졌다\tight.wav
+sound += 는 조여졌다\tight.wav
+sound += 을 감아 조였\tight.wav
+sound += 를 감아 조였\tight.wav
+sound += 의 조이기로부터 탈출했다:se\tentacle.wav
+sound += 이 탈출했다:se\tentacle.wav
+sound += 가 탈출했다:se\tentacle.wav
+
+#hunger
+sound += 배고픔을 느꼈다:se\hungry.wav
+sound += 상당한 배고픔을 느꼈다:se\hungry.wav
+sound += 지극히 배고픈 상태이다:se\hungry.wav
+sound += 극도로 굶주리고 있다:se\hungry.wav
+sound += 매우 걸쭉하다!:se\porridge.wav
+
+#unaffected
+sound += 아무런 손상도 입히지 못했:se\nodam.wav
+sound += 아무 손상도 입히지 못했:se\nodam.wav
+sound += 아무 피해도 입히지 못했:se\nodam.wav
+sound += 아무런 손상도 주지 못했:se\nodam.wav
+sound += 아무 영향도 받지 않았다:se\nodam.wav
+
+#draconian
+sound += 비늘이 불타는듯한 붉은색으로 변화:se\flameenc.wav
+sound += 비늘이 기묘한 얼룩빛으로 변화:se\lava.wav
+sound += 비늘이 황금색으로 변화:se\acid.wav
+sound += 입에서 산성 물질이 흘러나오기 시작:se\acid.wav
+sound += 비늘이 얼음빛의 하얀색으로 변화:se\freezeC.wav
+sound += 비늘이 야단스러운 녹색으로 변화:se\olgreb.wav
+sound += 꼬리의 끝에 독이 있는 가시가 났다:se\olgreb.wav
+sound += 비늘이 칙칙한 금속빛으로 변화:se\petri.wav
+sound += 비늘이 선명한 보라빛으로 변화:se\Pup.wav
+sound += 비늘이 푸르스름한 청록빛으로 변화:se\steam.wav
+sound += 비늘이 윤이나는 검은색으로 변화:se\electric.wav
+sound += 부전도체가 된 듯한 느낌을 받았다:se\insul.wav
+sound += 날개가 커지고 튼튼하게 성장:se\wing.wav
+sound += 호흡이 돌아오는 것이 느껴진다:se\cure2.wav
+sound += 불의 숨결을 내뿜었다:se\conjflame2.wav
+sound += 화염의 숨결이 :se\conjflame2.wav
+sound += 액상 화염 덩어리를 뱉어 내었다:se\conjflame2.wav
+sound += 끈적이는 화염이 :se\conjflame2.wav
+sound += 냉기의 숨결을 내뿜었다:se\freeze3.wav
+sound += 냉기의 숨결이 :se\freeze3.wav
+sound += 얼어붙는 숨결이 :se\freeze3.wav
+sound += 번개의 숨결을 내뿜었다:se\thunder.wav
+sound += 눈부시게 빛나는 마력의 숨결을 내뿜었다:se\dispelbreath.wav
+sound += 의 반대쪽으로부터 불어왔다:se\mace2.wav
+sound += 은 휘청거렸다:se\mace2.wav
+sound += 는 휘청거렸다:se\mace2.wav
+sound += 을 짓밟았:se\mace2.wav
+sound += 를 짓밟았:se\mace2.wav
+sound += 천둥소리가 들렸다:se\thunder.wav
+sound += 매캐한 연기 숨결을 내뿜었다:se\mephi.wav
+sound += 숨 막히는 연기의 확산:se\mephi.wav
+sound += 독가스 폭풍을 내뿜었다:se\mephi.wav
+sound += 독액의 폭발이 :se\mephi.wav
+sound += 유독 가스의 폭발이 :se\mephi.wav
+sound += 독 구름이 :se\mephi.wav
+sound += 산성 침을 뱉어 내었다:se\acid.wav
+sound += 강한 산이 타오른다!:se\acid.wav
+sound += 부식시켜 손상시켰다:se\acid.wav
+sound += 을 부식시켰다:se\acid.wav
+sound += 를 부식시켰다:se\acid.wav
+sound += 산성 액체가 :se\acid.wav
+sound += 강한 산이 :se\acid.wav
+sound += 격렬한 고통 속에서 몸부림쳤다:se\bleeding.wav
+sound += 피를 흘리기 시작했다:se\bleeding.wav
+sound += 뜨거운 증기 폭풍을 내뿜었다:se\mephi.wav
+
+#tengu
+sound += 당신은 비행하는 능력을 획득했다:se\fly2.wav
+sound += 공중에서 가볍게 급강하했다:se\fly2.wav
+sound += 좀 더 능숙한 비행이 가능해졌다:se\wing.wav
+
+#felid
+sound += 당신은 야옹:se\felid1.wav
+sound += 당신은 갸울:se\felid3.wav
+sound += 당신은 부활하였다:se\feliddie.wav
+
+#pig
+sound += 당신은 꾸웩:se\pig.wav
+sound += 당신은 꿀꿀:se\pig3.wav
+
+#octopede
+sound += 을 촉수로 타격했:se\tentacle.wav
+sound += 를 촉수로 타격했:se\tentacle.wav
+sound += 을 촉수로 연달아 공격했:se\whip2.wav
+sound += 를 촉수로 연달아 공격했:se\whip2.wav
+sound += 을 후려갈겼:se\whip3.wav
+sound += 를 후려갈겼:se\whip3.wav
+sound += 을 부리로 쪼았:se\arrow.wav
+sound += 를 부리로 쪼았:se\arrow.wav
+sound += 를 촉수로 감아 조였:se\tentacle2.wav
+sound += 을를 촉수로 감아 조였:se\tentacle2.wav
+
+#whip
+sound += 을 후려쳤:se\whip1.wav
+sound += 를 후려쳤:se\whip1.wav
+sound += 을 으스러트렸:se\whip3.wav
+sound += 를 으스러트렸:se\whip3.wav
+sound += 에게 고통스러운 채찍질을 가했:se\whip2.wav 
+
+#blowgun
+sound += 바늘이 :se\arrow.wav
+
+#claw
+sound += 을 긁었:se\claw0.wav
+sound += 를 긁었:se\claw0.wav
+sound += 을 할퀴었:se\claw0.wav
+sound += 를 할퀴었:se\claw0.wav
+sound += 을 난도질했:se\claw0.wav
+sound += 를 난도질했:se\claw0.wav
+sound += 의 창자를 후비어 끄집어냈:se\claw0.wav
+
+#mace&flail
+sound += 을 산산조각냈:se\mace3.wav
+sound += 를 산산조각냈:se\mace3.wav
+sound += 을 내리쳤:se\mace1.wav
+sound += 를 내리쳤:se\mace1.wav
+sound += 을 후려쳤:se\mace1.wav
+sound += 를 후려쳤:se\mace1.wav
+sound += 을 강타했:se\mace2.wav
+sound += 를 강타했:se\mace2.wav
+sound += 마치 포도처럼 으깨버렸:se\blast.wav
+sound += 후려쳐 거꾸러뜨렸:se\blast.wav
+sound += 온 몸이 진동할 정도로 타격을 줬:se\blast.wav
+sound += 모루를 치듯 강하게 내리쳤:se\blast.wav
+
+#sword&axe&polearm
+sound += 을 산산히 부서트렸:se\sword4.wav
+sound += 를 산산히 부서트렸:se\sword4.wav
+sound += 마치 양파 덩어리처럼 토막냈:se\sword6.wav
+sound += 을 베어냈:se\sword5.wav
+sound += 를 베어냈:se\sword5.wav
+sound += 을 베었:se\sword1.wav
+sound += 를 베었:se\sword1.wav
+sound += 에게 구멍을 냈:se\sword2.wav
+sound += 과일을 자르듯 베어버렸:se\sword4.wav
+sound += 을 꿰찔렀:se\sword3.wav
+sound += 를 꿰찔렀:se\sword3.wav
+sound += 리본을 자르듯 잘라버렸:se\claw2.wav
+sound += 마치 배갯잇처럼 갈라버렸:se\sword6.wav
+sound += 꼬치처럼 꿰찔러냈:se\sword7.wav
+sound += 을 꿰뚫었:se\sword5.wav
+sound += 를 꿰뚫었:se\sword5.wav
+
+# unarm
+sound += 을 물어뜯었:se\punch5.wav
+sound += 를 물어뜯었:se\punch5.wav
+sound += 에게 강타를 날렸:se\mace3.wav
+sound += 을 갈갈이 찢었:se\claw3.wav
+sound += 를 갈갈이 찢었:se\claw3.wav
+sound += 에게 발차기를 했:se\punch3.wav
+sound += 에게 꼬리치기를 했:se\punch3.wav
+sound += 에게 주먹을 날렸:se\punch2.wav
+sound += 을 연달아 때렸:se\punch6.wav
+sound += 를 연달아 때렸:se\punch6.wav
+
+#ely&zin&TSO
+sound += 당신은 회복되었다:se\heal.wav
+sound += 육체는 정화되었다:se\cure2.wav
+sound += 사악한 무기를 파기한 것을 기뻐했다:se\coins2.wav
+sound += 은 천천히 부스러졌다:se\coins2.wav
+sound += 는 천천히 부스러졌다:se\coins2.wav
+sound += 은 부스러졌다:se\coins2.wav
+sound += 는 부스러졌다:se\coins2.wav
+sound += 은 산산히 부서졌다:se\coins2.wav
+sound += 는 산산히 부서졌다:se\coins2.wav
+sound += 금색으로 반짝이고는 사라졌다:se\coins2.wav
+sound += 금빛으로 반짝이고는 사라졌다:se\coins2.wav
+sound += 회수하였다!:se\coins2.wav
+sound += 신성한 활력을 불어넣어주었다:se\vigour.wav
+sound += 신성한 활력이 사라졌다:se\buffend.wav
+sound += 엘리빌론의 가호를 요청했다:se\divine2.wav
+sound += 신성한 보호가 사라졌다:se\buffend.wav
+sound += 피해로부터 지켰다:se\divine2.wav
+sound += 적대감을 더 이상 드러내지 않는다:se\cure2.wav
+sound += 당신에게 목례했다:se\cure2.wav
+sound += 당신의 신성한 기운을 보고:se\cure2.wav
+sound += 전투 태세를 풀었다:se\cure2.wav
+sound += 당신의 신성한 기운을 보고:se\cure2.wav
+sound += 전투 태세를 유지했다:se\divineangry.wav
+sound += 목례를 하지 않았다:se\divineangry.wav
+sound += 신성한 오오라를 무시했다:se\divineangry.wav
+sound += 그대에게서 부정함을:se\divineangry.wav
+sound += 더욱 부지런히 빛의 길을 추구:se\divineangry.wav
+sound += 아직 독실하지 못하군:se\divineangry.wav
+sound += 소금 기둥으로 변했다:se\salt2.wav %
+sound += 소금 기둥으로 변했다:se\salt.wav
+sound += 신성한 원기를 불어넣어주었다:se\divine.wav
+sound += 신성한 원기가 사라졌다:se\buffend.wav
+sound += 수수한 은의 벽으로 가두었다:se\labygear.wav
+sound += 감옥으로부터 풀어주었다:se\labycrash.wav
+sound += 성가가 들려왔다:se\sanctuary.wav
+sound += 격렬한 발작을 일으켰다:se\sanctuary3.wav
+sound += 성지가 점점 작아지기 시작한다:se\broken.wav
+sound += 성지가 사라졌다:se\sanctuary2.wav
+sound += 성지의 선물을 해지하였다:se\mirror3.wav
+sound += 업보의 대가를 치르게:se\divineangry.wav
+sound += 대가로 고통을 받을 것이네:se\divineangry.wav
+sound += 악행은 용서받지 못할거에요:se\divineangry.wav
+sound += 악행의 대가를 치르게 될 것이다:se\divineangry.wav
+sound += 사악한 신으로 개종한것을 불쾌:se\divineangry.wav
+sound += 당신 몸의 모든 혼돈을 제거해주었다:se\curemut.wav
+
+#statue
+sound += 비명소리를 내며 무너져 내린다:se\scream.wav
+sound += 끔찍한 비명소리가 들린다:se\scream.wav ?
+sound += 갈려 없어지는 소음:se\dig.wav
+sound += 일격이 가해졌다:se\blast.wav
+sound += 몸이 폭파당했다:se\blast.wav
+sound += 온 몸이 크게 발작을 일으켰다:se\blast.wav
+
+## holy being
+
+#silver star
+sound += 황금빛 빛줄기가 당신에게 명중했다:se\salt5.wav
+sound += 황금빛 빛줄기:se\dispelbreath.wav
+sound += 은빛 화살이 폭발:se\salt3.wav
+sound += 당신은 폭발에 휘말렸다!:se\salt8.wav
+sound += 실버 스타는 죽었다:se\salt3.wav
+sound += 실버 스타를 죽였다:se\salt3.wav
+
+#apis
+sound += 아피스를 그을렸다:se\salt7.wav
+
+# seraph
+sound += 세라프는 죽었다:se\salt11.wav
+sound += 세라프를 죽였다:se\salt11.wav
+
+# pearl dragon
+sound += 진주 용을 그을렸다:se\salt6.wav
+sound += 신성한 마력을 내뿜었다:se\conjflame5.wav
+sound += 정화의 불꽃을 피했다:se\conjflame5.wav
+sound += 정화의 불꽃이:se\salt9.wav
+sound += 진주 용은 죽었다:se\salt10.wav
+sound += 진주 용을 죽였다:se\salt10.wav
+
+# shedu
+sound += 셰두를 그을렸다:se\salt7.wav
+
+# phoenix
+sound += 불사조를 그을렸다:se\salt6.wav
+sound += 불사조를 죽였다:se\bird2.wav
+sound += 불사조는 죽었다:se\bird2.wav
+sound += 불타오르며 부활했다:se\bird3.wav
+
+# ophan
+sound += 정화의 불꽃을 일으켰다:se\conjflame5.wav
+
+## named
+# Do - Du
+sound += 도완이 큰 소리로:se\man4.wav
+sound += 드뷔사가 큰 소리로:se\woman2.wav
+sound += 도완은 비통함에 압도당한 것 같아 보이나, 곧 평정을 되찾았다:se\up.wav
+sound += 도완은 소리쳤다. "안돼! 안돼!":se\scream3.wav
+sound += 도완은 소리쳤다. "안돼! 오..안돼!":se\scream3.wav
+sound += 도완의 눈이 어두워졌다. "... ... 넌... 정말로 큰 실수를 한 거야...!":se\unholy.wav
+sound += 도완은 소리쳤다. "안돼! 안돼! 안돼애!":se\scream3.wav
+sound += 당신은 멀리서 절망에 휩싸인 울부짖음을 들었다:se\dowanwav
+sound += 무언가는 공포에 휩싸인 비명을 질렀다:se\duvessa.wav
+sound += 드뷔사는 분노에 찬 비명을 질렀다:se\scream1.wav
+sound += 드뷔사는 소리쳤다. "안돼! 어떻게 네가!":se\scream1.wav
+sound += 드뷔사는 울먹이고, 스스로를 추스려 무기를 휘저었다:se\scream1.wav
+sound += 드뷔사는 분노에 가득찬 목소리로 비명을 질렀다. "안돼, 안돼!":se\scream2.wav
+sound += 드뷔사는 분노로 소리쳤다, "안돼!":se\scream2.wav
+sound += 드뷔사는 공포에 휩싸인 비명을 질렀다:se\scream2.wav
+sound += 드뷔사는 울먹였다:se\crying.wav
+sound += 드뷔사는 말했다. "이 검이, 비통함을 극복해줄 거야!":se\crying.wav
+sound += 드뷔사는 말했다. "오빠의 죽음을 결코 헛되이 하지 않겠어!":se\crying.wav
+sound += 드뷔사는 말했다. "내가.. 뭘 한거지? 무슨 짓을 한 거지?":se\crying.wav
+sound += 드뷔사는 말했다. "이런 일을.. 저릴러놓고 어떻게 산다?":se\crying.wav
+sound += 도완을 죽였다:se\dieman8.wav
+sound += 드뷔사를 죽였다:se\diegirl.wav
+sound += 도완은 죽었다:se\dieman8.wav
+sound += 도완은 졸음에 빠졌다:se\sleep.wav
+sound += 드뷔사는 죽었다:se\diegirl.wav
+sound += 드뷔사는 졸음에 빠졌다y:se\sleep2.wav
+
+# psyche
+sound += 프쉬케가 큰 소리로:se\woman4.wav
+sound += 프쉬케는 흐느끼며 울었다:se\crying.wav
+sound += 프쉬케는 울부짖었다:se\scream2.wav
+sound += 프쉬케는 미친듯이 킥킥 웃었다:se\woman2.wav
+sound += 프쉬케는 노래했다:se\sing.wav
+sound += 프쉬케는 엄지 손가락을 빨았다:se\sucks.wav
+sound += 프쉬케는 닭똥같은 눈물을 흘렸다:se\crying.wav
+sound += 프쉬케는 죽었다:se\diegirl.wav
+sound += 프쉬케를 죽였다:se\diegirl.wav
+sound += 프쉬케는 졸음에 빠졌다:se\sleep2.wav
+
+# sigmund
+sound += 지그문트가 큰 소리로:se\man2.wav
+sound += 지그문트는 어두운 웃음을 지었다:se\man2.wav
+sound += 지그문트는 죽었다:se\dieoldman.wav
+sound += 지그문트를 죽였다:se\dieoldman.wav
+sound += 지그문트는 졸음에 빠졌다:se\sleep.wav
+
+# grinder
+sound += 그라인더가 큰 소리로:se\lol.wav
+sound += 그라인더는 말했다:se\lol.wav
+sound += 그라인더는 날카로운 이빨을 보이며 미소지었다:se\lol.wav
+sound += 그라인더는 죽었다:se\diespri.wav
+sound += 그라인더를 죽였다:se\diespri.wav
+
+# jessica
+sound += 제시카가 큰 소리로:se\woman.wav
+sound += 제시카는 죽었다:se\diegirl2.wav
+sound += 제시카를 죽였다:se\diegirl2.wav
+sound += 제시카는 졸음에 빠졌다:se\sleep2.wav
+
+# terrence
+sound += 테렌스가 큰 소리로:se\man.wav
+sound += 테렌스는 죽었다:se\dieman2.wav
+sound += 테렌스를 죽였다:se\dieman2.wav
+sound += 테렌스는 졸음에 빠졌다:se\sleep.wav
+
+# ijyb
+sound += 이지브가 큰 소리로:se\man5.wav
+sound += 이지브는 죽었다:se\diemon2.wav
+sound += 이지브를 죽였다:se\diemon2.wav
+sound += 이지브는 졸음에 빠졌다:se\sleep.wav
+
+# yiuf
+sound += 이우프가 큰 소리로:se\crazy3.wav
+sound += 이우프는 죽었다:se\dieoldman.wav
+sound += 이우프를 죽였다:se\dieoldman.wav
+sound += 이우프는 졸음에 빠졌다:se\sleep.wav
+
+# pikel
+
+sound += 피켈이 소리로:se\man6.wav
+sound += 피켈은 죽었다:se\dieman2.wav
+sound += 피켈을 죽였다:se\dieman2.wav
+sound += 피켈은 졸음에 빠졌다:se\sleep.wav
+
+# menk
+sound += 멘카우레가 큰 소리로:se\lich2.wav
+sound += 멘카우레는 파괴되었다:se\dieund2.wav
+sound += 멘카우레를 파괴했다:se\dieund2.wav
+
+# blork
+sound += 블로크 더 오크가 큰 소리로:se\man3.wav
+sound += 블로크 더 오크는 죽었다se\dieman3.wav
+sound += 블로크 더 오크를 죽였다se\dieman3.wav
+sound += 블로크 더 오크는 졸음에 빠졌다:se\sleep.wav
+
+# grum
+sound += 그룸이 큰 소리로:se\bear.wav
+sound += 그룸은 죽었다:se\dieman3.wav
+sound += 그룸을 죽였다:se\dieman3.wav
+sound += 그룸은 졸음에 빠졌다:se\sleep4.wav
+
+# edmund
+sound += 에드먼드가 큰 소리로:se\man.wav
+sound += 에드먼드는 죽었다:se\dieman4.wav
+sound += 에드먼드를 죽였다:se\dieman4.wav
+sound += 에드먼드는 졸음에 빠졌다:se\sleep.wav
+
+# eustachio
+sound += 유스타키오가 큰 소리로:se\man7.wav
+sound += 유스타키오는 죽었다:se\dieoldman.wav
+sound += 유스타키오를 죽였다:se\dieoldman.wav
+sound += 유스타키오는 졸음에 빠졌다:se\sleep.wav
+
+# maurice
+sound += 모리스가 큰 소리로:se\man4.wav
+sound += 모리스는 죽었다:se\dieman5.wav
+sound += 모리스를 죽였다:se\dieman5.wav
+sound += 모리스는 졸음에 빠졌다:se\sleep.wav
+
+# frog prince
+sound += 개굴개굴거렸다:se\frog.wav
+sound += 개굴 왕자는 죽었다:se\dieman.wav
+sound += 개굴 왕자를 죽였다:se\dieman.wav
+sound += 개굴 왕자는 졸음에 빠졌다:se\sleep3.wav
+
+# sonja
+sound += 소냐가 큰 소리로:se\woman4.wav
+sound += 소냐는 죽었다:se\diegirl3.wav
+sound += 소냐를 죽였다:se\diegirl3.wav
+sound += 소냐는 졸음에 빠졌다:se\sleep2.wav
+
+# erolcha
+sound += 에롤차가 큰 소리로:se\crazy2.wav
+sound += 에롤차는 죽었다:se\diegirl3.wav
+sound += 에롤차를 죽였다:se\diegirl3.wav
+sound += 에롤차는 졸음에 빠졌다:se\sleep5.wav
+
+# urug
+sound += 우룩이 큰 소리로:se\ogre.wav
+sound += 우룩은 죽었다:se\ouch.wav
+sound += 우룩을 죽였다:se\ouch.wav
+sound += 우룩은 졸음에 빠졌다:se\sleep.wav
+
+# snorg
+sound += 스노그가 큰 소리로:se\ogre.wav
+sound += 스노그는 죽었다:se\ouch.wav
+sound += 스노그를 죽였다:se\ouch.wav
+sound += 스노그는 졸음에 빠졌다:se\sleep5.wav
+
+# purgy
+sound += 퍼지가 큰 소리로:se\man8.wav
+sound += 퍼지는 죽었다:se\dieman2.wav
+sound += 퍼지를 죽였다:se\dieman2.wav
+sound += 퍼지는 졸음에 빠졌다:se\sleep5.wav
+
+sound += 퍼기가 큰 소리로:se\man8.wav
+sound += 퍼기는 죽었다:se\dieman2.wav
+sound += 퍼기를 죽였다:se\dieman2.wav
+sound += 퍼기는 졸음에 빠졌다:se\sleep5.wav
+
+# josephine
+sound += 요제핀이 큰 소리로:se\woman3.wav
+sound += 요제핀은 죽었다:se\diegirl3.wav
+sound += 요제핀을 죽였다:se\diegirl3.wav
+sound += 요제핀은 졸음에 빠졌다:se\sleep2.wav
+
+# joseph
+sound += 요제프가 큰 소리로:se\man4.wav
+sound += 요제프는 죽었다:se\dieman.wav
+sound += 요제프를 죽였다:se\dieman.wav
+sound += 요제프는 졸음에 빠졌다:se\sleep.wav
+
+# nessos
+sound += 네소스가 큰 소리로:man7.wav
+sound += 네소스는 죽었다:se\dieman4.wav
+sound += 네소스를 죽였다:se\dieman4.wav
+sound += 네소스는 졸음에 빠졌다:se\sleep.wav
+
+# fannar
+sound += 판나르가 큰 소리로:se\man4.wav
+sound += 판나르는 죽었다:se\dieman.wav
+sound += 판나르를 죽였다:se\dieman.wav
+sound += 판나르는 졸음에 빠졌다:se\sleep.wav
+
+# erica
+sound += 에리카가 큰 소리로:se\woman.wav
+sound += 에리카는 죽었다:se\diegirl2.wav
+sound += 에리카를 죽였다:se\diegirl2.wav
+sound += 에리카는 졸음에 빠졌다:se\sleep2.wav
+
+# harold
+sound += 해럴드가 큰 소리로:se\man.wav
+sound += 해럴드는 죽었다:se\dieman2.wav
+sound += 해럴드를 죽였다:se\dieman2.wav
+sound += 해럴드는 졸음에 빠졌다:se\sleep.wav
+
+# nergalle
+sound += 네르갈이 큰 소리로:se\woman3.wav
+sound += 네르갈은 죽었다:se\diegirl3.wav
+sound += 네르갈을 죽였다:se\diegirl3.wav
+sound += 네르갈은 졸음에 빠졌다:se\sleep6.wav
+
+# agnes
+
+sound += 아그네스가 큰 소리로:se\woman6.wav
+sound += 아그네스는 죽었다:se\diegirl2.wav
+sound += 아그네스를 죽였다:se\diegirl2.wav
+sound += 아그네스는 졸음에 빠졌다:se\sleep2.wav
+
+# azrael
+sound += 애즈레일은 죽었다:se\diedemon.wav
+sound += 애즈레일을 죽였다:se\diedemon.wav
+sound += 애즈레일은 졸음에 빠졌다:se\sleep5.wav
+
+# jozef
+sound += 요제프가 큰 소리로:se\man4.wav
+sound += 요제프는 죽었다:se\dieman5.wav
+sound += 요제프를 죽였다:se\dieman5.wav
+sound += 요제프는 졸음에 빠졌다:se\sleep.wav
+
+# polyphe
+sound += 폴리페모스는 죽었다:se\diemon.wav
+sound += 폴리페모스를 죽였다:se\diemon.wav
+sound += 폴리페모스는 졸음에 빠졌다:se\sleep5.wav
+
+# disso
+sound += 용해하는 자는 죽었다:se\slime2.wav
+sound += 용해하는 자를 죽였다:se\slime2.wav
+sound += 용해하는 자는 졸음에 빠졌다:se\slime.wav
+
+# maud
+sound += 모드가 큰 소리로:se\woman3.wav
+sound += 모드는 죽었다:se\diegirl3.wav
+sound += 모드를 죽였다:se\diegirl3.wav
+sound += 모드는 졸음에 빠졌다:se\sleep2.wav
+
+# louise
+sound += 루이즈가 큰 소리로:se\woman5.wav
+sound += 루이즈는 죽었다:se\diegirl2.wav
+sound += 루이즈를 죽였다:se\diegirl2.wav
+sound += 루이즈는 졸음에 빠졌다:se\sleep2.wav
+
+# aizul
+sound += 아이줄이 큰 소리로:se\man9.wav
+sound += 아이줄은 죽었다:se\diemon4.wav
+sound += 아이줄을 죽였다:se\diemon4.wav
+sound += 아이줄은 졸음에 빠졌다:se\sleep5.wav
+
+# murray
+sound += 머리는 사악하게 웃었다:se\murray.wav
+sound += 머리는 말했다:se\murray2.wav
+sound += 머리는 외쳤다:se\murray2.wav
+sound += 머리는 사악한 미소를 지었다:se\murray.wav
+sound += 머리의 이빨이 큰 소리로 부딪혔다:se\draw3.wav
+sound += 머리는 파괴되었다:se\Zskel.wav
+sound += 머리는 죽었다:se\dieskel.wav
+sound += 머리를 파괴했다:se\Zskel.wav
+sound += 머리를 죽였다:se\dieskel.wav
+
+# roxanne
+sound += 록산느는 파괴되었다:se\diegirl4.wav
+sound += 록산느를 파괴했다:se\diegirl4.wav
+
+# donald
+sound += 도널드가 큰 소리로:se\man10.wav
+sound += 도널드는 말했다:se\man10.wav
+sound += 도널드는 죽었다:se\dieman2.wav
+sound += 도널드를 죽였다:se\dieman2.wav
+sound += 도널드는 졸음에 빠졌다:se\sleep.wav
+
+# frances
+sound += 프랜시스가 큰 소리로:se\woman3.wav
+sound += 프랜시스는 죽었다:se\diegirl3.wav
+sound += 프랜시스를 죽였다:se\diegirl3.wav
+sound += 프랜시스는 졸음에 빠졌다:se\sleep2.wav
+
+# geryon
+sound += 게르욘은 죽었다:se\diemon.wav
+sound += 게르욘을 죽였다:se\diemon.wav
+sound += 게르욘은 졸음에 빠졌다:se\sleep5.wav
+sound += 게르욘은 소리쳤다:se\panlord.wav
+sound += 게르욘은 소리질렀다:se\panlord.wav
+sound += 게르욘은 고함쳤다:se\panlord.wav
+sound += 거대한 은빛 뿔나팔을 불었다:se\horn1.wav
+sound += 끔찍한 울부짖는 소음을 냈다:se\horn1.wav
+sound += 기분 나쁘고 울적한 소리를 들었다:se\horn2.wav
+
+# ilsuiw
+sound += 아일스이가 큰 소리로:se\woman7.wav
+sound += 아일스이는 죽었다:se\diegirl.wav
+sound += 아일스이를 죽였다:se\diegirl.wav
+sound += 아일스이는 졸음에 빠졌다:se\sleep2.wav
+sound += 아일스이는 기묘한:se\siren.wav
+sound += 아일스이는 오싹한:se\siren.wav
+sound += 아일스이는:se\siren.wav
+
+# rupert
+sound += 루퍼트가 큰 소리로:se\man10.wav
+sound += 루퍼트는 죽었다:se\dieman7.wav
+sound += 루퍼트를 죽였다:se\dieman7.wav
+sound += 루퍼트는 졸음에 빠졌다:se\sleep.wav
+
+# kirke
+sound += 키르케가 큰 소리로:se\woman.wav
+sound += 키르케는 죽었다:se\diegirl2.wav
+sound += 키르케를 죽였다:se\diegirl2.wav
+sound += 키르케는 졸음에 빠졌다:se\sleep2.wav
+
+# demon lord
+sound += 그룩스-브루크는 죽었다:se\diemon.wav
+sound += 그룩스-브루크를 죽였다:se\diemon.wav
+
+sound += 디스페이터는 죽었다:se\diemon.wav
+sound += 디스페이터를 죽였다:se\diemon.wav
+
+sound += 무노레그는 죽었다:se\dieman2.wav
+sound += 무노레그를 죽였다:se\dieman2.wav
+
+sound += 아스모데우스는 죽었다:se\diedemon.wav
+sound += 아스모데우스를 죽였다:se\diedemon.wav
+
+# chuck 
+sound += 척은 죽었다:se\diemon.wav
+sound += 척을 죽였다:se\diemon.wav
+sound += 척은 졸음에 빠졌다:se\sleep5.wav
+
+# roka
+sound += 세인트 로카가 큰 소리로:se\ogre.wav
+sound += 세인트 로카는 죽었다:se\dieman3.wav
+sound += 세인트 로카를 죽였다:se\dieman3.wav
+sound += 세인트 로카는 졸음에 빠졌다:se\sleep.wav
+
+# terpsi
+sound += 테르프시코레는 파괴되었다:se\haunt.wav
+sound += 테르프시코레를 파괴했다:se\haunt.wav
+
+# khufu
+sound += 쿠푸는 파괴되었다:se\dieund.wav
+sound += 쿠푸를 파괴했다:se\dieund.wav
+
+# mara
+sound += 마라는 죽었다:se\maradie.wav
+sound += 마라를 죽였다:se\maradie.wav
+sound += 마라는 졸음에 빠졌다:se\sleep5.wav
+sound += 낯선 장면들이 당신의 눈 앞에서 춤추듯이 지나갔다:se\mara.wav
+sound += 당신은 더욱 현혹되었다:se\mara.wav
+sound += 비통스러운 느낌이 당신의 영혼에 파고들었다:se\mara.wav
+
+# jory
+sound += 조리가 큰 소리로:se\man4.wav
+sound += 조리는 죽었다:se\man11.wav
+sound += 조리를 죽였다:se\man11.wav
+sound += 조리는 파괴되었다:se\man11.wav
+sound += 조리를 파괴했다:se\man11.wav
+sound += 당신은 매료되었다:se\siren.wav
+
+# ignacio
+sound += 이그나시오가 큰 소리로:se\man12.wav
+sound += 이그나시오는 죽었다:se\diemon.wav
+sound += 이그나시오를 죽였다:se\diemon.wav
+
+# nikola
+sound += 니콜라가 큰 소리로:se\man7.wav
+sound += 니콜라는 죽었다:se\dieoldman.wav
+sound += 니콜라를 죽였다:se\dieoldman.wav
+sound += 니콜라는 졸음에 빠졌다:se\sleep.wav
+
+# eresh
+sound += 에레쉬키갈은 죽었다:se\salt3.wav
+sound += 에레쉬키갈을 죽였다:se\salt3.wav
+
+# mennas
+sound += 메나스는 죽었다:se\salt3.wav
+sound += 메나스를 죽였다:se\salt3.wav
+
+# xtahya
+sound += 싸후아는 죽었다:se\diemon.wav
+sound += 싸후아를 죽였다:se\diemon.wav
+sound += 싸후아는 졸음에 빠졌다:se\sleep4.wav
+
+# lobon
+sound += 롬-로본은 죽었다:se\abyss2.wav
+sound += 롬-로본을 죽였다:se\abyss2.wav
+
+# serpent
+sound += 지옥의 고룡은 죽었다:se\diedemon.wav
+sound += 지옥의 고룡을 죽였다:se\diedemon.wav
+
+# slug king
+sound += 가스트로노크는 죽었다:se\poisonsplash.wav
+sound += 가스트로노크를 죽였다:se\poisonsplash.wav
+sound += 가스트로노크는 졸음에 빠졌다:se\slug.wav
+
+# nellie
+sound += 넬리는 죽었다:se\elephant2.wav
+sound += 넬리를 죽였다:se\elephant2.wav
+sound += 넬리는 졸음에 빠졌다:se\sleep2.wav
+sound += 넬리는 땅을 강하게 밟았다:se\elephant3.wav
+
+# helleph
+sound += 지옥의 코끼리는 죽었다:se\elephant2.wav
+sound += 지옥의 코끼리를 죽였다:se\elephant2.wav
+sound += 지옥의 코끼리는 땅을 강하게 밟았다:se\elephant3.wav
+
+# norris
+sound += 노리스가 큰 소리로:se\man10.wav
+sound += 노리스는 죽었다:se\dieman4.wav
+sound += 노리스를 죽였다:se\dieman4.wav
+sound += 노리스는 졸음에 빠졌다:se\sleep.wav
+
+# fred
+sound += 프레데릭이 큰 소리로:se\man4.wav
+sound += 프레데릭은 죽었다:se\dieman.wav
+sound += 프레데릭을 죽였다:se\dieman.wav
+sound += 프레데릭은 졸음에 빠졌다:se\sleep.wav
+
+# irongiant
+sound += 강철의 거인은 죽었다:se\diemon11.wav
+sound += 강철의 거인을 죽였다:se\diemon11.wav
+sound += 강철의 거인은 졸음에 빠졌다:se\sleep5.wav
+
+# anta
+sound += 안타이오스는 죽었다:se\diemon11.wav
+sound += 안타이오스를 죽였다:se\diemon11.wav
+
+# tiamat
+sound += 티아마트는 죽었다:se\diemon.wav
+sound += 티아마트를 죽였다:se\diemon.wav
+sound += 티아마트는 졸음에 빠졌다:se\sleep2.wav
+
+# boris
+sound += 보리스는 파괴되었다:se\dieskel.wav
+sound += 보리스를 파괴했다:se\dieskel.wav
+
+# cere
+sound += 세레보브는 죽었다:se\diedemon.wav
+sound += 세레보브를 죽였다:se\diedemon.wav
+sound += 세레보브는 졸음에 빠졌다:se\sleep5.wav
+
+# marg
+sound += 마저리가 큰 소리로:se\woman2.wav
+sound += 마저리는 죽었다:se\diegirl.wav
+sound += 마저리를 죽였다:se\diegirl.wav
+sound += 마저리는 졸음에 빠졌다:se\sleep2.wav
+
+# 27hedra
+sound += 고대의 히드라는 소리쳤다:se\hydra.wav
+sound += 고대의 히드라는 소리질렀다:se\hydra.wav
+sound += 고대의 히드라는 고함쳤다:se\hydra.wav
+sound += 고대의 히드라가 큰 소리로:se\hydra.wav
+
+sound += 고대의 히드라는 죽었다:se\diemon4.wav
+sound += 고대의 히드라를 죽였다:se\diemon4.wav
+sound += 고대의 히드라는 졸음에 빠졌다:se\sleep4.wav
+
+# rjelly
+sound += 로얄 젤리는 죽었다:se\slime2.wav
+sound += 로얄 젤리를 죽였다:se\slime2.wav
+sound += 로얄 젤리는 졸음에 빠졌다:se\slime.wav
+
+#wiglaf
+sound += 위글라프가 큰 소리로:se\man7.wav
+sound += 위글라프는 죽었다:se\dieoldman.wav
+sound += 위글라프를 죽였다:se\dieoldman.wav
+sound += 위글라프는 졸음에 빠졌다:se\sleep.wav
+
+# jorg
+sound += 요르그륀이 큰 소리로:se\man7.wav
+sound += 요르그륀은 죽었다:se\dieoldman2.wav
+sound += 요르그륀을 죽였다:se\dieoldman2.wav
+sound += 요르그륀은 졸음에 빠졌다:se\sleep.wav
+
+# enchantress
+sound += 대주술사가 큰 소리로:se\woman6.wav
+sound += 대주술사는 죽었다:se\diegirl3.wav
+sound += 대주술사를 죽였다:se\diegirl3.wav
+sound += 대주술사는 졸음에 빠졌다:se\sleep2.wav
+
+# arac
+sound += 아라크네가 큰 소리로:se\woman8.wav
+sound += 아라크네는 죽었다:se\diegirl6.wav
+sound += 아라크네를 죽였다:se\diegirl6.wav
+sound += 아라크네는 졸음에 빠졌다:se\sleep2.wav
+
+# lamia
+sound += 라미아가 큰 소리로:se\woman7.wav
+sound += 라미아는 죽었다:se\diegirl5.wav
+sound += 라미아를 죽였다:se\diegirl5.wav
+sound += 라미아는 졸음에 빠졌다:se\sleep2.wav
+
+# happening
+sound += 매우 기묘한 기분이 들었다:se\mut.wav
+sound += 파편이 당신:se\bomb.wav
+sound += 당신의 몸이 폭파당했다:se\blast.wav
+sound += 성스러운 에너지로, 온 몸이 크게 발작을 일으켰다:se\blast.wav
+sound += 당신은 마법 에너지의 방출에 휩쓸렸다:se\blast.wav
+sound += 당신은 화염의 폭발에 휩쓸렸다:se\blast.wav
+sound += 당신은 타오르는 불꽃에 휩싸였다:se\blast.wav
+sound += 얼음이 당신에게 명중했다:se\blast.wav
+sound += 당신은 모래 폭풍에 휩쓸렸다:se\blast.wav
+sound += 당신은 폭풍에 휩쓸렸다:se\blast.wav
+
+# enter
+sound += 반짝이는 배수로가 있다:se\water3.wav
+sound += 얼어붙은 관문이 있다:se\summice.wav
+sound += 마법의 관문이 있다:se\chaosenc.wav
+sound += 깃발이 보이는 관문이 있다:se\wing.wav
+
+sound += 강력한 마력의 존재가 느껴졌다. 기분 좋은:se\fearaura.wav
+sound += 이글거리는 열기가 바닥과 벽으로부터:se\panlord2.wav
+sound += 그림자와 같은 형상들이 눈 앞에서 이리저리:se\fearaura.wav
+sound += 이 곳의 공기는 기묘한 빛으로:se\panlord2.wav
+
+sound += 판데모니움의 큰 방에 들어왔다:se\abyss.wav
+sound += 판데모니움의 다른 방으로 들어갔다:se\abyss.wav
+
+# trap
+sound += 거미줄에 잡혔다:se\net.wav
+sound += 커다란 그물이 당신 위로:se\net.wav
+sound += 그물 안에서 발버둥쳤다:se\net.wav
+sound += 그물을 끊으려고 발버둥쳤다:se\net.wav
+sound += 그물 밖으로 탈출하려고:se\net.wav
+sound += 그물로부터 탈출을 시도했다:se\net.wav
+sound += 그물로부터 빠져나왔다:se\net.wav
+sound += 당신은 그물을 베어내고 탈출했다:se\net.wav
+sound += 당신은 그물을 잘라내고 탈출했다:se\net.wav
+sound += 당신은 그물을 갈라내고 탈출했다:se\net.wav
+sound += 당신은 그물을 찢어내고 탈출했다:se\net.wav
+sound += 거미줄에 잡혔다:se\net.wav
+sound += 거미줄로부터 빠져나오기 위해 발버둥쳤다:se\net.wav
+sound += 결박을 풀길 시도했다:se\net.wav
+sound += 거미줄이 찢어졌다:se\net.wav
+sound += 그물이 당신의 머리 위를 스쳐지나갔다:se\dodge.wav
+sound += 그물이 바닥으로 떨어졌다:se\net.wav
+sound += 그물이 찢겨져 나갔다:se\net.wav
+sound += 재빠르게 떨어지는 그물을 피해냈다:se\dodge.wav
+sound += 함정을 무사히 통과했다:se\dodge.wav
+sound += 거대한 칼날이 당신의 뒤를 아슬아슬하게 스쳐지나간다:se\dodge.wav
+sound += 함정이 요란한 소리로 울렸다:se\alarm.wav
+sound += 요란한 소리가 울리는 것을 들었다:se\alarm.wav
+sound += 함정은 소리를 내지 않았다:se\Zskel.wav
+sound += 고장난 듯 하다:se\:se\Zskel.wav
+sound += 거대한 칼날이 날아와:se\sword4.wav
+sound += 함정에 발을 디뎌 버렸다:se\secret.wav
+sound += 함정 속으로 발을 헛디뎠다:se\secret.wav
+sound += 함정을 발견했다:se\secret.wav
+#sound += 함정을 밟았다:se\secret.wav
+sound += 함정을 해제하는데 실패했다:se\trap1.wav
+sound += 함정을 성공적으로 해제했다:se\trap2.wav
+
+#siren,mermaid
+
+sound += 매혹적인 노래를 불렀다:se\siren.wav
+sound += 소름끼치는 노래를 불렀다:se\siren.wav
+sound += 매혹적인 노랫소리가 들렸다:se\siren.wav
+sound += 소름끼치는 노랫소리가 들렸다:se\siren.wav
+sound += 황홀한 감정이 사라졌다se\siren.wav
+sound += 현혹에서 벗어나 정신을 차렸다:se\siren.wav
+
+##monster
+
+#panlord taunt
+sound += 무노레그는 윙윙거리는:se\panlord.wav
+sound += 롬-로본은 비명을:se\panlord.wav
+sound += 세레보브가 소리쳤:se\panlord.wav
+sound += 그룩스-부르크는 투덜:se\panlord.wav
+sound += 아스모데우스가 소리쳤:se\panlord.wav
+sound += 디스페이터가 소리쳤:se\panlord.wav
+
+sound += 까마귀가 까악 거리며 울었다:se\raven.wav
+sound += 냉기의 폭발이:se\freeze3.wav
+sound += 냉기의 폭발은:se\freeze3.wav
+sound += 에틴이 스테레오로:se\giant.wav
+sound += 거인이 큰 소리로:se\giant.wav
+sound += 타이탄이 큰 소리로:se\giant.wav
+sound += 폴리페모스가 큰 소리로:se\giant.wav
+sound += 사이클롭스가 큰 소리로:se\giant.wav
+sound += 못생긴 것이 '쏴~' 하는 기분 나쁜:se\ugly.wav
+sound += 잠깐 눈꺼풀을 늘렸다:se\slug.wav
+sound += 당신에게로 눈자루를 홱 돌렸다:se\statdrain.wav
+sound += 당신을 응시했다:se\slug.wav
+sound += 더듬이를 흔들거렸다:se\insect.wav
+sound += 더듬이를 까닥거렸다:se\insect.wav
+sound += 보가트가 큰 소리로:se\boggart.wav
+sound += 보가트는 cast:se\boggart.wav
+sound += 의 이동이 매우 빨라졌다:se\alligator.wav
+sound += 오우거가 큰 소리로:se\ogre.wav
+sound += 하피는 죽었다:se\harpy2.wav
+sound += 하피를 죽였다:se\harpy2.wav
+sound += 그리폰이 쇳소리를 내었다:se\eagle.wav
+sound += 히포그리프가 쇳소리를 내었다:se\eagle2.wav
+sound += 하피가 쇳소리를 내었다:se\harpy.wav
+sound += 코끼리 민달팽이를 죽였다:se\Zdeath.wav
+sound += 코끼리 민달팽이는 죽었다:se\Zdeath.wav
+sound += 펠리드가 '슈~' 하는:se\wildcat.wav
+sound += 거미가 '슈~' 하는:se\spider2.wav
+sound += 타란텔라가 '슈~' 하는:se\spider2.wav
+sound += '슈~' 하는 험악한 소리를 냈다:se\snake.wav
+sound += '슈~'하는 험악한 소리를 들었다:se\snake.wav
+sound += 험악하게 으르렁거리는 소리를 냈다:se\bear.wav
+sound += 험악하게 으르렁거리는 소리를 들었다:se\bear.wav
+sound += 사납게 붕붕거리는 소리를 들었다:se\foxfire.wav
+sound += 사납게 붕붕거리는 소리를 냈다:se\foxfire.wav
+sound += 털이 분노한듯 삐죽 세워졌다:se\berserk.wav
+sound += 더듬이를 분노한 듯이 흔들어댔다:se\berserk.wav
+sound += 촉수가 당신:se\tentacle.wav
+sound += 촉수들이 솟아나왔다:se\kraken2.wav
+sound += 촉수 하나가 솟아났다:se\kraken2.wav
+sound += 물 속으로 미끌어져 되돌아갔다:se\water1.wav
+sound += 미노타우르스가 울부짖었다:se\cow.wav
+sound += 케토블레파스가 울부짖었다:se\cato.wav
+sound += 야크가 울부짖었다!:se\sheep.wav
+sound += 양이 울부짖었다!:se\sheep.wav
+sound += 전갈은 당신에게 침을:se\claw1.wav
+sound += 지네는 당신에게 침을:se\claw1.wav
+sound += 개구리는 당신에게 침을frog stings:se\claw1.wav
+sound += 당신에게 침을:se\killerbee.wav
+sound += 들이받았다:se\punch4.wav
+sound += 코끼리는 당신을 짓밟았다:se\elephant2.wav
+sound += 당신을 짓밟았다:se\elephant1.wav
+sound += 암석 투구벌레는 당신:se\rockhit.wav
+sound += 암석 투구벌레는 몸을 둥그렇게:se\alligator.wav
+sound += 야크를 죽였다:se\yakdie.wav
+sound += 양을 죽였다:se\yakdie.wav
+sound += 코끼리를 죽였다:se\elephant2.wav
+sound += 야크는 죽었다:se\yakdie.wav
+sound += 양은 죽었다:se\yakdie.wav
+sound += 코끼리는 죽었다:se\elephant2.wav
+sound += 늑대가 짖는 소리가 들렸다:se\wolf.wav
+sound += 워그가 짖는 소리가 들렸다:se\wolf.wav
+sound += 군용견이 짖는 소리가 들렸다:se\dog2.wav
+sound += 사냥개가 짖는 소리가 들렸다:se\dog.wav
+sound += 짖는 소리가 들렸다:se\dog3.wav
+sound += 개굴개굴 거리는 소리를:se\frog.wav
+sound += 짜증나게 개굴거리는 소리를:se\frog.wav
+sound += 개구리를 죽였다:se\diefrog.wav
+sound += 개구리는 죽였다:se\diefrog.wav
+sound += 가 몸을 떨었다:se\slime4.wav
+sound += 이 몸을 떨었다:se\slime4.wav
+sound += 가 파들거렸다:se\slime4.wav
+sound += 이 파들거렸다:se\slime4.wav
+sound += 후루룩 마시는 소리가 들렸다:se\slime4.wav
+sound += 무엇인가가 먹고있는 소리를:se\slime4.wav
+sound += 구울이 큰 소리로:se\ghoul.wav
+sound += 리치가 큰 소리로:se\lich2.wav
+sound += 보리스가 큰 소리로:se\lich2.wav
+sound += 얼어붙는듯한 신음을 내뱉었다:se\fearaura.wav
+sound += 얼어붙는듯한 신음을 들었다:se\ghoul.wav
+sound += 저주받은 해골을 파괴:se\Zskel.wav
+
+#orcs, humonoids (only for 'shout'ing, except others (bellow, trumpet, screech, hiss, .. etc.))
+sound += 오크 기사가 큰 소리로:se\mon1.wav
+sound += 오크 상급 마법사가 큰 소리로:se\mon1.wav
+sound += 오크 상급 사제가 큰 소리로:se\mon1.wav
+
+sound += 오크를 죽였다:se\diemon7.wav
+sound += 오크 마법사를 죽였다:se\diemon8.wav
+sound += 오크 사제를 죽였다:se\diemon8.wav
+sound += 오크 전사를 죽였다:se\diemon10.wav
+sound += 오크 기사를 죽였다:se\diemon10.wav
+sound += 오크 상급 마법사를 죽였다:se\diemon8.wav
+sound += 오크 상급 사제를 죽였다:se\diemon8.wav
+sound += 오크 워로드를 죽였다:se\dieman3.wav
+
+sound += 오크는 죽었다:se\diemon7.wav
+sound += 오크 마법사는 죽었다:se\diemon8.wav
+sound += 오크 사제는 죽었다:se\diemon8.wav
+sound += 오크 전사는 죽었다:se\diemon10.wav
+sound += 오크 기사는 죽었다:se\diemon10.wav
+sound += 오크 상급 마법사는 죽었다:se\diemon8.wav
+sound += 오크 상급 사제는 죽었다:se\diemon8.wav
+sound += 오크 워로드는 죽었다:se\dieman3.wav
+
+#more specific monsters die
+sound += 코볼트를 죽였다:se\mon4.wav
+sound += 코볼트는 죽었다:se\mon4.wav
+sound += 고블린을 죽였다:se\diemon5.wav
+sound += 고블린은 죽었다:se\diemon5.wav
+sound += 놀은 죽었다:se\diemon6.wav
+sound += 놀을 죽었다:se\diemon6.wav
+sound += 쥐를 죽였다:se\rat1.wav
+sound += 쥐는 죽었다:se\rat1.wav
+sound += 쿠와카를 죽였다:se\rat1.wav
+sound += 쿠와카는 죽었다:se\rat1.wav
+sound += 임프를 죽였다:se\diemon9.wav
+sound += 임프는 죽었다:se\diemon9.wav
+sound += 돼지를 죽였다:se\diepig.wav
+sound += 돼지는 죽었다:se\diepig.wav
+#sound += 늑대를 죽였다:se\
+#sound += 늑대는 죽었다:se\
+#sound += 사냥개를 죽였다:se\
+#sound += 사냥개는 죽었다:se\
+#sound += 군용견을 죽였다:se\
+#sound += 군용견은 죽었다:se\
+#sound += 히드라를 죽였다:se\
+#sound += 히드라는 죽었다:se\
+#sound += 나가를 죽였다:se\
+#sound += 나가는 죽었다:se\
+#sound += 트롤은 죽였다:se\
+#sound += 트롤을 죽었다:se\
+
+# demons (need patch)
+sound += 임프가 큰 소리로:se\imp.wav
+sound += 임프는이 큰 소리로:se\imp.wav
+sound += 임프는 말했다:se\imp.wav
+sound += 우페터버스가 큰 소리로:se\harpy.wav
+sound += 우페터버스는 말했다:se\harpy.wav
+sound += 발록이 큰 소리로:se\demon1.wav
+sound += 발록은 말했다:se\demon1.wav
+sound += 태양의 악마가 큰 소리로:se\demon1.wav
+sound += 태양의 악마는 말했다:se\demon1.wav
+sound += 폭풍우의 악마가 큰 소리로:se\demon2.wav
+sound += 폭풍우의 악마는 말했다:se\demon2.wav
+sound += 네퀘젝이 큰 소리로:se\ugly.wav
+sound += 네퀘젝은 말했다:se\ugly.wav
+sound += 캐커데몬이 큰 소리로:se\dragon3.wav
+sound += 캐커데몬은 말했다:se\dragon3.wav
+sound += 헬리온은 찢어지는:se\demon1.wav
+sound += 헬리온은 말했다:se\demon1.wav
+sound += 처형의 악마는 찢어지는:se\demon3.wav
+sound += 처형의 악마는 말했다:se\demon3.wav
+sound += 지옥의 감시자가 포효했다:se\demon4.wav
+sound += 지옥의 감시자는 말했다:se\demon4.wav
+
+# statue
+sound += 비명소리를 내며 무너져:se\scream.wav
+sound += 끔찍한 비명소리가:se\scream.wav
+sound += 갈려 없어지는 소음이:se\dig.wav
+sound += 의 몸이 폭파당했다:se\blast.wav
+sound += 성스러운 에너지로, 온 몸이 크게 발작을 일으켰다:se\blast.wav
+
+# water
+sound += 물에 빠졌다:se\waterfall.wav
+sound += 첨벙!:se\deepwater3.wav
+sound += 풍덩!:se\deepwater3.wav
+sound += 파동이 철벅거리며 가라앉았다:se\waterwave.wav
+sound += 당신의 다리는 물고기 꼬리로 변했다:se\deepwater3.wav
+sound += 깊은 물이:se\deepwater2.wav
+sound += 깊은 물로 들어갔다:se\deepwater2.wav
+sound += 얕은 물이:se\water2.wav
+sound += 얕은 물로 들어갔다:se\water2.wav
+sound += 은 익사했다:se\waterfall.wav
+sound += 는 익사했다:se\waterfall.wav
+sound += 바닥까지 가라앉았다:se\deepwater.wav
+sound += 물보라 소리를 들었다:se\deepwater3.wav
+sound += 첨벙거리는 소리가 들렸다:se\water1.wav
+sound += 거품이 이는 물을 마셨다:se\fountain.wav 
+sound += 깨끗한 물을 마셨다:se\fountain.wav
+sound += 핏물을 마셨다:se\blood.wav
+
+# lava
+sound += 용암에 큰 화상을 입었다:se\flame2.wav
+sound += 용암에 화상을 입었다:se\flame2.wav
+sound += 용암에 끔찍한 화상을 입었다:se\flame2.wav
+sound += 용암에 온 몸이 빠졌다:se\flame2.wav
+sound += 당신은 용암에 그을렸다:se\flame2.wav
+sound += 여기에는 용암이:se\lava.wav
+sound += 지글지글거리는 소리를 들었다:se\conjflame3.wav
+sound += 용암에 빠져 재로 변했다:se\conjflame3.wav
+sound += 용암에 빠져 재가 되었다:se\conjflame3.wav
+sound += 어두운 동굴을 발견:se\lava.wav
+sound += 어두운 동굴이 있다:se\lava.wav
+sound += 바위로 막힌 동굴이 있다:se\lava.wav
+sound += 화산 활동이 시작되고:se\flame4.wav
+sound += 멀리서 화산이 우르릉거리며:se\flame4.wav
+sound += 용암이 흘러나오기 시작했다:se\flame4.wav
+sound += 화산이 커다란 소리를 내며:se\flame4.wav
+sound += 대기가 자욱한 유황으로:se\lava.wav
+
+# trog
+sound += 화염에 휩싸여 불타올랐다:se\burnbook.wav
+
+# tree
+sound += 나무가 횃불처럼 불타오른다:se\burntree.wav
+sound += 나무가 타는 냄새를 맡았다:se\burntree.wav
+sound += 에 불이 옮겨 붙었다:se\burntree.wav
+sound += 몰아치는 화염에 휩:se\burntee.wav
+
+# mut&glow
+sound += 섬뜩한 섬광을 발했다:se\cigotuvi2.wav
+sound += 기묘한 에너지가 당신의 몸속을 따라:se\mut.wav
+sound += 잔류한 마력에 미약하게 오염되어 있다:se\mut.wav
+sound += 정말 기묘한 맛이다:se\mut.wav
+sound += 정말이지 너무나 기묘한 맛이다:se\mut.wav
+sound += 육체는 격렬하게 방출된 에너지로 떨렸다:se\bomb.wav
+sound += 마력의 에너지에 의한 오염이 더해졌음을:se\mut.wav
+sound += 마력의 에너지에 의한 오염이 줄어들었음을:se\buffend.wav
+
+# heal&cure
+sound += 상태가 꽤 좋아졌다:se\heal.wav
+sound += 기분이 나아졌다:se\heal.wav
+sound += 건강은 회복되었다:se\cure2.wav
+sound += 매우 깔끔한 맛이다:se\curemut.wav
+sound += 의 상처가 약간 회복되었다:se\heal.wav
+sound += 은 치료되었다!:se\heal.wav
+sound += 는 치료되었다!:se\heal.wav
+
+# TSO
+sound += 성스러운 방패가 나타났다:se\holysh.wav
+sound += 신성한 방패에 빛이 더해졌다:se\holysh.wav
+sound += 신성한 방패가 사라지기 시작:se\holysh.wav
+sound += 신성한 방패가 사라졌다:se\mirror3.wav
+sound += 후광이 당신에게 비쳐졌다:se\halo.wav
+sound += 후광이 사라졌다:se\dimvision.wav
+sound += 후광이 다시 돌아왔다:se\halo.wav
+sound += 현란한 빛에 잠시 눈이 부셨다:se\divinesumm.wav
+sound += 악마를 살생함으로써 힘을 얻을 수 있다:se\divineab.wav
+sound += 언데드의 살생으로 힘을 얻을 수 없다:se\divineab2.wav
+sound += 몸이 나아진 것을 느꼈다:se\heal.wav
+sound += 엘리빌론이 치료의 은총을:se\heal.wav
+sound += 추가 방어력:se\divine2.wav
+sound += 추가 공격력:se\divine2.wav
+sound += 불꽃의 숨결에 휘말렸다:se\conjflame4.wav
+sound += 황금빛 불꽃이 당신을 덮쳤다:se\flame6.wav
+sound += 고통으로 온 몸을 비틀었다:se\salt12.wav
+
+# beogh
+sound += 일격을 가했다:se\smite.wav
+sound += 징벌을 받았다:se\smite.wav
+sound += 당신에게 일격을 가한다:se\smite.wav
+sound += 베오그는 당신에게 일격을:se\smite.wav
+sound += 오크 의 시체는 부스러졌다:se\broken.wav
+sound += 오크 의 시체는 천천히 부스러졌다:se\broken.wav
+sound += 사제직의 축복을 내렸다:se\cure2.wav
+sound += 축복을 내렸다:se\cure2.wav
+sound += 전투의 함성을 질렀다:se\battlecry.wav
+sound += 경험을 쌓은 것 처럼 보인다:se\exp.wav
+sound += 더 강해진 것 같다:se\exp.wav
+sound += 경이에 찬 눈으로 바라보더니:se\divinesumm.wav
+sound += 당신에게 미소를 지었다:se\divinesumm.wav
+sound += 무릎을 꿇었다:se\divinesumm.wav
+sound += 당신 앞에 무릎꿇었다:se\divinesumm.wav
+sound += 기쁘게 그대를 따르리다:se\divinesumm.wav
+sound += 베오그께서 당신을 보낸 게 틀림 없어:se\divinesumm.wav
+sound += 당신이 우리의 구원자인가:se\divinesumm.wav
+sound += 당신이 여기 계시다니 매우 기쁩니다:se\divinesumm.wav
+sound += 지금에서야 알겠어:se\divinesumm.wav
+sound += 베오그는 나의 신이다:se\divinesumm.wav
+sound += 목숨만은 살려줘:se\divinesumm.wav
+sound += 항복했다:se\divinesumm.wav
+sound += 항복의 의미로 손을 들어올렸다:se\divinesumm.wav
+
+# God Wrath
+sound += 당신의 부적이 반짝였다:se\divine2.wav
+sound += 분노를 피할 수 있도록 해주지:se\divine2.wav
+sound += 은 당신이 신앙을 파기:se\divineangry.wav
+sound += 는 당신이 신앙을 파기:se\divineangry.wav
+sound += 샤이닝 원은 외쳤다:se\divineangry.wav
+sound += 샤이닝 원은 크게 외쳤다:se\divineangry.wav
+sound += 악행을 처벌하기 위해 신의 대행자를 보냈다:se\divineangry.wav
+sound += 당신에게 정화의 불꽃을 일으켰다:se\divineangry.wav
+sound += 당신의 악행은 용서받지 못할거:se\divineangry.wav
+sound += 네 악행의 대가를 치르게 될 것이다:se\divineangry.wav
+sound += 신을 믿은 대가로 고통을 받을 것이네:se\divineangry.wav
+sound += 당신을 처벌하기 위해 부하들을 보냈다:se\divineangry.wav
+sound += 의 목소리가 울려퍼졌다:se\divineangry.wav
+sound += 의 목소리가 울려퍼진다:se\divineangry.wav
+sound += 의 목소리가 터져나왔다:se\divineangry.wav
+sound += 신과의 접촉이 당신을:se\divineangry.wav
+sound += 의 분노가 당신을 향했다:se\divineangry.wav
+sound += 신의 악의가 밀려오는 것을 느꼈다:se\divineangry.wav
+sound += 당신에게 대항할 부대를 내보냈다:se\divineangry.wav
+sound += 잃어버린 시간을 만회했다:se\divineangry.wav
+sound += 은 시간을 조정했다:se\divineangry.wav
+sound += 는 시간을 조정했다:se\divineangry.wav
+sound += 당신의 공격으로부터 몬스터를 보호했다:se\divineangry.wav
+sound += 을 치료해주었다:se\divineangry.wav
+sound += 를 치료해주었다:se\divineangry.wav
+sound += 은 당신에게 불만을 표시했다:se\divineangry.wav
+sound += 는 당신에게 불만을 표시했다:se\divineangry.wav
+sound += 무뎌지게 만들었다:se\divineangry.wav
+sound += 당신에게 진리의 격언을 설교했다:se\divineangry.wav
+sound += 당신에게 기근의 고통을 안겼다:se\divineangry.wav
+sound += 당신에게 대항할 정령들을 불러냈다:se\divineangry.wav
+sound += 주위에 식물들이 불길하게 자라났다:se\divineangry.wav
+sound += 지면에서 슬라임들이 튀어나왔다:se\divineangry.wav
+sound += 당신을 처벌하기 위해 자신의 추종자들을 보냈다:se\divineangry.wav
+sound += 당신을 처벌하기 위해 자신의 추종자를 보냈다:se\divineangry.wav
+sound += 처벌하기 위해 몬스터들을 보냈다:se\divineangry.wav
+sound += 눈 앞에 오크 부대를 보냈다:se\divineangry.wav
+sound += 앙갚음이 당신을 향했다:se\divineangry.wav
+sound += 키쿠바쿠드하가 큭큭대며 웃는 소리가 들렸다:se\divineangry.wav
+sound += 키쿠바쿠드하의 악의있는 시선이 당신을 향했다:se\divineangry.wav
+sound += 당신이 죽음의 힘을 다루는 것을 허용하지 않았다:se\divineangry.wav
+sound += 너에게 실망했도다:se\divineangry.wav
+
+# Nemelex die
+sound += 당신의 육체는 잠시 반짝이다가 사라졌다:se\DeathofSimon3.wav
+sound += 당신의 육체는 형형색색으로 반짝이다가 사라졌다:se\DeathofSimon3.wav
+sound += 당신의 육체는 기묘한 무지개색으로 반짝이다가 사라졌다:se\DeathofSimon3.wav
+
+# God Etc
+sound += 샤이닝 원은 말했다:se\godshi.wav
+sound += 키쿠바쿠드하는 외쳤다:se\godkiku.wav
+sound += 당신의 강령술을 강화시켜줄 것이다:se\godkiku.wav
+sound += 루고누는 외쳤다:se\godlugo.wav
+sound += 당신의 무기를 왜곡시켜줄 것이다:se\aura.wav
+sound += 당신의 무기에 축복을 부여해 줄:se\godshi2.wav
+sound += 당신의 모든 변이를 치료해줄 것이다:se\godzin.wav
+sound += 불기둥에 휩싸여 사라졌다:se\flame5.wav
+sound += 공허 속으로 사라졌다:se\bomb2.wav
+sound += 공허 속으로 집어삼켜졌다:se\bomb2.wav
+sound += 공허 속으로 게걸스럽게:se\bomb2.wav
+sound += 두서없이 사라졌다:se\bomb2.wav
+sound += 붉은 불꽃을 내며 타버렸다:se\bomb2.wav
+sound += 불꽃을 내며 불타 사라졌다:se\bomb2.wav
+sound += 기묘한 무지개색으로 반짝이다가:se\salt3.wav
+sound += 형형색색으로 반짝이다가:se\coins2.wav
+sound += 반짝이다가 사라:se\coins2.wav
+sound += 당신의 입교를 환영했다:se\divinesumm.wav
+sound += 당신의 입교를 다시 환영했다:se\divinesumm.wav
+
+# kiku
+sound += 당신에게 시체들을 하사했다:se\decay.wav
+sound += 당신을 고통으로부터 보호했다:se\unholy.wav
+sound += 당신을 고통으로부터 어느 정도 보호해냈다:se\divine.wav
+sound += 사악한 에너지의 격동을 느꼈다:se\unholy.wav
+sound += 강령술의 부작용으로부터 '키쿠:se\divineab.wav
+sound += 지옥의 고통으로부터:se\divineab.wav
+sound += 강령술의 부작용으로부터 보호를 받을 수 없다:se\divineab2.wav
+sound += 지옥의 고통으로부터 보호를 받을 수 없다:se\divineab2.wav
+
+# makhleb
+sound += 악마가 나타났다:se\summother.wav
+sound += 기분좋아 보이지는 않는다:se\dimvision.wav
+sound += 소환된 것에 대하여 기뻐하지 않는 모양이다:se\dimvision.wav
+
+# yred
+sound += 곧 불경스러운 에너지에 휩싸였다:se\mirror.wav
+sound += 부정한 마력이 당신을 휘감았다:se\mirror.wav
+sound += 고통 반사의 기운이 사라져간다:se\mirror2.wav
+sound += 영혼은 너무 크게 손상되었다:se\buffend2.wav
+sound += 영혼은 이제 제어하기에 알맞다:se\haunt.wav
+sound += 영혼은 이제 제어하기 힘들다:se\divineab2.wav
+sound += 피해를 반사했다:se\mirror.wav
+sound += 피해를 당신에게 반사했다:se\mirror.wav
+sound += 주변으로부터 생명력을 흡수했다:se\sublimation.wav
+sound += 영혼이 당신의 것이 되었다:se\deathdr.wav
+sound += 당신의 생명력을 보호해주었다!:se\sublimation.wav
+sound += 죽은 존재가 일어나:se\animateD.wav
+sound += 언데드 수하를 내려주었다:se\animateS.wav
+sound += 언데드 수하들을 내려주었다:se\animateS.wav
+
+# okawaru
+sound += 영웅의 전투 기량을 얻었다:se\buff2.wav
+sound += 영웅적인 기량에 좀 더 자신감을 얻었다:se\up.wav
+sound += 영웅의 기량이 사라졌다:se\divineab2.wav
+sound += 이제 번개같은 공격을 날릴 수 있다:se\finesse.wav
+sound += 양 손에 새로운 힘이 더해졌다:se\finesse.wav
+sound += 당신의 양손이 느려졌다:se\divineab2.wav
+sound += 불꽃에 휩싸여 사라졌다:se\conjflame1.wav
+sound += 천천히 불타 재로 사라졌다:se\conjflame1.wav
+sound += 불꽃의 폭발로 구워져 버렸다:se\flame4.wav
+
+# lugonu
+sound += 공간의 왜곡에 삼켜졌다:se\abyss2.wav
+sound += 타락의 손이 뻗쳐온다:se\summtentacle.wav
+sound += 어비스로 빠져들었다:se\abyss.wav
+sound += 출구를 찾아내야만 한다:se\fearaura.wav
+sound += 당신은 관문을 통과했다:se\portalenter.wav
+sound += 당신은 이제 더이상:se\divineab2.wav
+sound += 선물을 하사했다:se\gift.wav
+
+# chei
+sound += 체이브리아도스는 당신의 움직임이 느려짐에:se\up.wav
+sound += 체이브리아도스는 당신의 움직임이 빨라진만큼:se\buffend2.wav
+sound += 주변의 시간의 흐름이 꼬이기 시작했다:se\time.wav
+sound += 을 꾸짖었다:se\time.wav
+sound += 를 꾸짖었다:se\time.wav
+sound += 주변의 시간 흐름이 왜곡되었다:se\time.wav
+sound += 잠시 시간의 흐름이 짙어진 것을 느꼈다:se\clock.wav
+sound += 당신은 시간의 흐름에서 벗어낫다:se\clock2.wav
+
+# fedhas
+sound += 던전의 식물들이:se\divineab.wav
+sound += 페다스는 당신:se\plant.wav
+sound += 페다스는 속죄를 요구하고 있다:se\evolve.wav
+sound += 더욱 활발하게 흔들리여 움직인다:se\plant.wav
+sound += 이 포자들을 만들것인가:se\evolve2.wav
+sound += 포자의 폭발이:se\bomb.wav
+sound += 거대 포자가 폭발했다:se\bomb.wav
+sound += 식물이 빗속에서 자라났다:se\rain.wav
+sound += 몇몇 식물이 빛속에서 자라났다:se\rain.wav
+sound += 당신은 빗속에 서 있다:se\rain.wav
+sound += 식물 하나를 급격하게 성장시켰다:se\plant.wav
+sound += 포자의 흔적 속에서:se\evolve.wav
+sound += 버섯이 자라났다:se\evolve.wav
+sound += 산성 액체를 뱉을 수 있다:se\evolve.wav
+sound += 버섯은 이제 균사를 집어내어 움직일 수 있다:se\evolve2.wav
+
+# jiy
+sound += 젤리를 선물했다:se\slime.wav
+sound += 쏴~'하는 소리를 냈다:se\slime.wav
+sound += 당신의 몸에 변화를 일으켰다:se\slime3.wav
+sound += 당신의 몸에 영향을 끼치는 것이 느껴졌다:se\slime3.wav
+sound += 당신의 능력에 영향을 주었다:se\slime2.wav
+sound += 당신의 변이가 치료되었다:se\curemut.wav
+sound += 두꺼운 점액질이:se\slime2.wav
+sound += 점액이 굳어 떨어지기 시작:se\slime.wav
+sound += 점액질이 사라졌다:se\slime.wav
+sound += 연속해서 철퍼덕거리는 소리를 들었다:se\slime2.wav
+sound += 멀리서 무언가 후루룩 마시는 소리:se\slime4.wav
+sound += 격렬하게 전율하다가:se\slime3.wav
+sound += 슬라임이 되었다.:se\slime.wav
+sound += 슬라임으로 모습을 바꾸었다:se\slime.wav
+sound += 슬라임은 분열했다:se\slime2.wav
+sound += 당신의 육체는 격렬하게 떨려 충격을:se\slime2.wav 
+sound += 젤리를 몸 속에서 쏟아내었다:se\slime2.wav
+sound += 불안하게 몸을 떨었다:se\slime3.wav
+sound += 로얄 젤리가 몸을 떨었다:se\slime2.wav
+sound += 젤리를 분열해냈다:se\slime3.wav
+sound += 돌연변이의 에너지에 쪼였고:se\mut.wav
+sound += 산성질 벽에 의해 화상을 입었다:se\acid.wav
+sound += 근처 산성질 벽에 의해 화상을:se\acid.wav
+sound += 몸을 떨었다:se\slime4.wav
+sound += 파들거렸다:se\slime4.wav
+sound += 바위가 무너져 내리는 소리가 들렸다:se\labycrash.wav
+sound += 당신 앞에 몸을 떨었다:se\slime4.wav
+sound += 수상쩍게 노려보았으나:se\slime4.wav
+
+# nemelex
+sound += 카드 한장을 뽑았다:se\draw1.wav
+sound += 두 장의 카드를 뽑았다:se\draw2.wav
+sound += 당신이 뽑을 카드는:se\draw3.wav
+sound += 카드를 뽑아, 표시했다.:se\draw4.wav
+sound += 처음 다섯 장의 카드를 뽑았다:se\draw5.wav
+sound += 카드 한 장을 뒤집었다:se\draw1.wav
+sound += 카드가 단 한장밖에 남지 않았다:se\draw1.wav
+sound += 정확히 다섯 장의 카드가 남아있다:se\draw5.wav
+sound += 카드가 4장밖에:se\draw5.wav
+sound += 카드가 3장밖에:se\draw5.wav
+sound += 카드가 2장밖에:se\draw5.wav
+
+# xom (not worked yet)
+sound += 너는 정말로 맘에 안들어:se\xom.wav
+sound += 좀은 잠시 당신에게로:se\xom2.wav
+sound += 좀의 힘이 잠깐 동안:se\xom2.wav
+sound += 지루한 듯 그만두었다:se\xom2.wav
+sound += 좀은 잠깐 동안 당신에게 주목:se\xom3.wav
+sound += 좀은 잠깐 당신을 응시하다가:se\xom3.wav
+sound += 미친 듯이 웃는 소리가 들리는 느낌:se\xom6.wav
+sound += 킥킥거리며 웃었다:se\xom7.wav
+sound += 잠시 당신에게 닿는 듯한 느낌:se\xom5.wav
+sound += 좀은 당신에게 주목했다!:se\xom4.wav
+sound += 주제도 모르고 너무 기세등등:se\xom4.wav
+sound += 훨씬 보기 좋군:se\xom2.wav
+sound += 근처의 몬스터에 닿았다:se\xom3.wav
+sound += 좀이 미친 듯이 웃는 소리:se\xom7.wav
+sound += 좀이 히죽히죽 웃었다:se\xom6.wav
+sound += 지옥불로:se\flameenc.wav
+sound += 충분한지 시험해 보자:se\xom6.wav
+sound += 좀은 자신의 힘을 당신에게 시험했다:se\xom7.wav
+sound += 싸워서 살아남아 보아라:se\divineangry.wav
+sound += 즐길 시간이다:se\xom7.wav
+sound += 더 보기 좋지 않은가:se\xom4.wav
+sound += 북소리를 울렸다:se\xom5.wav
+sound += 좀이 별안간 큰 소음을 내었다:se\xom5.wav
+sound += 내 친히 개조해주지:se\slime2.wav
+sound += 약간의 개조가 필요하겠군:se\slime3.wav
+sound += 정겹게 웃는 소리를 들었다:se\xom6.wav
+sound += 당신을 통해 넘쳐들었다:se\divineangry.wav
+sound += 이 자를 섬기거라:se\charming.wav
+sound += 장난감을 섬기거라:se\charming.wav
+sound += 나의 아이야:se\charming.wav
+sound += 이 세계의 마력을 건드렸다:se\xom7.wav
+sound += 벨이 울리는 소리를 들었다:se\bell.wav
+sound += 그리고 파괴하라:se\xom3.wav
+sound += 좀이 피식거리며 웃었다:se\xom4.wav
+sound += 흐흐흐:se\xom6.wav
+sound += 수리수리 마하수리:se\xom7.wav
+sound += 마음을 요동치게 만들었다:se\xom4.wav
+sound += 그리고 저건 저기에:se\xom4.wav
+sound += 좀은 문을 열었다:se\charming.wav
+sound += 얼마간의 호의를 보였다:se\charming.wav
+sound += 갑자기 붕괴했다:se\labygear.wav
+sound += 던전 구조를 바꾸어버렸다:se\labygear.wav
+sound += 시끄럽게 웃으며 당신의 신을 비웃었다:se\xom.wav
+sound += 좀은 크게 웃었다 :se\xom6.wav
+sound += 다른 공기가 좀 더 필요하겠군:se\xom7.wav
+sound += 너도 보고 싶지:se\seeinv.wav
+sound += 자신의 시야를 하사했다:se\seeinv.wav
+sound += 좀의 악의있는 주시:se\xom2.wav
+sound += 이거나 먹어라:se\xom.wav
+sound += 당신을 부활시켰다:se\borgn.wav
+sound += 괴로워해라:se\xom4.wav
+sound += 잠시 당신을 응시하다가:se\xom2.wav
+sound += 내부에 불씨가 일었다:se\flameenc.wav
+sound += 응시한다는 느낌이 들었다:se\god.wav
+sound += 널 보고 있다:se\xom.wav
+sound += 좀이 당신에게 미소지었다:se\xom4.wav
+sound += 당신을 꼬집는 느낌:se\xom2.wav
+sound += 다른곳으로 살짝 밀어냈다:se\xom5.wav
+sound += 엉망으로 만들어라:se\xom6.wav
+sound += 아멘!:se\sanctuary.wav
+sound += 좀은:se\xom6.wav
+sound += 좀이:se\xom7.wav
+sound += 우습다고 생각했다:se\xom7.wav
+sound += amused:se\xom7.wav
+sound += 주위가 빙글빙글 돌아가기 시작했다:se\abyss.wav
+sound += 마치 투명하게 보이기 시작했다:se\labycrash.wav
+sound += 쾅 하고 닫혔다:se\door4.wav
+sound += 부서질듯 열렸다:se\door3.wav
+
+# ashe
+sound += 두 눈에 투시력이 생겼다:se\seeinv.wav
+sound += 투시력이 사라졌다:se\inv2.wav
+sound += 시야와 마음을 맑게 유지할 수 있다:se\divineab.wav
+sound += 바운드 상태이다:se\up.wav
+sound += 방어구에 부분적으로 바운드:se\up.wav
+sound += 마법에 부분적으로 바운드:se\up.wav
+sound += 무기를 쥔 손은 바운드:se\up.wav
+sound += 어느정도 바운드:se\up.wav
+sound += 강한 바운드:se\up.wav
+sound += 완전한 바운드:se\divine.wav
+sound += 바운드 상태가 아니다:se\divineab2.wav
+sound += 지식의 전송을 시작했다:se\aura.wav
+sound += 지식 전송을 끝마쳤다:se\buffend2.wav
+
+# sif
+sound += 당신은 이제 주문 사용의 부작용으로부터:se\divineab.wav
+sound += 주문 사용의 부작용으로부터 보호를 받을 수 없다:se\dvineab2.wav
+sound += 기억을 말소 시킬 수 있다:se\airbuffend.wav
+sound += 약간의 마나를 수집했다:se\heal.wav
+
+# vehumet
+sound += 살생으로 마력을 얻을 수 있다:se\divineab.wav
+sound += 파괴 마법의 도움을 받는다:se\divineab.wav
+sound += 파괴 마법의 도움을 받지 못한다:se\divineab2.wav
+sound += 먼 거리까지 파괴 마법을 시전:se\divineab.wav
+sound += 먼 거리까지 파괴 마법을 시전할 수 없다:se\divineab2.wav
+sound += 지식을 하사했다:se\book.wav
+
+# trog
+sound += 광폭해졌다!:se\berserk.wav
+
+## magic
+
+#summoning
+sound += 그들을 되돌려보냈다:se\distorenc.wav
+sound += 그림자 속으로 사라졌다:se\distorenc.wav
+sound += 정령이 나타났다:se\summother.wav
+sound += 연기속으로 사라졌다:se\distorenc.wav
+sound += 용은 정신을 못 차리고 있다:se\confuse.wav
+sound += 악마는 정신을 못 차리고 있다:se\confuse.wav
+sound += 자는 정신을 못 차리고 있다:se\confuse.wav
+sound += 프는 정신을 못 차리고 있다:se\confuse.wav
+sound += 트는 정신을 못 차리고 있다:se\confuse.wav
+sound += 거대한 용이 나타났다:se\summdragon.wav
+sound += 판데모니움으로의 문을 열었다:se\summother.wav
+sound += 왠지 불길한 예감을 느꼈다:se\heartbeat.wav
+sound += 못생긴 존재가 나타났다:se\summother.wav
+sound += 흔들리는 그림자가 당신의 주위에서:se\summshadow.wav
+sound += 그림자 같은 존재가 공중에서:se\summother.wav
+sound += 금속의 존재가 공중에서 출현했다:se\summother.wav
+sound += 냉기 덩어리 속에서 나타났다:se\summother.wav
+sound += 불꽃 덩어리 속에서 나타났다:se\summother.wav
+sound += 어디론가 향하는 관문이 열렸다:se\summtentacle.wav
+sound += 촉수가 관문 안쪽으로 다시 끌려들어갔다:se\summtentacle2.wav
+sound += 섬뜩한 촉수는 파괴되었다:se\summtentacle2
+sound += 섬뜩한 촉수가 갑자기 격분하기 시작:se\summtentacle2
+sound += 촉수는 두동강났다:se\summtentacle2.wav
+sound += 섬뜩한 촉수는 몸부림쳤다:se\pain.wav
+sound += 철썩 때렸다:se\whip2.wav
+
+
+# transl
+sound += 아이템을 현재 위치로 끌어왔다:se\getitem.wav
+sound += 주위로 소환되었다:se\recall.wav
+sound += 왜곡의 얇은 장막으로 뒤덮였다:se\shroud.wav
+sound += 장막이 가장자리로부터 닳아가기 시작:se\shroud.wav
+sound += 장막이 흐트러졌다:se\mirror2.wav
+sound += 장막이 망가졌다:se\mirror2.wav
+sound += 공격을 흘려냈다:se\bend.wav
+sound += 기묘한 불안정감을 느꼈다:se\recall.wav
+sound += 다소 불안정해 보인다:se\recall.wav
+sound += 사라졌다!:se\teleport.wav
+sound += 공간이동을 제어할 수 있다:se\telecon.wav
+sound += 약간의 불안정함이 느껴지기 시작했다:se\telecon.wav
+sound += 불안정함을 느꼈다:se\buffend.wav
+sound += 골루브리아의 통로에 진입했다:se\portalenter.wav
+sound += 까닥거리며 닫히기 시작했다:se\teleport.wav
+sound += 두 가지 차원이 동시에 느껴지는:se\phase.wav
+sound += 기묘하게 뒤틀리며:se\distort.wav
+sound += 기묘하게 꼬이며:se\distort.wav
+sound += 기묘하게 진동하며:se\distort.wav
+sound += 기묘하게 튕겨오르며:se\distort.wav
+sound += 기묘하게 울룩불룩거리며:se\distort.wav
+sound += 기묘하게 흔들거리며:se\distort.wav
+sound += 전이할 곳의 위치를 지정할 수 있다:se\blinkcon.wav
+sound += 어디로 순간이동:se\blinkcon.wav
+sound += 당신은 이제 공간이동을 제어할 수 있다:se\antimagic2.wav
+
+# conj (need patch)
+sound += 마법의 다트가:se\magicdart.wav
+sound += 마력의 구체가 폭발했다:se\mistic2.wav
+sound += 마력의 구체가:se\mistic.wav
+sound += 신비한 폭발이:se\mistic2.wav
+sound += 에게 불완전하게 명중했다:se\ood2.wav
+sound += 파괴의 구가:se\ood.wav
+sound += 파괴의구는:se\ood.wav
+sound += 구체가 충돌하면서 눈부신 폭발을:se\ood.wav
+sound += 마력이 폭발하는 커다란 소리가:se\ood.wav
+sound += 분광기를 만들어냈다:se\insul.wav
+sound += 분광기는 갈라지는 듯한:se\insul.wav
+sound += 분광기가 폭발했다:se\mistic2.wav
+sound += 분광기는 힘없이 부서졌다:se\unsumm.wav
+sound += 마법 에너지의 구체를 소환했다:se\insul.wav
+sound += 비전력 구체에 마력을 다시 채워 넣었다:se\insul.wav
+sound += 발사된 마력이:se\dispelbreath.wav
+sound += 비전력 구체가 불안하게:se\unsumm.wav
+sound += 비전력 구체는 마지막 마력을 방출하고:se\unsumm.wav
+sound += 힘의 창살이:se\devastator.wav
+sound += 힘의 창살로부터 덜컥거리며 되돌아왔다:se\mace2.wav
+sound += 잠시 시력을 잃었다:se\dispelbreath2.wav
+sound += 빛줄기의 분사:se\dispelbreath.wav
+
+# transmut
+sound += 피의 물약을 제조:se\fulsome.wav
+sound += 양 발에 발굽이 자라났다:se\trans1.wav
+sound += 양 발에 발톱이 자라났다:se\trans1.wav
+sound += 물소뿔 한 쌍이 머리에서 자라났다:se\trans1.wav
+sound += 양 손에 날카로운 손톱이 자라났다:se\trans1.wav
+sound += 뱀 한 마리가 만들어졌다:se\snake.wav
+sound += 뱀들이 만들어졌다:se\snake.wav
+sound += 미끌거리는 느낌이 났다:se\snake2.wav
+sound += 피부에 단단함이 더해졌다:se\petri.wav
+sound += 피부는 보다 견고해졌다:se\petri.wav
+sound += 피부가 단단해졌다:se\petri.wav
+sound += 피부가 부드러워졌다:se\buffend.wav
+sound += 독을 가진 거대한 거미로 변신했다:se\transspider.wav
+sound += 쉭~소리로 주의를 끌었다:se\spider2.wav
+sound += 예리한 낫 모양의 칼날로 변화했다:se\transblade.wav
+sound += 살아있는 석상으로 변신했다:se\petri.wav
+sound += 무시무시한 용으로 변신했다:se\dragon.wav
+sound += 원래의 육체로 돌아왔다:se\buffend2.wav
+sound += 변신이 풀렸다:se\buffend2.wav
+sound += 당신의 손은 원래대로 돌아왔다:se\buffend2.wav
+sound += 돼지로 변했다:se\pig2.wav
+sound += 증발하여 재생성되어:se\cigotuvi2.wav
+sound += 돌연변이의 구름에 휘말렸다:se\mephi.wav
+sound += 증기 구체가:se\steam.wav
+sound += 증기 안에 에워싸여졌다m:se\steam.wav
+sound += 부패 구름이:se\drain.wav
+sound += 어둠의 기운에 휘말렸다:se\drain.wav
+
+# blink
+sound += 순간이동했다:se\blink.wav
+sound += 사라졌다!:se\blink.wav
+
+# inv
+sound += 투명하게 되었다:se\inv1.wav
+sound += 투명화 효과가 사라졌다:se\inv2.wav
+sound += 자취를 감추었다:se\inv1.wav
+sound += 갑자기 나타났다:se\inv2.wav
+
+# petri
+sound += 몸이 느려지고 있다:se\petri.wav
+sound += 온몸이 빳빳해지는:se\petri.wav
+sound += 돌로 굳어버렸다:se\petri.wav
+sound += 석회가루의 폭발이:se\petri.wav
+sound += 석화의 먼지에 휘말렸다:se\petri.wav
+sound += 움직임이 더욱 느려졌다:se\petri.wav
+sound += 움직임을 완전히 멈추었다:se\petri.wav
+
+# animate
+sound += 생명력을 불어넣으려 시도했다:se\animateD.wav
+sound += 망자를 불러 일으켰다:se\animateD.wav
+sound += 시체의 살점들이 찢어져나갔다:se\animateS.wav
+sound += 뼈골격 팔을 크게 휘둘렀다:se\animateD.wav
+sound += 해골 전사는 주문을 외우며:se\animateD.wav
+
+# fire&ice
+sound += 화염이:se\flame1.wav
+sound += 화염 덩어리가:se\flame1.wav
+sound += 끈적이는 화염이:se\flame1.wav
+sound += 불타올랐다!:se\flame2.wav
+sound += 불꽃을 내뿜었다:se\flame2.wav
+sound += 두루마리가 당신의 손에서 폭발:se\bomb.wav
+sound += 세레보브는 당신을 불태웠다!:se\cerehit.wav
+sound += 세레보브은 당신을 불태웠다!:se\cerehit.wav
+sound += 불태웠다:se\flame2.wav
+sound += 액상 화염으로 뒤덮여 있다:se\flame2.wav
+sound += 맹화의 화살이:se\flame2.wav
+sound += 화염의 숨결이:se\flame2.wav
+sound += 용암 덩어리가:se\flame2.wav
+sound += 용암의 화살이:se\flame2.wav
+sound += 화염구가 폭발했다:se\flame3.wav
+sound += 맹렬한 지옥불이:se\flame4.wav
+sound += 맹렬한 화염의 폭발:se\firestorm.wav
+sound += 불꽃으로 변하여 타올랐다:se\fring.wav
+sound += 지옥불이 폭발했다:se\flame4.wav
+sound += 세레보브는 손짓했다:se\summother.wav
+sound += 주변의 독소들을 연소시켰다:se\flame2.wav
+sound += 몸이 안쪽에서부터 불타올랐다:se\flame2.wav
+sound += 맹렬한 화염의 폭풍우가 일어났다:se\firestorm.wav
+sound += 맹렬한 화염의 폭발이:se\non.wav
+sound += 화염의 폭발이:se\flame2.wav
+sound += 폭발이 당신을 덮쳤다:se\bomb.wav
+sound += 불길이 타올랐다:se\conjflame1.wav
+sound += 포효로 주의를 끌었다:se\dragon.wav
+sound += 히드라가 포효했다:se\dragon6.wav
+sound += 진주 용이 포효했다:se\dragon5.wav
+sound += 강철 용이 포효했다:se\dragon8.wav
+sound += 그림자 용이 포효했다:se\dragon4.wav
+sound += 늪지 용이 포효했다:se\dragon3.wav
+sound += 수은 용이 포효했다:se\dragon2.wav
+sound += 폭풍 용이 포효했다:se\dragon9.wav
+sound += 황금 용이 포효했다:se\dragon7.wav
+sound += 싸후아가 포효했다:se\dragon7.wav
+sound += 지옥의 고룡이 포효했다:se\dragon7.wav
+sound += 티아마트가 포효했다:se\dragon10.wav
+sound += 오렌지색 쥐가 포효했다:se\orange.wav
+sound += 핀드가 포효했다:se\fiend.wav
+sound += 포효했다:se\dragon.wav
+sound += 몰아치는 화염에 휘말렸다:se\conjflame2.wav
+sound += 화염으로 휩싸였다:se\conjflame2.wav
+sound += 지글지글거리는 소리가 들린다:se\conjflame3.wav
+sound += 얼어붙는 냉기에 휘말렸다:se\freeze2.wav
+sound += 얼게했다:se\freeze.wav
+sound += 가 얼어 터졌다:se\potion2.wav
+sound += 이 얼어 터졌다:se\potion2.wav
+sound += 냉기의 화살이:se\freeze.wav
+sound += 냉기의 볼트가:se\freeze.wav
+sound += 냉기의 투석기용 돌이:se\freeze.wav
+sound += 냉기의 다트가:se\freeze.wav 
+sound += 냉기의 작은 돌이:se\freeze.wav
+sound += 냉기 덩어리가:se\freeze.wav
+sound += 얼음조각이:se\freeze4.wav
+sound += 동결의 화살이:se\freeze3.wav
+sound += 냉기의 폭발이:se\freeze3.wav
+sound += 주변의 열들이 흡수되었다:se\ozoref.wav
+sound += 얼음의 막이 판나르의 몸을:se\ozoar.wav
+sound += 당신의 얼음 갑옷은 두껍다:se\ozoar.wav
+sound += 얼음으로 된 몸은 더욱 탄력적임:se\ozoar.wav
+sound += 얼음 갑옷이 녹기 시작했다:se\melt.wav
+sound += 얼음 갑옷이 증발했다:se\melt.wav
+sound += 얼음 갑옷은 녹아 없어졌다:se\melt.wav
+sound += 치직거리는 소리와 함께 공기 중에서:se\ozosh.wav
+sound += 당신을 둘러싼 원반 모양의 증기가:se\ozosh.wav
+sound += 얼음 보호막이 증발했다:se\melt.wav
+sound += 졸음에 빠졌다:se\spectral.wav
+sound += 최면에 빠졌다:se\spectral.wav
+sound += 차가운 기운을 방출했다:se\freezeC.wav
+sound += 거대한 얼음의 폭풍우가 일어났다:se\icestorm.wav
+sound += 몰아치는 파도:se\watersplash.wav
+sound += 주위에서 차가운 바람이 불어왔다:se\summice.wav
+sound += 환영은 증발했다:se\icedie.wav
+sound += 얼음 짐승을 죽였다:se\icedie.wav
+sound += 아이스 핀드를 죽였다:se\icedie.wav
+sound += 얼음의 악마를 죽였다:se\icedie.wav
+sound += 흰색 임프를 죽였다:se\icedie.wav
+sound += 얼음상을 파괴했다:se\icedie.wav
+sound += 푸르게 빛났다:se\freezeenc.wav
+sound += 수정 같은 얼음 괴물으로 변신했다:se\summice.wav
+sound += 다시 온기있는 육체로 돌아왔다:se\buffend.wav
+sound += 안타이오스의 냉기가:se\antahit.wav
+sound += 안타이오스는 당신을 공격:se\rockhit.wav
+sound += 안타이오스은 당신을 공격:se\rockhit.wav
+sound += 얼렸다:se\freeze.wav
+sound += 얼어붙었다!:se\icedie.wav
+sound += 얼어붙는듯한 추위를 느꼈다:se\freeze.wav
+sound += 열기가 당신의 얼음:se\melt.wav
+
+# poison
+sound += 은 독에 매우 시달리고 있다:se\poison3.wav
+sound += 는 독에 매우 시달리고 있다:se\poison3.wav
+sound += 은 독에 시달리고 있다:se\poison1.wav
+sound += 는 독에 시달리고 있다:se\poison1.wav
+sound += 중독되었다:se\poison1.wav
+sound += 더 심한 독에 중독되었다:se\poison3.wav
+sound += 독에 시달리고 있다:se\poison2.wav
+sound += 독화살이 당신에게 명중:se\arrow.wav
+sound += 독침이:se\arrow.wav
+sound += 당신은 희미한 초록색으로 빛났다:se\olgreb.wav
+sound += 악취의 구름에 휘말렸다:se\wind.wav
+sound += 정신을 못 차리고 있다:se\confuse.wav
+sound += 당신은 혼란스러워졌다:se\confuse.wav
+sound += 더 심하게 혼란스러워졌다:se\confuse.wav
+sound += 폭발과 함께 불쾌한 구름이 생겼다:se\mephi.wav
+
+# necromancy
+sound += 고통으로 몸부림쳤다:se\pain.wav
+sound += 온몸에 고통이 느껴졌다:se\pain.wav
+sound += 로 퇴화했다:se\cigotuvi2.wav
+sound += 썩는 냄새를 맡았다:se\decay.wav
+sound += 격류하는 마법 에너지가 당신의 정신에:se\sublimation.wav
+sound += 자기자신의 육체에서:se\pain.wav
+sound += 희미한 형태들이 공중에서 생겨났다:se\haunt.wav
+sound += 피부는 우글거린다:se\regen.wav
+sound += 피부의 근질거림이 약해졌다:se\regen.wav
+sound += 피부는 우글거림을 멈췄다:se\buffend.wav
+sound += 생명력이 흘러들어오는 것을 느꼈다:se\sublimation.wav
+sound += 당신의 의지에 복종했다:se\charming.wav
+sound += 육체가 고통으로 경련을 일으켰다:se\hellcast.wav
+sound += 고통으로 몸부림쳤다:se\pain.wav
+sound += 리치는 크게 경련을:se\salt4.wav
+sound += 해골 전사는 크게 경련을:se\salt4.wav
+sound += 해골 용은 크게 경련을:se\salt4.wav
+sound += 해골은 크게 경련을:se\salt4.wav
+sound += 좀비는 크게 경련을:se\salt4.wav
+sound += 해골은 크게 경련을:se\salt4.wav
+sound += 그림자는 크게 경련을:se\salt4.wav
+sound += 환영은 크게 경련을:se\salt4.wav
+sound += 유령은 크게 경련을:se\salt4.wav
+sound += 죽음의 젤리는크게 경련을:se\salt4.wav
+sound += 악령은 크게 경련을:se\salt4.wav
+sound += 보리스는 크게 경련을:se\salt4.wav
+sound += 머레이는 크게 경련을:se\salt4.wav
+sound += 시체는 크게 경련을:se\salt4.wav
+sound += 어보미네이션은 크게 경련을:se\salt4.wav
+sound += 환영은 크게 경련을:se\salt4.wav
+sound += 옥수수는 크게 경련을:se\salt4.wav
+sound += 드워프 언데드는 크게 경련을:se\salt4.wav
+sound += 와이트는 크게 경련을:se\salt4.wav
+sound += 뱀파이어는 크게 경련을:se\salt4.wav
+sound += 뱀파이어 마법사는 크게 경련을:se\salt4.wav
+sound += 뱀파이어 기사는 크게 경련을:se\salt4.wav
+sound += 조리는 크게 경련을:se\salt4.wav
+sound += 타락한 천사는 크게 경련을:se\salt4.wav
+sound += 망령은 크게 경련을:se\salt4.wav
+sound += 유령 전사는 크게 경련을:se\salt4.wav
+sound += 시체 포식자는 크게 경련을:se\salt4.wav
+sound += 썩어가는 거인은 크게 경련을:se\salt4.wav
+sound += 공포의 유령은 크게 경련을:se\salt4.wav
+sound += 미라는 크게 경련을:se\salt4.wav
+sound += 미라 사제는 크게 경련을:se\salt4.wav
+sound += 고대 미라는 크게 경련을:se\salt4.wav
+sound += 미라 수호자는 크게 경련을:se\salt4.wav
+sound += 쿠푸는 크게 경련을:se\salt4.wav
+sound += 멘카우레는 크게 경련을:se\salt4.wav
+sound += 발가락은 크게 경련을:se\salt4.wav
+sound += 시체는 크게 경련을:se\salt4.wav
+sound += 구울은 크게 경련을:se\salt4.wav
+sound += 사악한 기운이 느껴졌다:se\drainenc.wav
+sound += 타는 듯한 고통이:se\painenc.wav
+sound += 꾸물거리는 덩어리:se\animateD.wav
+sound += 땅을 기어다니기 시작:se\animateD.wav
+sound += 섬뜩한 덩어리들이 합쳐졌다:se\abomi.wav
+sound += 로부터 합쳐졌다:se\slime.wav
+sound += 시체들이 녹아 내려:se\animateD.wav
+sound += 기어다니는 시체들이 합쳐졌다:se\abomi.wav
+sound += 흡성의 화살이:se\drain.wav
+sound += 생명력이 흡수당한:se\drain.wav
+sound += 고통스런 방법으로 치료되었다:se\borgn.wav
+sound += 사악한 힘이 당신의 육체 속을 가득:se\sublimation.wav
+sound += 죽음의 영매가 약해지기 시작:se\buffend.wav
+sound += 안개속으로 사라졌다!:se\distort.wav
+sound += 빛나는 안개가 모여들기 시작했다:se\spectral.wav
+sound += 무적 상태이다!:se\deathdr.wav
+sound += 남겨진 시간이 빠르게 사라져 간다:se\buffend.wav
+sound += 당신의 의지로 돌아왔다:se\exha.wav
+sound += 피로가 가신 것을 느꼈다:se\exha.wav
+sound += 육체는 음에너지로 뒤덮였다:se\lich.wav
+sound += 변신 시간이 얼마 남지 않았다:se\buffend.wav
+sound += 살아있는 자로 돌아왔다:se\buffend2.wav
+
+# air
+sound += 전격이:se\electriczap.wav
+sound += 커다란 천둥번개:se\thunder.wav
+sound += 번개의 화살이:se\lightningbolt.wav
+sound += 투사체들로부터 보호:se\missileprot.wav
+sound += 투사체들로부터 매우 안전:se\missileprot.wav
+sound += 발사체로부터의 보호가 약해진:se\airbuffend.wav
+sound += 발사체류 반사 주문의 효과가 사라지고:se\missileprot.wav
+sound += 당신은 화살을 막아냈다:se\bend.wav
+sound += 당신을 빗겨 지나갔다:se\bend.wav
+sound += 몸이 점점 느려짐을 느낀다:se\airbuffend.wav
+sound += 온 몸이 둔해지는 느낌이다:se\airbuffend.wav
+sound += 민첩해짐을 느꼈다:se\haste2.wav
+sound += 당신은 공중으로 날아올랐다:se\fly.wav
+sound += 가벼워진 것을 느꼈다:se\fly.wav
+sound += 부양 능력이 더욱 늘어났다:se\fly.wav
+sound += 당신은 공중으로 날아올랐다:se\fly.wav
+sound += 공중 부양 효과가 사라져가고 있다:se\airbuffend.wav
+sound += 부드럽게 아래에 착지했다:se\flydown2.wav
+sound += 전격 에너지로 파직거리는:se\static.wav
+sound += 푸른 원호들이:se\static.wav
+sound += 번개가 당신에게 명중:se\static.wav
+sound += 물결치는 대기가:se\airstrike.wav
+sound += 소용돌이치는 대기가 당신에게 몰아쳤다:se\airstrike.wav
+sound += 당신은 절연체이다:se\insul.wav
+sound += 절연성이 약해짐을 느꼈다:se\insul.wav
+sound += 당신은 절연성을 잃었다:se\buffend.wav
+sound += 깊은 정적이 당신을 감쌌다:se\silence.wav
+sound += 다시 소리가 들리기 시작했다:se\airbuffend.wav
+sound += 소름끼칠 정도로 조용해졌다:se\silence.wav
+sound += 주변의 소리가 다시 들리기 시작했다:se\airbuffend.wav
+sound += 전기 구체를 만들어냈다:se\electric.wav
+sound += 전기 구체가 폭발했다:se\electricwater.wav
+sound += 번개의 구가 폭발했다:se\electricwater.wav
+sound += 전격의 방출이:se\lightningbolt.wav
+sound += 번개가 지면에 직격했다:se\lightningbolt.wav
+sound += 번개가 원호를 이루었다:se\electriczap.wav
+sound += 몰아치는 바람이 당신 주위로:se\tornado.wav
+sound += 몰아치는 폭풍에 휘말렸다:se\airstrike.wav
+sound += 휘감은 회오리가 가라앉고 있다:se\airbuffend.wav
+sound += 감전시켰다:se\electric2.wav
+sound += 당신은 감전되었다:se\electric2.wav
+sound += 갑자기 스파크가 폭발했다:se\electric2.wav
+sound += 감전되었다!:se\electric2.wav
+sound += 물 속을 통해 전기가 퍼져나갔다:se\electricwater.wav
+sound += 뱀장어는 전기의 화살을 쏘았다:se\electric.wav
+sound += 전격의 화살이 당신에게 명중:se\electric.wav
+
+# earth
+sound += 암석 폭풍이:se\sandblast.wav
+sound += 모래 폭풍이:se\sandblast.wav
+sound += 벽과의 동화를 마쳤다:se\earthlique.wav
+sound += 가 산산히 부서졌다:se\dig.wav
+sound += 이 산산히 부서졌다:se\dig.wav
+sound += 주변의 땅은 액화상태로 바뀌었다:se\earthlique.wav
+sound += 더 이상 액화되지 않는다:se\earthlique.wav
+sound += 산산히 부서졌다!:se\lee.wav
+sound += 암석 파편이:se\lee.wav
+sound += 금속 파편이:se\lee.wav
+sound += 뼛조각의 산탄이:se\lee.wav
+sound += 수정파편이:se\lee.wav
+sound += 석화파편이:se\lee.wav
+sound += 얼음의 폭발이:se\lee.wav
+sound += 부서져내렸다!:se\lee.wav
+sound += 암석의 화살이:se\stonearrow.wav
+sound += 강철의 화살이:se\stonearrow.wav
+sound += 수정창이:se\stonearrow.wav
+sound += 굉음이 울렸다!:se\shatter.wav
+sound += 유리가 깨지는 소리가 들렸다:se\potion2.wav
+sound += 콰앙!:se\shatter.wav
+sound += 지각이 뒤집히는 강렬한 힘과 함께 온 몸에 전율이 느껴졌다:se\shatter.wav
+sound += 바닥에서 벽들이 솟아났다:se\labycrash.wav
+
+# hex & charm
+sound += 움직임이 빨라졌다:se\haste2
+sound += 움직임이 느려졌다:se\buffend
+sound += 매료되었다:se\charming.wav
+sound += 매혹에서 깨어났다:se\buffend2.wav 
+sound += 시야가 날카로워졌다:se\seeinv.wav
+sound += 당신은 무기와 일체화되었다:se\seeinv.wav
+sound += 손에 든 검과 당신의 연결이 사라져간다:se\buffend.wav
+sound += 당신의 시야가 잠시 희미해졌다:se\buffend.wav
+sound += 붉게 빛나게 시작했다:se\touch.wav
+sound += 은 빛을 발했다:se\touch.wav
+sound += 밝게 빛나기 시작했다:se\touch.wav
+sound += 광채가 사라졌다:se\buffend.wav
+sound += 의 광채가 사라졌다:se\buffend.wav
+sound += 빛에 비추어졌다:se\corona.wav
+sound += 더 밝게 빛났다:se\corona.wav
+sound += 반짝임이 사라졌다:se\spectral.wav
+sound += 공중에서 춤추었다:se\fly.wav
+sound += 하늘에서 떨어졌다:se\tukima.wav
+sound += 공포의 형상이 나타났다:se\fearaura.wav
+sound += 도망을 시도했다:se\fear.wav
+sound += 당신을 공포에 사로잡히게 했다:se\fear.wav
+sound += 공포의 기운을 방출했다:se\fearaura.wav
+sound += 공포감이 사라졌다:se\buffend.wav
+sound += 주위에 어둠이 이는 것을 느꼈다:se\unsumm.wav
+sound += 주변의 빛이 원래대로 밝아졌다:se\corona.wav
+
+# gourmet
+sound += 오렌지는 참 맛있다:se\eat2.wav
+sound += 바나나는 참 맛있다:se\eat2.wav
+sound += 맛좋은 사과다:se\eat2.wav
+sound += 포도는 참 맛있다:se\eat2.wav
+sound += 맛좋은 배다:se\eat2.wav
+sound += 람부탄은 참 맛있다:se\eat2.wav
+sound += 라이치는 참 맛있다:se\eat2.wav
+sound += 초코 열매는 너무 밍밍한 맛이다:se\eat2.wav
+sound += 맛좋은 살구다:se\eat2.wav
+sound += 레몬은 좀 시지만 그래도 맛있다:se\eat2.wav
+sound += 건포도는 맛있다:se\eat2.wav
+sound += 오이는 정말로 고약한 맛:se\eat2.wav
+sound += 로얄 젤리는 정말로:se\eat.wav
+sound += 그다지 식욕을 돋우지 못한다:se\eat.wav
+sound += 휴대용 고기는 정말 마음에 드는 식사다:se\eat.wav
+sound += 휴대용 빵은 정말 마음에 드는 식사다:se\eat.wav
+sound += 이 고기는 아무래도 상한 것 같다:se\sick.wav
+sound += 식사를 끝마쳤다:se\eat.wav
+
+# miss, dodge
+sound += 완벽하게 피했다:se\dodge2.wav
+sound += 겨우 피했다:se\dodge.wav
+sound += 아슬아슬하게 피했다:se\dodge.wav
+sound += 피했다:se\dodge.wav
+sound += 맞추지 못했다:se\dodge2.wav
+
+# door
+sound += 문을 열었다:se\door1.wav
+sound += 문을 닫았다:se\door2.wav
+sound += 세게 닫았다:se\door2.wav
+sound += 삐걱거리며 닫혔다:se\door2.wav
+sound += 쾅 하고 닫혔다:se\door3.wav
+sound += 탈출구가 세게 닫혔다:se\door3.wav
+sound += 무엇인가가 문을:se\blockmelee.wav
+sound += 무엇인가가 관문:se\blockmelee.wav
+
+# stair
+sound += 계단을 올라갔다:se\stair.wav
+sound += 계단을 내려갔다:se\stair.wav
+sound += 명령 일람 및 기타 정보:se\stair.wav
+sound += 무언가가 길을 막고 있다:se\warning.wav
+sound += 막았다:se\blockmelee.wav
+sound += 무엇인가가 계단:se\blockmelee.wav
+sound += 반사해냈다:se\blockmelee.wav
+sound += 여기에는:se\non.wav
+sound += 바위가:se\rockhit.wav
+sound += 당신 주변의 모습이 갑자기 변화했다:se\teleport.wav
+
+# bazaar
+sound += 동전 세는 소리가 들려왔다:se\coins2.wav
+sound += 울려퍼지는 종소리를 들었다:se\bell.wav
+sound += 마지막 종소리가 들려왔다:se\bell.wav
+sound += 바닥과 벽이 잠시 기이하게 진동했다:se\labycrash.wav
+sound += 입구가 사라졌다:se\labycrash.wav
+#sound += 관문이 사라졌다:se\labycrash.wav
+
+# laby
+sound += 멀리서 콧방귀 소리가:se\pig2.wav
+sound += 째깍거리는 시계소리를 들었다:se\labycrash.wav
+sound += 마지막 시계 소리가 들려왔다:se\labycrash.wav
+sound += 콧방귀 소리가 금속에 울리는 소리:se\labymino.wav
+sound += 고대의 장비들이 삐걱거리는 소리:se\labygear.wav
+sound += 갑작스런 진동이 느껴졌다:se\labycrash.wav
+sound += 특이한 잡음이 들렸다:se\labygear.wav
+sound += 갑자기 바닥이 흔들렸다:se\labycrash.wav
+
+# trove, ziggurat
+#sound += 관문 앞에 룬을 보이자
+#sound += 관문 안에 아이템을 던져 넣자
+#sound += 비밀 창고로 향하는 관문을 통과하려면
+
+#hits&etc
+sound += 던졌다:se\throw.wav
+sound += 불타버렸다!:se\flameenc.wav
+sound += 상태이상에 대한 저항이:se\airbuffend.wav
+sound += 약간의 불안정함을 느꼈다:se\recall.wav
+sound += 독액 물보라가:se\poisonsplash.wav
+sound += 미궁 안으로 들어가자:se\portalenter.wav
+sound += 어비스로 들어갔다:se\portalenter.wav
+sound += 관문에 들어가자:se\portalenter.wav
+sound += 당신은 골루브리아의 통로에 진입했다:se\portalenter.wav
+sound += 당신은 주위에 무언가가 있음을 눈치챘다:se\seeinv.wav
+sound += 감정의 마법 두루마리을:se\iden.wav
+sound += 이것은 감정의 마법 두루마리였다:se\iden.wav
+sound += 자욱한 연기로 변했다:se\fog2.wav
+sound += 당신의 발 밑에 뭔가가 나타났다:se\item.wav
+sound += 당신 뒤에 뭔가 나타났다:se\item.wav
+sound += 화염의 폭발이:se\flame2.wav
+sound += 쨍그렁 하는 큰 소음을 들었다:se\noise.wav
+sound += 신성한 힘의 단어를 읊었다:se\sanctuary
+sound += 원반이 잠시 빛난 후:se\level.wav
+sound += 은 잠시 빛을 발했다:se\level.wav
+sound += 는 잠시 빛을 발했다:se\level.wav
+sound += 잠시동안 빛을 발했다:se\level.wav
+sound += 무서운 존재가 나타났다:se\summother.wav
+sound += 잠시 녹색으로 빛났다:se\level.wav
+sound += 잠시 빨간색으로 빛났다:se\level.wav
+sound += 잠시 밝은 노란색으로 빛났다:se\divine2.wav
+sound += 아주 잠깐동안 녹색으로 빛났다:se\level.wav
+sound += 아주 잠깐동안 빨간색으로 빛났다:se\level.wav
+sound += 아주 잠깐동안 밝은 노란색으로 빛났다:se\divine2.wav
+sound += 당신의 손톱은:se\scroll.wav
+sound += 위대한 존재에게 도움을 받은:se\god.wav
+sound += 마법 두루마리을 읽자:se\scroll.wav
+sound += 잠시 검게 빛났다:se\unholy.wav
+sound += 손에 달라붙어 떨어지지 않는다:se\unholy.wav
+sound += 끔찍하게 차갑다:se\unholy.wav
+sound += 저주에 걸리지는 않았다:se\divine2.wav
+sound += 주변이 흔들거리는 그림자로 채워졌다:se\fearaura.wav
+sound += 당신의 아이템들은 저주 탐지를 받자 부드럽게 빛났다:se\seeinv.wav
+sound += 보다 예민해짐:se\seeinv.wav
+sound += 둔감해진 느낌:se\buffend2.wav
+sound += 지켜보고 있는 정령이 느껴졌다:se\holysh.wav
+sound += 기묘한 고독함:se\airbuffend.wav
+sound += 은밀해졌음을 느꼈다:se\inv1.wav
+sound += 은밀함이 사라져감:se\inv2.wav
+sound += 극한의 온도에서도 버틸 수 있을 것 같다:se\resist.wav
+sound += 추위와 더위가 곳곳에서 동시에:se\exha.wav
+sound += 아크메이지의 로브 장비 중:se\archmagi.wav
+sound += 기묘한 상실감:se\debuff.wav
+sound += 마력은 이미 충만한 것 같다:se\archmagi.wav
+sound += 마력이 늘어난 느낌:se\archmagi.wav
+sound += 마력이 줄어들은 느낌:se\debuff.wav
+sound += 생명력이 보호받는 느낌:se\lifeP.wav
+sound += 무방비 상태가 된 것 같다:se\debuff.wav
+sound += 불에 내성이 생겼다:se\fring.wav
+sound += 좀 더워진 것 같군:se\buffend2.wav
+sound += 냉기에 내성이 생겼다:se\fring2.wav
+sound += 조금 쌀쌀해진 것을 느꼈다:se\buffend2.wav
+sound += 독에 내성이 생겼다:se\rPois.wav
+sound += 독에 대한 내성이 사라졌다:se\dimvision.wav
+sound += 상태이상에 대한 저항력이 생겼다:se\Pup.wav
+sound += 상태이상에 대한 저항력이 약해진:se\buffend2.wav
+sound += 먹을것에 대한 갈망이 느껴졌다:se\blood.wav
+sound += 약해진 마력의 기운이 빠르게:se\buffend2.wav
+sound += 몸이 점점 썩어감을 느낀다:se\decay.wav
+sound += 당신의 육체가 아주 빠르게 부패하고 있다:se\decay.wav
+sound += 끔찍한 기분을 느꼈다:se\unholy.wav
+sound += 무언가를 갈기갈기 찢고 싶은:se\heartbeat.wav
+sound += 불꽃과의 조화:se\fring.wav
+sound += 얼음과의 조화:se\fring2.wav
+sound += 마력에 깃드는 것이 느껴졌다:se\holysh.wav
+sound += 잠시동안 몸이 투명해졌음:se\inv1.wav
+sound += 신의 관심이 집중되는 것:se\divine2.wav
+sound += 무관심해진 것 같다:se\divineab2.wav
+sound += 갑자기 움직일 수 없게 되었다:se\paralyse.wav
+sound += 갑자기 움직임을 멈췄다!:se\paralyse.wav
+sound += 다시 움직일 수 있게 되었다.:se\airbuffend.wav
+sound += 당신은 병에 시달리고:se\sick.wav
+sound += 질병 바늘이:se\sick.wav
+sound += 우웩! 피비린내:se\sick.wav
+sound += 신선한 피다!:se\drink.wav
+sound += 이것은 좋은 맛이다!:se\drink.wav
+sound += 흡수하는 일을 멈추었다:se\sick.wav
+sound += 이 피는 그다지 식욕을:se\blood.wav
+sound += 따뜻한 피는 정말로 맛이 좋다:se\blood.wav
+sound += 이것은 맹물처럼 아무 맛이 없다:se\drink.wav
+sound += 마력의 흐름이 당신의 몸 속을 흘러갔다:se\heal.wav
+sound += 회복된 것을 느꼈다:se\cure2.wav
+sound += 힘이 회복된:se\cure2.wav
+sound += 지능이 회복된:se\cure2.wav
+sound += 민첩이 회복된:se\cure2.wav
+sound += 당신은 아둔해졌다:se\statdrain.wav
+sound += 당신은 서툴러졌다:se\statdrain.wav
+sound += 당신은 약해졌다:se\statdrain.wav
+sound += 당신은 멍청해졌다:se\statdrain.wav
+sound += 갑자기 무지막지한 힘:se\might.wav
+sound += 갑자기 정신이 매우 맑아져:se\brilliance.wav
+sound += 갑자기 몸이 무척 가벼워지고:se\haste2.wav
+sound += 일시적인 괴력이 사라졌다:se\buffend.wav
+sound += 일시적인 민첩함이 사라졌다:se\buffend.wav
+sound += 일시적인 현명함이 사라졌다:se\buffend.wav
+sound += 당신은 기민해졌다:se\up.wav
+sound += 당신은 강력해졌다:se\up.wav
+sound += 당신은 현명해졌다:se\up.wav
+sound += 기억하겠는가?:se\book.wav
+sound += 주문의 암기를 마쳤다.:se\up.wav
+sound += 물건을 사 줘서 정말 고마워:se\merchant2.wav
+sound += 비밀 문을:se\secret.wav
+sound += 할퀴었다:se\claw1.wav
+sound += 금화:se\coins.wav
+sound += 마력의 화살이 당신에게 명중:se\blast.wav
+sound += 마력의 화살이:se\dispelbreath.wav
+sound += 당신에게 에너지를 내뿜었다:se\dispelbreath.wav
+sound += 항마의 화살이:se\dispelbreath.wav
+sound += 흩뿌려진 금속 파편이:se\mace3.wav
+sound += 의 시체:se\Zcorpse.wav
+sound += 의 해골:se\Zskel.wav
+
+##fixed item
+
+#gong
+sound += 지이이이이잉:se\gong.wav
+sound += 퀴이이이이잉:se\gong2.wav
+sound += 고오오오오옹:se\gong3.wav
+sound += 부아아아아앙:se\gong4.wav
+sound += 쿠오오오오옹:se\gong5.wav
+sound += 퍼어어어어엉:se\gong6.wav
+
+#olgreb
+sound += 소독약 냄새가 났다.:se\rPois.wav
+sound += 소독약 냄새가 사라졌다.:se\airbuffend.wav
+
+#devastator
+sound += 몸서리를 쳤다:se\devastator.wav
+sound += 이 무기의 위력을 시험해 볼 시간:se\devastator2.wav
+
+#dragon skin
+sound += 무언가 낯설게 보호받는 듯한 느낌:se\protect.wav
+sound += 원소 마법으로부터 보호받는 느낌:se\exha.wav
+
+#scythe of curse
+sound += 생명력이 흡수되었다:se\drain.wav
+sound += 고통으로 경련했다!:se\pain.wav
+sound += 크게 경련을 일으켰다!:se\hellcast.wav
+
+#wyrm
+sound += 창이 빛나기 시작했다.:se\plant.wav
+
+#obsidian
+sound += 시체가 쌓여가는 모습이 상상:se\fearaura.wav
+
+#buff,debuff
+sound += 광전사 상태에 돌입했다!:se\berserk.wav
+sound += 광폭해졌다!:se\berserk.wav
+sound += 공격하려는 강렬한 충동:se\heartbeat.wav
+sound += 분노가 사그라지는 것 같다:se\heartbeat.wav
+sound += 광폭화 효과가 사라졌다.:se\exha.wav
+sound += 광폭화가 멈췄다.:se\exha.wav
+sound += 보호를 받는 느낌이 들었다!:se\protect.wav
+sound += 보호를 받는 느낌을 받았다.:se\resistpotion.wav
+sound += 저항력이 약해져감을 느끼기:se\buffend.wav
+sound += 원소에 대한 저항력이 사라져:se\exha.wav
+sound += 상쾌한 기분이 되었다.:se\cure.wav
+
+#Zot
+sound += 지금 당신이 해야 할 일은 던젼에서 탈출하는 것이다!:se\orb.wav
+sound += 으스스한 녹색 빛으로 빛났다!:se\zot.wav
+sound += 빽빽한 연기가 잠긴 문으로부터:se\zot2.wav
+sound += 관문으로부터 째지는 듯한 큰 소리가:se\zot4.wav
+sound += 당신은 관문을 지나 내려왔다.:se\stair.wav
+sound += 당신은 관문을 통과했다.:se\stair.wav
+sound += 조트의 룬:se\rune2.wav
+sound += 룬이 발하는 마력을 느꼈다:se\rune3.wav
+sound += - 조트의 오브:se\orb.wav
+sound += 조트의 오브:se\orb2.wav
+sound += 던전에서 탈출했다!:se\orb3.wav
+
+#other 'low priority' words
+
+sound += 당신을 공격했다:se\hit.wav
+sound += 공격했다:se\hit.wav
+sound += 쏘았다:se\shoot.wav
+sound += 당신에게 명중했다:se\hit.wav
+sound += 들이받았다:se\punch4.wav
+sound += 명중했다:se\hit.wav
+sound += 폭발했다:se\bomb.wav
+sound += 여기에는:se\non.wav
+sound += 화살이:se\arrow.wav
+sound += 전이 화살이:se\arrow.wav
+sound += 볼트가:se\arrow.wav
+sound += 뚫고 지나갔다.:se\arrow.wav
+sound += 투석기용 돌이:se\arrow.wav
+sound += 반지를:se\ring.wav
+sound += 당신은 이제:se\divineab.wav
+
+# discover unrandarts (except for "Fixed Unique" unrandarts. ex: sword of cerebov, hat of pondering..)
+
+sound += 트로그의 분노를 발견했다:se\lucky.wav
+sound += 자두 글레이브를 발견했다:se\lucky.wav
+sound += 마력의 검을 발견했다:se\lucky.wav
+sound += 변덕의 메이스를 발견했다:se\lucky.wav
+sound += 올그레브의 지팡이를 발견했다:se\lucky.wav
+sound += 우카드 무의 지팡이를 발견했다:se\lucky.wav
+sound += 흡혈귀의 송곳니를 발견했다:se\lucky.wav
+sound += 저주의 낫을 발견했다:se\lucky.wav
+sound += 존굴르드로크의 검을 발견했다:se\lucky.wav
+sound += 요정 용 갑옷을 발견했다:se\lucky.wav
+sound += 악마의 칼날 "블러드베인"을 발견했다:se\lucky.wav
+sound += 악마의 칼날 "블러드베인"를 발견했다:se\lucky.wav
+sound += 불타는 죽음의 시미터를 발견했다:se\lucky.wav
+sound += 광채의 메이스를 발견했다:se\lucky.wav
+sound += 악마의 칼날 "거머리"을 발견했다:se\lucky.wav
+sound += 악마의 칼날 "거머리"를 발견했다:se\lucky.wav
+sound += 사파이어 단도 "얼어붙는 죽음"을 발견했다:se\lucky.wav
+sound += 사파이어 단도 "얼어붙는 죽음"를 발견했다:se\lucky.wav
+sound += 단도 "모르그"을 발견했다:se\lucky.wav
+sound += 단도 "모르그"를 발견했다:se\lucky.wav
+sound += 대형 낫 "최후의 일격"을 발견했다:se\lucky.wav
+sound += 대형 낫 "최후의 일격"를 발견했다:se\lucky.wav
+sound += 투석기 "펑크"을 발견했다:se\lucky.wav
+sound += 투석기 "펑크"를 발견했다:se\lucky.wav
+sound += 크리슈나의 활 "차량가"을 발견했다:se\lucky.wav
+sound += 크리슈나의 활 "차량가"를 발견했다:se\lucky.wav
+sound += 거대 곤봉 "두개골 파괴자"을 발견했다:se\lucky.wav
+sound += 거대 곤봉 "두개골 파괴자"를 발견했다:se\lucky.wav
+sound += 파수꾼의 글레이브를 발견했다:se\lucky.wav
+sound += 지하드의 검을 발견했다:se\lucky.wav
+sound += 쇠뇌 "지옥불"을 발견했다:se\lucky.wav
+sound += 쇠뇌 "지옥불"를 발견했다:se\lucky.wav
+sound += 다이아몬드 대검 "심판의 기사"을 발견했다:se\lucky.wav
+sound += 다이아몬드 대검 "심판의 기사"를 발견했다:se\lucky.wav
+sound += 모닝스타 "에오스"을 발견했다:se\lucky.wav
+sound += 모닝스타 "에오스"를 발견했다:se\lucky.wav
+sound += 부두인형의 창을 발견했다:se\lucky.wav
+sound += 문어왕의 삼지창을 발견했다:se\lucky.wav
+sound += 미스릴 도끼 "아루가"을 발견했다:se\lucky.wav
+sound += 미스릴 도끼 "아루가"를 발견했다:se\lucky.wav
+sound += 다섯 원소의 지팡이를 발견했다:se\lucky.wav
+sound += 쇠뇌 "저격수"을 발견했다:se\lucky.wav
+sound += 쇠뇌 "저격수"를 발견했다:se\lucky.wav
+sound += 장궁 "꿰뚫는 자"을 발견했다:se\lucky.wav
+sound += 장궁 "꿰뚫는 자"를 발견했다:se\lucky.wav
+sound += 암살자의 블로우 건을 발견했다:se\lucky.wav
+sound += 랜스 "와이엄베인"을 발견했다:se\lucky.wav
+sound += 랜스 "와이엄베인"를 발견했다:se\lucky.wav
+sound += 스프리건의 나이프를 발견했다:se\lucky.wav
+sound += 방사능 검을 발견했다:se\lucky.wav
+sound += 대형 메이스 "망자를 쫒는 자"을 발견했다:se\lucky.wav
+sound += 대형 메이스 "망자를 쫒는 자"를 발견했다:se\lucky.wav
+sound += 채찍 "사교상"을 발견했다:se\lucky.wav
+sound += 채찍 "사교상"를 발견했다:se\lucky.wav
+sound += 명중의 단도를 발견했다:se\lucky.wav
+sound += 레후디브의 수정창을 발견했다:se\lucky.wav
+sound += 해적선장의 커틀라스를 발견했다:se\lucky.wav
+sound += 폭풍의 활을 발견했다:se\lucky.wav
+sound += 무지의 대형 방패를 발견했다:se\lucky.wav
+sound += 증강의 로브를 발견했다:se\lucky.wav
+sound += 도둑의 망토를 발견했다:se\lucky.wav
+sound += 방패 "황소의 눈"을 발견했다:se\lucky.wav
+sound += 방패 "황소의 눈"를 발견했다:se\lucky.wav
+sound += 다이로베프러버의 왕관을 발견했다:se\lucky.wav
+sound += 곰 영혼의 모자를 발견했다:se\lucky.wav
+sound += 섬광의 망토를 발견했다:se\lucky.wav
+sound += 암살자의 장화를 발견했다:se\lucky.wav
+sound += 즈홀의 가죽을 발견했다:se\lucky.wav
+sound += 샐러맨더의 갑옷을 발견했다:se\lucky.wav
+sound += 전쟁의 건틀렛을 발견했다:se\lucky.wav
+sound += 내성의 방패를 발견했다:se\lucky.wav
+sound += 우둔의 로브를 발견했다:se\lucky.wav
+sound += 맥스웰의 특허 갑옷을 발견했다:se\lucky.wav
+sound += 용의 가면을 발견했다:se\lucky.wav
+sound += 암야의 로브를 발견했다:se\lucky.wav
+sound += 용왕의 갑옷을 발견했다:se\lucky.wav
+sound += 연금술사의 모자를 발견했다:se\lucky.wav
+sound += 검사의 장갑을 발견했다:se\lucky.wav
+sound += 별빛의 망토를 발견했다:se\lucky.wav
+sound += 징 방패를 발견했다:se\lucky.wav
+sound += 대기의 부적을 발견했다:se\lucky.wav
+sound += 그림자의 반지를 발견했다:se\lucky.wav
+sound += 세크코브의 부적을 발견했다:se\lucky.wav
+sound += 사방위 바람의 부적을 발견했다:se\lucky.wav
+sound += 피에 굶주린 목걸이를 발견했다:se\lucky.wav
+sound += 소림사의 반지를 발견했다:se\lucky.wav
+sound += 강건의 반지를 발견했다:se\lucky.wav
+sound += 현자의 반지를 발견했다:se\lucky.wav
+sound += 차폐의 브로치를 발견했다:se\lucky.wav
+sound += 구름의 로브를 발견했다:se\lucky.wav
+sound += 흑요석 도끼를 발견했다:se\lucky.wav
+sound += 번개 비늘을 발견했다:se\lucky.wav
+sound += 흑기사의 마갑을 발견했다:se\lucky.wav
+sound += 활력의 반지를 발견했다:se\lucky.wav
+sound += 가을 카타나를 발견했다:se\lucky.wav
+sound += 막대기 "완전한 파괴"을 발견했다:se\lucky.wav
+sound += 막대기 "완전한 파괴"를 발견했다:se\lucky.wav
+sound += 오색 비늘 망토를 발견했다:se\lucky.wav
+sound += 문어왕의 반지를 발견했다:se\lucky.wav
+
+language = ko
+
+#################################################################################
+# Crawl Init file
+#
+# On Unix systems (such as Mac OS X, Linux and the BSDs), you must copy
+# init.txt to ~/.crawlrc or ~/.crawl/init.txt as:
+#   cp init.txt ~/.crawlrc
+#
+# Lines beginning with '#' are comments.  The basic syntax is:
+#
+# field = value         or      field.subfield = value
+#
+# Only one specification is allowed per line.
+#
+# The terms are typically case-insensitive except in the fairly obvious
+# cases (the character's name and specifying files or directories when
+# on a system that has case-sensitive filenames).
+#
+# White space is stripped from the beginning and end of the line, as
+# well as immediately before and after the '='. If the option allows
+# multiple comma/semicolon-separated terms (such as
+# autopickup_exceptions), all whitespace around the separator is also
+# trimmed. All other whitespace is left intact.
+#
+# For descriptions concerning an option consult the file
+#    options_guide.txt
+# in your /docs directory. Also note that the ordering of the options
+# is taken from that file; this is for presentational reasons only.
+#
+# Note that all boolean options (i.e. values of 'true' or 'false') have
+# their non-default value commented out. You can toggle these by just
+# uncommenting.
+# Options with several values, e.g. drop_mode = (multi | single),
+# usually have the first value as default.
+#
+# The options for monster glyphs and item colours don't matter for Tiles.
+# Similarily, tile options are ignored in console games.
+
+##### Ancient versions ##############################################
+# If you're used to the interface of ancient versions of Crawl, you may
+# get back parts of it by uncommenting the following options:
+
+# include                 = 034_command_keys.txt
+# target_unshifted_dirs   = true
+# clear_messages          = true
+#
+# And to revert monster glyph and colouring changes:
+# include                 = 034_monster_glyphs.txt
+# include                 = 052_monster_glyphs.txt
+# include                 = 060_monster_glyphs.txt
+# include                 = 071_monster_glyphs.txt
+# include                 = 080_monster_glyphs.txt
+# include                 = 0.9_monster_glyphs.txt
+
+##### 1- Starting Screen ############################################
+#
+# name = Delilah
+# remember_name = false
+# weapon = (short sword | falchion | quarterstaff | hand axe | spear | mace
+#           | trident | unarmed | random)
+# species = (Human |...| Vampire | random)
+# job     = (Fighter |...| Wanderer | random)
+# random_pick = true
+# good_random = false
+# restart_after_game = true
+# default_manual_training = true
+
+##### 2-  File System ###############################################
+#
+# crawl_dir  = <path>
+# morgue_dir = morgue
+# save_dir   = saves
+# macro_dir  = settings/
+# sound = <regex>:<path to sound file>
+
+##### 3-  Interface #################################################
+#
+##### 3-a       Picking up and Dropping ###############
+#
+# Rods are \ here.
+# autopickup = $?!:"/%
+
+# drop_filter += useless_item
+
+# default_autopickup = false
+# autopickup_no_burden = false
+# pickup_thrown = false
+# chunks_autopickup = false
+# assign_item_slot = (forward | backward)
+#
+# drop_mode = (multi | single)
+# pickup_mode = (single | multi | auto:5)
+# drop_filter += skeleton, corpse, useless_item
+# default_friendly_pickup = (none | friend | player | all)
+
+##### 3-b       Targetting ############################
+#
+# default_target = false
+# target_unshifted_dirs = true
+# darken_beyond_range = false
+
+##### 3-c       Passive Sightings #####################
+#
+# detected_monster_colour = lightred
+# detected_item_colour = green
+# remembered_monster_colour = darkgrey
+# clean_map = true
+
+##### 3-d       Branding ##############################
+#
+# friend_brand       = hi:green
+# neutral_brand      = hi:lightgrey
+# stab_brand         = hi:blue
+# may_stab_brand     = hi:yellow
+# heap_brand         = reverse
+# feature_item_brand = reverse
+# trap_item_brand    = reverse
+
+##### 3-e       Level Map Functions ###################
+#
+# level_map_cursor_step = 7
+# level_map_title = false
+# show_waypoints = false
+
+##### 3-f       Viewport Options  ###################
+#
+# view_max_width   = 33
+# view_max_height  = 21
+# view_lock_x      = false
+# view_lock_y      = false
+# view_lock        = false
+# center_on_scroll = true
+# symmetric_scroll = false
+# scroll_margin_x  = 2
+# scroll_margin_y  = 2
+# scroll_margin    = 2
+
+##### 3-g       Travel and Exploration #################
+#
+# travel_delay = 20
+# explore_delay = -1
+# travel_avoid_terrain = shallow water
+#
+# explore_greedy   = false
+# explore_stop     = items,stairs,shops,altars,portals,branches
+# explore_stop    += greedy_pickup_smart,greedy_visited_item_stack
+# sacrifice_before_explore = true
+# explore_improved = true
+# explore_wall_bias = 0
+# travel_key_stop = false
+# auto_sacrifice = true
+#
+# explore_stop_pickup_ignore += curare
+# auto_exclude += oklob,statue,curse skull,roxanne,hyperactive,lightning spire
+# auto_exclude += mimic
+
+# tc_reachable      = blue
+# tc_dangerous      = cyan
+# tc_disconnected   = darkgrey
+# tc_excluded       = lightmagenta
+# tc_exclude_circle = red
+
+# Interrupting run and rest compound commands:
+# runrest_ignore_poison  = 2:30
+# runrest_ignore_monster ^= butterfly:1
+# runrest_ignore_monster ^= swamp worm:3
+# runrest_stop_message += You hear a.* slurping noise
+# runrest_ignore_message += Jiyva's power touches on your attributes
+
+# A good number of runrest_messages are defined by default; you may want to
+# clear them or override some.
+
+# trapwalk_safe_hp = dart:20,needle:15,arrow:35,bolt:45,spear:40,blade:95
+
+#rest_wait_both = true
+
+##### 3-h       Command Enhancements ##################
+#
+# auto_list     = false
+# auto_switch   = true
+# easy_open     = false
+# easy_unequip  = false
+# equip_unequip = true
+# easy_confirm  = (none | safe | all)
+# allow_self_target      = (yes | no | prompt)
+# confirm_butcher        = (auto | always | never)
+# prefer_safe_chunks     = false
+# easy_eat_chunks        = true
+# easy_eat_gourmand      = true
+# easy_eat_contaminated  = true
+# auto_eat_chunks        = true
+# auto_drop_chunks       = (never | rotten | yes)
+# prompt_for_swap        = false
+# easy_quit_item_prompts = false
+# easy_exit_menu         = true
+# sort_menus = pickup: true : art, ego, basename, qualname, curse, qty
+# sort_menus = inv: true : equipped, freshness, charged
+
+# autofight_stop = 30
+
+##### 3-i       Messages and Display Enhancements #####
+#
+# hp_warning = 30
+# mp_warning = 0
+# hp_colour = 50:yellow, 25:red
+# mp_colour = 50:yellow, 25:red
+# stat_colour = 1:lightred, 3:red
+
+# status_caption_colour        = yellow
+# mlist_min_height             = 4
+# msg_min_height               = 7
+# msg_max_height               = 10
+# mlist_allow_alternate_layout = true
+# messages_at_top              = true
+# mlist_targetting             = true
+# show_gold_turns              = false
+# show_game_turns              = false
+# show_newturn_mark            = false
+# clear_messages             = true
+# small_more                 = true
+# show_more                  = false
+# show_inventory_weights     = true
+# item_stack_summary_minimum = 5
+# msg_condense_repeats   = false
+# msg_condense_short     = false
+# skill_focus            = false
+# show_travel_trail       = true
+
+##### 3-j       Colours (messages and menus) ##########
+#
+# Food is colour coded by default as follows:
+#
+#   yellow     = preferred food                    ($preferred)
+#   darkgrey   = cannot be eaten at all            ($inedible)
+#   lightred   = causes rot                        ($rot-inducing)
+#   magenta    = dangerous to use, mutagenic       ($dangerous, $mutagenic)
+#   red        = considered "evil" by your deity   ($evil)
+#   lightgreen = poisonous                         ($poisonous)
+#   brown      = contaminated, may cause nausea    ($contaminated)
+#
+# You can change colours by using something like
+# $contaminated := magenta
+
+# You can redefine inventory items like this:
+# menu_colour ^= inventory:magenta:shillelagh
+# or ones in pick-up dialogs:
+# menu_colour ^= pickup:green:god gift
+
+# Colouring of messages
+# Messages are colour coded as follows:
+#
+#   lightred   = really important messages  ($danger)
+#   yellow     = significant messages       ($warning)
+#   lightred   = item damaged/destroyed     ($item_dmg [same as $danger])
+#   darkgrey   = boring, message clutter    ($boring)
+#
+
+# Notes also use, quite misnamed, menu_colour:
+# menu_colour ^= notes:white:Reached XP level
+
+# These lines will suppress extra feedback messages from travel/shift-running.
+#
+# message_colour ^= mute:warning:comes into view
+# message_colour ^= mute:You start (searching|resting)
+# message_colour ^= mute:Done searching
+# message_colour ^= mute:(HP|Magic) restored
+# message_colour ^= mute:warning:Not with.*(in view|monsters around)
+
+# You can also enforce a --more-- prompt for messages
+
+## Avoid wasting turns with aborted actions:
+# force_more_message += There are no visible monsters within range
+# force_more_message += This wand has no charges
+
+##### 3-k       Firing Commands #######################
+#
+# fire_items_start = a
+# fire_order = launcher, return
+# fire_order += javelin / dart / stone / rock / spear / net / handaxe / dagger / club
+# fire_order += inscribed
+
+##### 3-l       Channels ##############################
+#
+# channel.multiturn = mute
+
+##### 3-m       Inscriptions ##########################
+#
+# autoinscribe += bad_item.*potion:!q
+# autoinscribe += potion.*mutation:!q
+# autoinscribe_cursed = false
+# autoinscribe += fruit:!e
+# show_god_gift = yes|unident|no
+
+##### 3-n       Macro related Options #################
+#
+# flush.failure = false
+# flush.command = true
+# flush.message = true
+
+##### 3-o       Tile related Options ##################
+#
+# tile_show_items = !?/%=([)x}:|\
+
+# tile_skip_title = true
+# tile_menu_icons = false
+
+### The following lines define the colours of various objects within the
+### tiles minimap. See options_guide.txt for more details.
+
+# tile_player_col      = white
+# tile_monster_col     = red
+# tile_neutral_col     = red
+# tile_peaceful_col    = lightred
+# tile_friendly_col    = lightred
+# tile_plant_col       = darkgreen
+# tile_item_col        = green
+# tile_unseen_col      = black
+# tile_floor_col       = lightgrey
+# tile_wall_col        = darkgrey
+# tile_mapped_wall_col = blue
+# tile_door_col        = brown
+# tile_downstairs_col  = magenta
+# tile_upstairs_col    = blue
+# tile_feature_col     = cyan
+# tile_trap_col        = yellow
+# tile_water_col       = grey
+# tile_lava_col        = grey
+# tile_excluded_col    = darkcyan
+# tile_excl_centre     = darkblue
+# tile_window_col      = yellow
+
+# If Crawl's response rate is too slow, try increasing the update rate.
+# tile_update_rate      = 1000
+
+# If Crawl is lagging when running or resting, try increasing this number.
+# tile_runrest_rate = 100
+
+# tile_key_repeat_delay = 200
+# tile_tooltip_ms       = 500
+
+# tile_tag_pref = enemy
+
+### Note: setting window, map or font sizes to '0' implies auto-sizing.
+
+# tile_full_screen      = true
+# tile_window_width     = 1024
+# tile_window_height    = 768
+# tile_use_small_layout = true
+# tile_map_pixels       = 3
+# tile_cell_pixels      = 32
+# tile_filter_scaling   = true
+# tile_force_overlay    = true
+# tile_layout_priority  = minimap, inventory, gold_turn, command, spell
+# tile_layout_priority += ability, monster
+
+# tile_font_crt_file  = VeraMono.ttf
+ tile_font_crt_size  = 16
+# tile_font_stat_file = VeraMono.ttf
+ tile_font_stat_size = 16
+# tile_font_msg_file  = VeraMono.ttf
+ tile_font_msg_size  = 15
+# tile_font_tip_file  = VeraMono.ttf
+ tile_font_tip_size  = 15
+# tile_font_lbl_file  = Vera.ttf
+ tile_font_lbl_size  = 14
+# tile_font_ft_light  = false
+
+# tile_show_minihealthbar = false
+# tile_show_minimagicbar  = false
+
+
+##### 4-  Dump File #################################################
+#
+##### 4-a       Saving ################################
+#
+# dump_on_save = false
+
+##### 4-b       Items and Kill List ###################
+#
+# kill_map = friend:you, other:you
+# dump_kill_places = (single | all | none)
+# dump_kill_breakdowns = true
+# dump_item_origins = all,artifacts,ego_arm,ego_weap,jewellery,runes
+# dump_item_origin_price = -1
+# dump_message_count = 20
+# dump_order  = header, hiscore, stats, misc, notes, inventory,
+# dump_order += turns_by_place, skills, spells, overview, mutations,
+# dump_order += messages, screenshot, monlist, kills_by_place, kills
+# dump_order += action_counts
+# dump_book_spells = false
+
+##### 4-c       Notes #################################
+#
+# user_note_prefix=@@@
+# note_hp_percent = 5
+# note_skill_levels = 1,5,10,15,27
+# note_all_skill_levels = true
+# note_skill_max  = false
+# note_xom_effects = false
+# note_chat_messages = false
+# note_items    += rod of, acquirement, preservation, running, of Zot
+# note_monsters += orb of fire, ancient lich, Sigmund
+
+##### 5-  Miscellaneous #############################################
+#
+##### 5-a       All OS ################################
+#
+# mouse_input      = true
+# wiz_mode         = no
+# char_set         = ascii
+# use_fake_player_cursor = false
+#
+# Translation to use (in 0.11, only badly incomplete descriptions; Polish
+# has god messages and a few misc, Greek has sheep).
+# language = pl|fr|zh|ko|fi|ru|el|da|li|pt|de|lv|cs|hu
+#
+# Joke translations (complete!).
+# language = dwarven|jagerkin|kraut|runes|wide
+#
+# colour.lightgray = black
+# colour.lightcyan = cyan
+# colour.yellow    = brown
+#
+# show_player_species = true
+
+# See options_guide.txt for the options
+# cset, feature, mon_glyph, item_glyph
+
+## Highlight the edge of unexplored terrain.
+# feature = explore horizon {',,green}
+
+##### 5-b   Windows console #######################
+#
+# dos_use_background_intensity = true
+# background = black
+
+##### 5-c   Unix console ##########################
+#
+# use_fake_cursor = false
+
+##### 5-d   Alternative keybinding files ##########
+#
+# Alternative vi bindings for Dvorak users.
+# include = dvorak_command_keys.txt
+#
+# Override the vi movement keys with a non-command.
+# include = no_vi_command_keys.txt

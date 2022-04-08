@@ -1,0 +1,87 @@
+# Changing colours of items in the inventory and other menus
+
+menu := menu_colour
+ae   := autopickup_exceptions
+
+# Items currently not affecting you.
+menu += darkgrey:(melded)
+
+# Bad items
+menu += lightred:.*bad_item.*
+
+# Useless items, comes here to override artefacts etc.
+menu += darkgrey:.*useless_item.*
+
+: if you.race() == "Spriggan" then
+menu += darkgrey:.*jewellery.*(sustenance)
+ae   += >ring.*(sustenance)
+:end
+
+# Items disliked by your god.
+menu += $forbidden:.*forbidden.*
+
+# Handle cursed and equipped items early to override other colour settings.
+menu += lightred:.*equipped.* cursed
+menu += red: (a|the) cursed
+menu += inventory:lightgreen:.*equipped.*
+
+menu += lightred:.*무장중.*저주받은
+menu += red:저주받은
+menu += inventory:lightgreen:.*장비중.*
+# Important game items
+#
+menu += lightmagenta:.*misc.*rune( of Zot)?
+menu += lightmagenta:.*orb.*Zot
+
+# Artefacts
+#
+menu += white:.*artefact.*
+
+#menu += white:.*identified.*artefact.*
+#menu += lightblue:.*unidentified.*artefact.*
+
+# Ego items
+#
+menu += lightblue:(^identified armour.* pair of .* of )
+menu += lightgrey:(^identified armour.* pair of )
+menu += lightblue:(^identified (weapon|armour).* of )
+menu += lightblue:(^identified weapon.* vampiric .*)
+menu += lightblue:(^identified weapon.* anti-magic .*)
+
+menu += lightblue:(^identified armour.*한 쌍의 .*의 )
+menu += lightgrey:(^identified armour.*한 쌍의 )
+menu += lightblue:(^identified (weapon|armour).*의 )
+menu += lightblue:(^identified weapon.*흡혈의 .*)
+menu += lightblue:(^identified weapon.*항마의 .*)
+
+# Possible egos
+menu += lightblue:^unidentified .*weapon.*(runed|glowing)
+menu += lightblue:^unidentified .*armour.*(runed|glowing|embroidered|shiny|dyed)
+
+menu += lightblue:^unidentified .*weapon.*(룬이 새겨진|반짝이는)
+menu += lightblue:^unidentified .*armour.*(룬이 새겨진|반짝이는|수놓아진|빛나는|염색된)
+
+# Emergency items
+menu += yellow:.*emergency_item.*
+
+# Good items
+menu += cyan:.*good_item.*
+menu += cyan:.*misc.*[lL]antern
+
+# Dangerous (but still useful) items
+menu += $dangerous:.*dangerous_item.*
+
+# Defaults for normal items
+menu += lightgrey:tried on uncursed
+menu += green:uncursed
+menu += green:(?<!tried on )저주받지 않은
+
+# Colouring of autoinscribed god gifts
+menu_colour += pickup:green:god gift
+
+# Highlight (partly) selected items
+menu_colour += inventory:white:\w \+\s
+menu_colour += inventory:white:\w \#\s
+
+# Not really menu.
+menu_colour += notes:white:Reached XP level

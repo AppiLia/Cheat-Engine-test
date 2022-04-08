@@ -1,0 +1,1789 @@
+######################################################
+# Randart Names
+# -------------
+# rand_wpn.txt: keywords for randart WEAPONS
+#
+# This file contains the lists of keywords (and their
+# weights) for most of the keywords used for randart
+# weapons. You will find other ones in rand_all.txt.
+# See the explanation in the main file, randname.txt,
+# for more details.
+######################################################
+%%%%
+_power_or_anger_
+
+@_power_name_@
+
+w:7
+@_conflict_name_@
+
+w:7
+@_anger_name_@
+%%%%
+_power_name_
+
+힘
+
+활력
+
+불가사의한 힘_SUFFIX_
+
+무적
+
+영광
+
+완수
+
+승리
+
+지배
+
+정복
+
+완수
+
+위협
+
+장엄함
+
+정통
+
+우월
+
+웅대
+%%%%
+_conflict_name_
+
+충돌
+
+긴장
+
+불협화음
+
+분할
+
+의심
+
+내면의 증오_SUFFIX_
+
+논쟁
+
+언쟁
+
+불만
+%%%%
+_anger_name_
+
+화
+
+분노
+
+정당한 진노_SUFFIX_
+
+정당한 분노_SUFFIX_
+
+진노
+
+복수
+
+처절한 복수_SUFFIX_
+
+앙갚음
+
+증오
+
+분개
+
+격노
+
+경멸
+%%%%
+_battle_or_war_
+
+전투
+
+성전
+
+전쟁
+
+영원한 전쟁_SUFFIX_
+
+길이 남을 영웅_SUFFIX_
+
+맹공
+
+각개전투
+
+끝없는 행진_SUFFIX_
+
+약탈
+
+유린
+
+# Lemuel's Suggestions
+영웅
+
+파멸한 영웅_SUFFIX_
+
+# akrasiac patch
+왕가의 승리_SUFFIX_
+
+#killing
+폭력의 충동_SUFFIX_
+
+살인 도착자_SUFFIX_
+
+마음의 상처_SUFFIX_
+
+혈류
+
+공포
+
+대학살
+
+# was Pain, clashing with the brand
+행복 결핍_SUFFIX_
+
+고통
+
+트라우마
+
+# Lemuel's suggestion
+베고 찌르기_SUFFIX_
+
+# related to cutting
+절개
+
+단절
+
+멍청함
+
+외과 수술_SUFFIX_
+
+찢어진 상처_SUFFIX_
+
+#collateral effects
+상복
+
+죽음의 아가리_SUFFIX_
+
+묘지_SUFFIX_
+%%%%
+# used from C++'s side
+death_or_doom
+
+# death
+죽음
+
+혈류
+
+참살
+
+고통
+
+급사
+
+죽음의 임박_SUFFIX_
+
+급작스런 죽음_SUFFIX_
+
+서서히 찾아오는 죽음_SUFFIX_
+
+확실한 죽음_SUFFIX_
+
+죽음의 노크_SUFFIX_
+
+죽음과 고통_SUFFIX_
+
+무한한 업벌_SUFFIX_
+
+영원한 통고_SUFFIX_
+
+# doom
+파멸
+
+파멸_SUFFIX_
+
+무자비
+
+연약한 자비_SUFFIX_
+
+묵시록
+
+아포칼립스_SUFFIX_
+
+어릿광대
+
+어릿광대_SUFFIX_
+
+위기
+
+절대 절명_SUFFIX_
+
+처형
+
+엑시큐서너_SUFFIX_
+
+파괴
+
+할복
+
+해부
+
+신체 해부_SUFFIX_
+
+근절
+
+# pain and misery
+끝없는 고통_SUFFIX_
+
+한 없이 이어지는 고문_SUFFIX_
+
+절단_SUFFIX_
+
+공포
+
+비참함
+
+비통
+
+극심한 고통_SUFFIX_
+
+정교한 고문_SUFFIX_
+
+괴로움
+%%%%
+_strategy_or_justice_
+
+w:2
+@_strategy_name_@
+
+w:4
+@_valour_name_@
+
+w:3
+@_justice_name_@
+%%%%
+_strategy_name_
+
+#strategy
+방어
+
+공방전
+
+공격에 의한 방어_SUFFIX_
+
+공격
+
+지원군
+
+공리
+
+공리주의자_SUFFIX_
+
+최선
+
+넘치는 힘_SUFFIX_
+
+완벽한 작전_SUFFIX_
+
+속임수
+%%%%
+_valour_name_
+
+명예
+
+보전
+
+책임
+
+시중성
+
+의무
+
+여자이름
+
+신중함
+
+주는
+
+지략
+
+동작
+
+목적
+
+꿋꿋함
+
+도전
+
+용기
+
+영원한 각성_SUFFIX_
+
+용맹
+
+끈기
+
+영원의 모래_SUFFIX_
+
+불굴
+
+양심
+%%%%
+_justice_name_
+
+부드러운 자비_SUFFIX_
+
+잔혹한 정의실현_SUFFIX_
+
+처벌
+
+무결
+
+범죄
+
+범죄
+
+면제
+
+구원
+
+거짓 고발_SUFFIX_
+
+불법 감금_SUFFIX_
+
+체형
+
+사형
+
+용서
+
+심판의 가책_SUFFIX_
+
+눈먼 정의_SUFFIX_
+%%%%
+_diviner_name_
+
+점쟁이
+
+풍수사
+
+예언자
+
+주시자
+
+관찰자
+
+투시
+
+포츈텔러_SUFFIX_
+
+시빌_SUFFIX_
+
+감시자
+%%%%
+_people_name_
+
+왕
+
+대왕
+
+군주
+
+여왕
+
+공주님
+
+제스터
+
+광대
+
+바보
+
+고대인
+
+고대 군주
+
+구세주
+
+전도사
+
+전달사
+
+천재
+
+겁쟁이
+
+철학자
+
+영웅
+
+성직자
+
+적군
+
+반역자
+
+미치광이
+
+걸인
+
+w:25
+@_diviner_name_@
+%%%%
+_weapon_animal_
+
+# insects
+쥐며느리
+
+사마귀
+
+나비
+
+말벌
+
+나방
+
+모기
+
+각다귀
+
+파리
+
+똥파리
+
+# arachnids
+거미
+
+전갈
+
+# amphibians and reptiles
+Rattle-Snake
+
+Viper
+
+Asp
+
+# fish
+상어
+
+백상아리
+
+칠성장어
+
+연어
+
+# birds
+펭귄
+
+바다오리
+
+기러기
+
+괭이갈매기
+
+갈매기
+
+올빼미
+
+황새
+
+독수리
+
+# mammals
+족제비
+
+염소
+
+돌고래
+
+범고래
+
+당나귀
+
+두더지
+
+곰
+
+여우
+
+쥐
+
+멧돼지
+
+w:5
+담비
+
+사자
+
+호랑이
+
+늑대
+%%%%
+# plants and fungi
+_plant_name_
+
+#plants
+가지
+
+계란이 열리는 나무_SUFFIX_
+
+순무
+
+병아리콩
+
+상추
+
+무우
+
+사탕수수
+
+샬롯
+
+토마토
+
+# er...aren't whelks gastropods?
+뾰루지
+
+#fungus and similar
+버섯
+
+도깨비버섯
+
+기생버섯
+
+슬라임
+%%%%
+# undead and evil beings
+_evil_stuff_
+
+끝없는 저주_SUFFIX_
+
+지옥의 진노_SUFFIX_
+
+망자
+
+고대의 사악함_SUFFIX_
+
+사악
+
+짐승
+
+공포의 비명_SUFFIX_
+
+은둔자
+
+기어가는 괴물_SUFFIX_
+
+괴물
+
+혐오
+
+불구자
+
+기형아
+
+감염
+
+타락
+
+악마혈족
+
+부정
+
+죽음
+
+더럽힘
+
+사악한 눈_SUFFIX_
+
+유령
+
+망자의 사회_SUFFIX_
+
+악몽
+
+도착
+
+부패
+
+죽음의 사신_SUFFIX_
+
+망령
+
+언데드
+
+부를 수 없는 누군가_SUFFIX_
+
+레이스
+%%%%
+# catastrophes etc.
+_catastrophe_name_
+
+인페르노
+
+불지옥
+
+지진
+
+대홍수
+
+가뭄
+
+홍수
+
+멸망
+
+# the Apocalypse
+the Apocalypse
+
+묵시록
+
+선악의 종결전_SUFFIX_
+
+아마게돈_SUFFIX_
+
+아포칼립스_SUFFIX_
+
+세계의 종말_SUFFIX_
+
+신들의 전쟁_SUFFIX_
+
+라그나로크_SUFFIX_
+
+# the Apocalyptic Riders (except Death)
+질병
+
+재앙
+
+병균
+
+기근
+%%%%
+_chaos_name_
+
+혼란
+
+카오스_SUFFIX_
+
+기회
+
+신체 상해_SUFFIX_
+
+대파괴
+
+소란
+
+재난
+
+주재
+
+극한
+
+무질서
+
+자연재해
+
+자연 재해_SUFFIX_
+
+불균형
+
+부조화
+
+불일치
+
+모호
+
+애매모호_SUFFIX_
+
+변화
+
+극단주의
+
+극단주의_SUFFIX_
+
+변함없는 편성_SUFFIX_
+
+모순
+
+혼란
+
+분해
+
+해산
+
+기분전환
+
+강제전환
+
+프레이
+
+반란
+
+격동
+
+융기
+%%%%
+_balance_or_order_
+
+중동
+
+중간값
+
+출발
+
+첫단추
+
+도착
+
+오르막길
+
+내리막길
+
+하강
+
+상승
+
+대칭
+
+데칼 코마니_SUFFIX_
+
+신체의 균형_SUFFIX_
+
+절제
+
+영원한 조화_SUFFIX_
+
+평화
+
+등가
+
+균형
+
+조화
+
+전체적인 조화_SUFFIX_
+
+불가촉천민
+
+천민
+
+비천
+
+오탁
+
+깨지기 쉬운 평화_SUFFIX_
+
+순환성
+
+선형성
+
+질서
+
+법률
+
+명령
+
+순서
+%%%%
+_economics_or_politics_
+
+# economics
+인플레이션
+
+디플레이션
+
+공급
+
+수요
+
+무효 선언_SUFFIX_
+
+짐승의 영혼_SUFFIX_
+
+파산
+
+공모
+
+복리
+
+통화
+
+빚
+
+배당
+
+교환
+
+성장
+
+수입
+
+사치
+
+이익
+
+위험 관리_SUFFIX_
+
+과세
+
+귀중한 자산_SUFFIX_
+
+복지
+
+# politics
+임페리움_SUFFIX_
+
+위대한 도구의 발견_SUFFIX_
+
+혁명
+
+내던짐
+
+평범
+
+난쟁이
+
+부자
+
+가난
+
+재분배
+
+견제와 균형_SUFFIX_
+
+공평한 분배_SUFFIX_
+
+보수주의
+
+다크호스
+
+선동 정치가_SUFFIX_
+
+통치
+
+레임덕
+
+레서 이블_SUFFIX_
+
+인기있는_NOPOS_
+
+근본으로부터의 생각_SUFFIX_
+
+로얄리즘_SUFFIX_
+
+말 없는 다수_SUFFIX_
+
+# akrasiac patch
+탄핵
+
+# umm, quoi?
+자유의 보장_SUFFIX_
+
+불명예
+
+지불
+
+위반
+
+기본 위반_SUFFIX_
+
+종료
+
+처단
+
+격리
+%%%%
+_place_name_
+
+세계
+
+바다
+
+숲
+
+나무
+
+화산
+
+적도
+
+미지의 대륙_SUFFIX_
+
+신세계
+
+머나먼 천체_SUFFIX_
+
+천문
+
+보이지 않는 자연_SUFFIX_
+
+머나먼 이세계_SUFFIX_
+
+분야
+
+근접
+
+황야
+
+광야
+
+구덩이
+
+미로
+
+영원한 공허_SUFFIX_
+
+저 너머
+
+축복받은 대지_SUFFIX_
+
+사막
+
+먼 해안
+
+비밀의 계곡_SUFFIX_
+
+힐즈_SUFFIX_
+
+알려져 있던 세계_SUFFIX_
+
+풍요의 땅_SUFFIX_
+
+반면
+
+미지의 세계로의 여행_SUFFIX_
+
+이세계
+
+해안가
+
+툰드라
+
+계곡
+
+죽음의 계곡_SUFFIX_
+
+황무지
+%%%%
+_discomfort_weapon_
+
+오해
+
+불쾌
+
+혐오
+
+싫어함
+
+좌절
+
+억울함
+
+놀람
+
+정말
+
+부끄러움
+
+당황
+
+성가심
+
+걱정
+
+긴급
+
+어색함
+
+쓰기 불편한_NOPOS_
+
+냄새나는_NOPOS_
+
+빛바랜 처형_SUFFIX_
+
+어두운_NOPOS_
+
+어설픈_NOPOS_
+
+짜증
+
+비규명
+
+끈적끈적한_NOPOS_
+
+불편한 발진_SUFFIX_
+%%%%
+_mental_illness_weapon_
+
+w:70
+@phobia_name@ 공포증_SUFFIX_
+
+@phobia_name_eng@포비아_SUFFIX_
+
+정신병
+
+신경증
+
+정치
+
+두통
+
+과대 망상_SUFFIX_
+
+병적 자기중심_SUFFIX_
+
+정리벽
+
+결벽증
+
+망상
+
+강박
+
+피로
+%%%%
+phobia_name
+
+w:50
+고소
+
+w:50
+폐쇄
+
+w:40
+악마
+
+숫자
+
+남자
+
+심해
+
+선단
+
+구토
+
+암흑
+
+고양이
+
+마늘
+
+땅콩
+
+실패
+
+식물
+
+번개
+
+유리
+
+성교
+
+군중
+
+고독
+
+대인
+
+대화
+
+백색
+
+버섯
+
+망자
+
+신
+
+뱀
+
+악취
+
+질병
+
+배고픔
+
+철학
+
+개구리
+
+진흙
+
+어둠
+
+바닷물
+
+변화
+
+마녀
+
+질투
+
+황색
+%%%%
+phobia_name_eng
+
+네크로
+
+데모노
+
+제노
+
+호모
+
+하이드로
+%%%%
+_philosophy_or_science_
+
+@_philosophy_name_@
+
+@_science_name_@
+%%%%
+_philosophy_name_
+
+일신교
+
+헤노테이즘_SUFFIX_
+
+신이
+
+무신론
+
+오토테이즘_SUFFIX_
+
+만유신론
+
+파넨테이즘_SUFFIX_
+
+불가지론
+
+실존주의
+
+상대주의
+
+전제주의
+
+금주
+
+쾌락주의
+
+정설
+
+이교
+
+표현의 자유_SUFFIX_
+
+에고
+
+낙천주의
+
+염세주의
+
+세렌디피티
+
+한정
+
+경솔주의
+
+허무주의
+
+프래그머티즘_SUFFIX_
+
+이상주의
+
+액티비즘_SUFFIX_
+
+이타주의
+
+무정부주의
+
+도그마_SUFFIX_
+
+안티 도그마_SUFFIX_
+
+평등주의
+
+엘리트주의
+
+윤리
+
+오류
+
+광신도
+
+자유의지
+
+자유
+
+도덕
+
+비밀
+
+순리성
+%%%%
+_science_name_
+
+이유
+
+알수 없는 이유_SUFFIX_
+
+계산
+
+본능
+
+직권
+
+순환적 계산체계_SUFFIX_
+
+문맥
+
+관절
+
+마음
+
+연결체
+
+시작
+
+끝
+
+분석
+
+무한대
+
+퀀텀 리프_SUFFIX_
+
+중력
+
+무중력
+
+회전
+
+빅뱅
+
+끓는점
+
+분류
+
+진화
+
+실험
+
+초점
+
+추론
+
+문의
+
+객관성
+
+주관
+
+다양성
+
+패턴
+
+이론
+%%%%
+_item_name_
+
+# items
+오브
+
+날달걀
+
+마술 구체
+
+촛불
+
+촛대
+
+열쇠
+
+원환
+
+사슬
+
+동전
+
+찻잔
+
+깃털
+
+여자 속옷_SUFFIX_
+
+쇠뿔
+
+기둥
+
+지갑
+
+두루마리
+
+나룻배
+
+텐트
+
+꽃병
+
+덩굴
+
+포도 덩굴_SUFFIX_
+
+호두
+
+바퀴
+
+요크_SUFFIX_
+
+# body parts
+심장
+
+뇌
+
+이빨
+
+발바닥
+
+손바닥
+
+머리
+
+입술
+
+목구멍
+
+신장
+
+콩팥
+%%%%
+_magic_name_
+
+마법사
+
+아크메이지
+
+궁수마법사
+
+마검사
+
+사제
+
+현자
+%%%%
+# substances
+_substance_name_
+
+맛있는 빵_SUFFIX_
+
+유황지대
+
+수정의 상
+
+혈석
+
+흘러나오는 고름_SUFFIX_
+
+잿더미
+
+슬라임의 분열_SUFFIX_
+
+담즙
+
+몸개그
+
+거미줄
+
+치즈
+
+메마른 눈물_SUFFIX_
+
+똥
+
+연고
+
+종이
+
+쓰레기
+
+소금
+
+초석
+
+샤크스킨_SUFFIX_
+
+테라코타
+
+# these don't really fit
+마나
+
+이스트
+
+포자의 확산
+
+먼지투성이
+%%%%
+# non-groupables
+other_weapon_name
+
+종말점
+
+크롤링
+
+전환
+
+규칙
+
+향응
+
+자연 발화_SUFFIX_
+
+레스-눌리어스_SUFFIX_
+
+테라-눌리어스_SUFFIX_
+
+사막화
+
+방적돌기
+
+그론톨
+
+두 이름
+
+무간격
+
+상호 의견_SUFFIX_
+
+멀어버린 눈_SUFFIX_
+
+브리니 딥_SUFFIX_
+
+불운
+
+기업가정신
+
+벤데타_SUFFIX_
+
+빈 페이지_SUFFIX_
+
+마지막 장_SUFFIX_
+
+먹고 살기 힘든_NOPOS_
+
+레드 와인_SUFFIX_
+
+아무 것도 안 하는_NOPOS_
+
+# akrasiac patch
+참을수 없는 웃음
+%%%%
+# single word monster names, to allow for combinations like <Monster>slayer
+short_monster_name_
+
+용
+
+히드라
+
+오우거
+
+거미
+
+뉴트
+
+거인
+
+딱정벌레
+
+젤리
+
+w:1
+테스터
+
+w:1
+해적
+
+짐승
+
+악마
+
+고블린
+%%%%
+_monster_name_
+
+@short_monster_name_@
+
+@player_species@
+
+킬러비
+
+살인 피에로
+
+오브 수호자
+%%%%
+_short_killer_name_
+
+천적
+
+살육자
+%%%%
+# used from the C++ side
+killer_name
+
+의 천적
+
+의 죽음
+
+의 파멸
+
+의 적대
+
+의 후회
+
+의 저주
+
+의 위협
+%%%%
+_long_killer_name_
+
+의 떼죽음
+
+의 장례
+
+의 악몽
+
+의 나태함
+
+의 소멸
+
+w:1
+의 무시무시함
+%%%%
+_real_weapon_name_
+
+그림투스_SUFFIX_
+
+오우거투스_SUFFIX_
+
+테일핑_SUFFIX_
+
+미스틸테인_SUFFIX_
+
+과부제조기_SUFFIX_
+
+생명의 파멸_SUFFIX_
+
+시중꾼
+
+추방자
+
+고문기술자
+
+우유부단
+
+불평 불만_SUFFIX_
+
+석관
+
+조화
+
+용의 혀_SUFFIX_
+
+집정관
+
+중재자
+
+임종시의 천식_SUFFIX_
+
+아르카나
+
+영혼의 윤회_SUFFIX_
+
+최후의 통첩_SUFFIX_
+
+지렁이
+
+버러지
+
+버러지의 역습_SUFFIX_
+
+레위기
+
+뼈다귀
+
+도살자
+
+학살
+
+불타는 시체_SUFFIX_
+
+시체의 보존_SUFFIX_
+
+트로그의 @anger_name@_SUFFIX_
+
+지옥의 불길_SUFFIX_
+
+지옥의 땅고르기_SUFFIX_
+
+말해지지 않은 비밀_SUFFIX_
+
+유한한 책임
+
+하잠
+
+보호와 구속_SUFFIX_
+
+진공
+
+수세미
+
+바다거북이
+
+육지거북이
+
+독수리의 눈_SUFFIX_
+
+지옥써레
+
+# Sigmund's sword
+그램
+%%%%
+_joke_weapon_name_
+
+w:30
+좀의 @xom_esteem@_SUFFIX_
+
+비밀 병기_SUFFIX_
+
+두 얼굴의 사나이_SUFFIX_
+
+그냥 무기_SUFFIX_
+
+이쑤시개_SUFFIX_
+
+송곳_SUFFIX_
+
+우로보로스_SUFFIX_
+
+죽음의 진흙 만두_SUFFIX_
+
+의적
+
+바베큐_SUFFIX_
+
+교수형
+
+처형
+
+할아버지
+
+머리카락
+
+강낭콩
+
+길로틴_SUFFIX_
+
+브로브
+
+하모니카
+
+소인배
+
+바늘두더지
+
+그로브루스
+
+그로보루스_SUFFIX_
+
+헐크
+
+영혼
+
+쭈글쭈글 할망구_SUFFIX_
+
+성월야
+
+거인의 이쑤시개_SUFFIX_
+
+아첨꾼
+
+아첨꾼_SUFFIX_
+
+일당백
+
+그램
+
+그롬
+
+그룸
+
+그림자
+
+뒤적거리는 자_SUFFIX_
+
+오믈렛_SUFFIX_
+
+우와! 정말 맛있는 빵_SUFFIX_
+
+미숙한 자_SUFFIX_
+
+가지
+
+Z_SUFFIX_
+
+X_SUFFIX_
+
+Q_SUFFIX_
+
+황소
+
+임종시의 천식_SUFFIX_
+
+고기
+
+고기_SUFFIX_
+
+매춘녀
+
+뇌물
+
+완벽한 정답_SUFFIX_
+
+수다쟁이
+
+물고기
+
+뻥_SUFFIX_
+
+빙고_SUFFIX_
+
+# from the crawl.akrasiac.org patch
+케이크 식칼_SUFFIX_
+
+에투안 셔들루_SUFFIX_
+
+로렘 입숨_SUFFIX_
+%%%%
+_plain_weapon_name_
+
+w:9
+@short_monster_name_@@_short_killer_name_@_SUFFIX_
+
+w:6
+@_monster_name_@@killer_name@_SUFFIX_
+
+w:4
+@short_monster_name_@@_long_killer_name_@_SUFFIX_
+
+w:3
+@player_death@
+
+w:18
+@_real_weapon_name_@
+
+w:12
+@_joke_weapon_name_@
+%%%%

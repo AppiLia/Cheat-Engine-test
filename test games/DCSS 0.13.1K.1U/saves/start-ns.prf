@@ -1,0 +1,6 @@
+type = normal
+name = DCSS
+species = Human
+background = Fighter
+weapon = falchion
+fully_random = no

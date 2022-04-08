@@ -1,0 +1,6 @@
+# Dungeon Crawl Stone Soup 0.13.1-289-g25fb14a macro file
+# WARNING: This file is entirely auto-generated.
+
+# Key Mappings:
+# Command Macros:
+

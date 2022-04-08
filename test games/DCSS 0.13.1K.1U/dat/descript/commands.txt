@@ -1,0 +1,358 @@
+﻿%%%%
+dummy_cmd
+
+dummy_cmd
+%%%%
+CMD_REST
+
+휴식
+%%%%
+CMD_REST verbose
+
+Spend up to 100 turns for regenerating health and/or recharging magic. Resting
+is interrupted as soon as a hostile monster comes into view.
+%%%%
+CMD_EXPLORE
+
+자동 탐색
+%%%%
+CMD_EXPLORE verbose
+
+Lets your character travel on autopilot towards unexplored areas of the current
+level and collect items subject to autopickup on the way. Travel stops as soon
+as a hostile monster comes into view, and also to announce items or features
+found.
+%%%%
+CMD_INTERLEVEL_TRAVEL
+
+자동 이동
+%%%%
+CMD_INTERLEVEL_TRAVEL verbose
+
+Autotravel to distant levels. Travel is interrupted by monsters coming into
+view.
+%%%%
+CMD_USE_ABILITY
+
+신의 권능 혹은 특수능력 발동
+%%%%
+CMD_PRAY
+
+신에게 기도
+%%%%
+CMD_PRAY verbose
+
+If your god likes sacrifices, this will offer a corpse or other item. Also, if
+you're standing on an altar this allows you to join the corresponding god. For
+some gods, praying also has other special effects.
+%%%%
+CMD_SEARCH_STASHES
+
+아이템,특이지점 검색
+%%%%
+CMD_SEARCH_STASHES verbose
+
+다른 곳에서 보았던 아이템 혹은 특이지점이 있는 곳 까지 자동으로 이동한다.
+%%%%
+CMD_REPLAY_MESSAGES
+
+과거 메세지 기록 확인
+%%%%
+CMD_RESISTS_SCREEN
+
+캐릭터 정보
+%%%%
+CMD_RESISTS_SCREEN verbose
+
+캐릭터의 저항력, 특수 능력, 장비 등의 정보를 열람한다.
+%%%%
+CMD_DISPLAY_OVERMAP
+
+던전 정보
+%%%%
+CMD_DISPLAY_OVERMAP verbose
+
+Displays location of branch entries, shops and other features you've
+encountered so far.
+%%%%
+CMD_DISPLAY_RELIGION
+
+신앙 정보
+%%%%
+CMD_DISPLAY_RELIGION verbose
+
+Displays your god's likes and dislikes, conduct, and your current religious
+standing and divine abilities.
+%%%%
+CMD_DISPLAY_MUTATIONS
+
+변이 정보 확인
+%%%%
+CMD_DISPLAY_SKILLS
+
+특수 능력 관리
+%%%%
+CMD_DISPLAY_CHARACTER_STATUS
+
+캐릭터 스테이터스 정보
+%%%%
+CMD_DISPLAY_CHARACTER_STATUS verbose
+
+발동된 주술과, 기타 사항을 확인한다.
+%%%%
+CMD_DISPLAY_KNOWN_OBJECTS
+
+발견된 아이템 목록
+%%%%
+CMD_SAVE_GAME_NOW
+
+저장 후 종료
+%%%%
+CMD_SAVE_GAME_NOW verbose
+
+Saves the game for later and exits. Once you resume the game, the save file is
+deleted again.
+%%%%
+CMD_EDIT_PLAYER_TILE
+
+아바타 변경
+%%%%
+CMD_EDIT_PLAYER_TILE verbose
+
+현재 표시되는 플레이어 아바타를 변경한다. (외모, 장비 등등)
+%%%%
+CMD_DISPLAY_COMMANDS
+
+게임 도움말
+%%%%
+CMD_DISPLAY_COMMANDS verbose
+
+명령어 리스트와 옵션, 기타 등등을 열람한다.
+%%%%
+CMD_CHARACTER_DUMP
+
+캐릭터 덤프 파일 생성
+%%%%
+CMD_CHARACTER_DUMP verbose
+
+Dump a huge amount of information about your character into a file
+'playername.txt' in the morgue directory, to peruse at your leasure. This
+includes main stats, equipment, spells, skills, notes, etc.
+%%%%
+CMD_AUTOFIGHT
+
+가장 가까운 몬스터 공격
+%%%%
+CMD_AUTOFIGHT verbose
+
+Move towards the closest hostile monster and attack it with your wielded
+weapon.
+%%%%
+CMD_AUTOFIGHT_NOMOVE
+
+인접 몬스터 공격
+%%%%
+CMD_AUTOFIGHT_NOMOVE verbose
+
+근처에 있는 몬스터를, 현재 장비하고 있는 무기로 공격한다.
+%%%%
+CMD_WAIT
+
+1턴간 대기
+%%%%
+CMD_WAIT verbose
+
+Spend a single turn waiting and resting.
+%%%%
+CMD_DISPLAY_INVENTORY
+
+Display the contents of your inventory
+%%%%
+CMD_DISPLAY_INVENTORY verbose
+
+Display the contents of your inventory.
+%%%%
+CMD_CAST_SPELL
+
+Cast a spell
+%%%%
+CMD_CAST_SPELL verbose
+
+Cast a spell.
+%%%%
+CMD_BUTCHER
+
+Butcher corpse
+%%%%
+CMD_BUTCHER verbose
+
+Butcher a corpse into chunks.
+%%%%
+CMD_MEMORISE_SPELL
+
+Memorise spell
+%%%%
+CMD_MEMORISE_SPELL verbose
+
+Commit a spell to memory, read from a book you are holding or standing on.
+%%%%
+CMD_DROP
+
+Drop items
+%%%%
+CMD_DROP verbose
+
+Drop one or more items that you are currently holding.
+%%%%
+CMD_DISPLAY_MAP
+
+Enter map mode
+%%%%
+CMD_DISPLAY_MAP verbose
+
+Navigate around the previously explored map.
+%%%%
+CMD_MAP_GOTO_TARGET
+
+Travel to cursor
+%%%%
+CMD_MAP_GOTO_TARGET verbose
+
+Start travelling to the cursor's current location.
+%%%%
+CMD_MAP_ADD_WAYPOINT
+
+Add waypoint
+%%%%
+CMD_MAP_ADD_WAYPOINT verbose
+
+Set waypoint to the current position.
+%%%%
+CMD_MAP_EXCLUDE_AREA
+
+Travel exclusion
+%%%%
+CMD_MAP_EXCLUDE_AREA verbose
+
+Create a travel exclusion, change its radius, or remove it.
+%%%%
+CMD_MAP_CLEAR_EXCLUDES
+
+Clear travel exclusions
+%%%%
+CMD_MAP_CLEAR_EXCLUDES verbose
+
+Erase all travel exclusions on the level.
+%%%%
+CMD_MAP_NEXT_LEVEL
+
+Down one level
+%%%%
+CMD_MAP_NEXT_LEVEL verbose
+
+Examine the next deeper level.
+%%%%
+CMD_MAP_PREV_LEVEL
+
+Up one level
+%%%%
+CMD_MAP_PREV_LEVEL verbose
+
+Examine the next higher level.
+%%%%
+CMD_MAP_GOTO_LEVEL
+
+Go to level
+%%%%
+CMD_MAP_GOTO_LEVEL verbose
+
+Go to another level by branch and depth.
+%%%%
+CMD_MAP_FIND_UPSTAIR
+
+Find stairs up
+%%%%
+CMD_MAP_FIND_UPSTAIR verbose
+
+Cycle through stairs up.
+%%%%
+CMD_MAP_FIND_DOWNSTAIR
+
+Find stairs down
+%%%%
+CMD_MAP_FIND_DOWNSTAIR verbose
+
+Cycle through stairs down.
+%%%%
+CMD_MAP_FIND_YOU
+
+Find me
+%%%%
+CMD_MAP_FIND_YOU verbose
+
+Move the map cursor back to your current position.
+%%%%
+CMD_MAP_FIND_PORTAL
+
+Find shops and portals
+%%%%
+CMD_MAP_FIND_PORTAL verbose
+
+Cycle through shops and portals on the current level.
+%%%%
+CMD_MAP_FIND_TRAP
+
+Find traps
+%%%%
+CMD_MAP_FIND_TRAP verbose
+
+Cycle through traps on the current level.
+%%%%
+CMD_MAP_FIND_ALTAR
+
+Find altars
+%%%%
+CMD_MAP_FIND_ALTAR verbose
+
+Cycle through altars on the current level.
+%%%%
+CMD_MAP_FIND_EXCLUDED
+
+Find travel exclusion
+%%%%
+CMD_MAP_FIND_EXCLUDED verbose
+
+Cycle through travel exclusions on the current level.
+%%%%
+CMD_MAP_FIND_WAYPOINT
+
+Find waypoint
+%%%%
+CMD_MAP_FIND_WAYPOINT verbose
+
+Cycle through all waypoints on the current level.
+%%%%
+CMD_MAP_FIND_STASH
+
+Find stash
+%%%%
+CMD_MAP_FIND_STASH verbose
+
+Cycle through all stashes on the current level.
+%%%%
+CMD_ZOOM_IN
+
+Zoom in
+%%%%
+CMD_ZOOM_IN verbose
+
+Zoom in on dungeon area
+%%%%
+CMD_ZOOM_OUT
+
+Zoom out
+%%%%
+CMD_ZOOM_OUT verbose
+
+Zoom out on dungeon area
+%%%%

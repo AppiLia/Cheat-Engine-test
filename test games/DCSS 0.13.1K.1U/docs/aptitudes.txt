@@ -1,0 +1,174 @@
+TABLES OF APTITUDES
+
+The following three tables describe all aptitudes of the various species
+for the various skills. These are not necessary for winning in Crawl,
+neither explicit nor implicit. The qualitative information behind this
+sheet (i.e., which species is good at which tasks) can be obtained in
+two other, less sophisticated ways:
+- Read the species section in the manual about strengths and weaknesses.
+- Look at which combinations of species and background are recommended
+  (lightgrey).
+
+If you consider figuring out such things yourself to be fun, stop
+reading now. Otherwise, just go ahead.
+
+ -5  abysmal aptitude
+ -4  terrible aptitude (learning half as fast as at 0 aptitude)
+ -3  very poor aptitude
+ -2  poor aptitude
+ -1  slightly disfavoured aptitude
+  0  standard aptitude
+ +1  slightly favoured aptitude
+ +2  strong aptitude
+ +3  very strong aptitude
+ +4  outstanding aptitude (learning twice as fast as at 0 aptitude)
+ +5  exceptional aptitude
+
+Please note that many things affect how quickly a character will
+actually learn a skill. Thus, the numbers below are good enough for
+comparisons among species, but not necessarily among skills.
+
+There are three special values: HP, MP and Experience:
+- The HP and MP values indicate the percentages of hit points and magic
+  points that are gained per level. 0 is the Human standard, -1 is 10%
+  fewer points, +1 is 10% more points, etc.
+- The Experience value indicates how much experience has to be earned in
+  order to gain a new level. +1 is the Human standard, and all other
+  species (apart from Halfling and Kobold) are slower. These values use
+  the same scale as the skill aptitudes.
+
+The abbreviations used for the skills are:
+
+General skills, Experience   Melee and Ranged Combat     Spellcasting and Magic
+--------------------------   -----------------------     ----------------------
+Arm - Armour                 Fgt - Fighting              Spc - Spellcasting
+Ddg - Dodging                SBl - Short Blades          Coj - Conjurations
+Sth - Stealth                LBl - Long Blades           Hex - Hexes
+Shd - Shields                M&F - Maces & Flails        Cha - Charms
+                             Axs - Axes                  Sum - Summonings
+Inv - Invocations            Pla - Polearms              Nec - Necromancy
+Evo - Evocations             Stv - Staves                Trl - Translocations
+                             UC  - Unarmed Combat        Trm - Transmutations
+
+                             Thr - Throwing              Fir - Fire Magic
+HP  - hit points             Slg - Slings                Ice - Ice Magic
+MP  - magic points           Bws - Bows                  Air - Air Magic
+Exp - experience             Crb - Crossbows             Ear - Earth Magic
+                                                         Poi - Poison Magic
+
+
+                 Arm Ddg Sth Shd   Inv Evo            HP  MP  Exp
+----------------------------------------------------------------------
+Human              0   0  +1   0    +1  +1             0   0   +1
+Centaur           -3  -3  -3  -3    +1   0            +1  -1   -1
+Demigod           -1  -1   0  -1    NA   0            +1  +2   -2
+Demonspawn        -1  -1   0  -1    +3  +1             0   0   -1
+Draconian         NA  -1   0   0    +1  +1            +1   0   -1
+         Black    NA  -1   0   0    +1  +1            +1   0   -1
+         Green    NA  -1   0   0    +1  +1            +1   0   -1
+          Grey    NA  -1   0   0    +1  +1            +1   0   -1
+       Mottled    NA  -1   0   0    +1  +1            +1   0   -1
+          Pale    NA  -1   0   0    +1  +2            +1   0   -1
+        Purple    NA  -1   0   0    +1  +2            +1   0   -1
+           Red    NA  -1   0   0    +1  +1            +1   0   -1
+         White    NA  -1   0   0    +1  +1            +1   0   -1
+        Yellow    NA  -1   0   0    +1  +1            +1   0   -1
+Deep Dwarf        +1  +1  +3  +1    +3  +4            +2   0   -1
+Deep Elf          -2  +2  +3  -2    +1  +2            -2  +3   -1
+High Elf          -1  +1  +2  -1    +1  +1            -1  +2   -1
+Felid             NA  +3  +4  NA     0  +2            -4  +2   -1
+Gargoyle          +1  -2  +2  +1    +1   0            -2   0    0
+Ghoul             -1  -1  +2  -1    +1   0            +1  -1    0
+Halfling          -2  +2  +4  +1    +1  +2            -1   0   +1
+Kobold            -2  +2  +4  -2    +1  +3            -2   0   +1
+Merfolk           -3  +3  +2   0    +1  +1             0   0    0
+Minotaur          +2  +1  -1  +2     0   0            +1  -2   -1
+Mummy             -2  -2  -1  -2    -1  -1             0   0   -1
+Naga              -2  -2  +5  -2    +1  +1            +2   0    0
+Octopode          NA   0  +4   0    +1  +2            -1   0    0
+Ogre              -2  -1  -1  -1    +1  -1            +3   0    0
+Hill Orc          +1  -2  -1  +1    +3  +1            +1   0    0
+Spriggan          -3  +4  +5  -3     0  +4            -3  +3   -1
+Tengu             +1  +1  +1   0    -1  +1            -2  +1    0
+Troll             -2  -2  -4  -2    -1  -2            +3  -2   -1
+Vampire           -2  +1  +5  -1    -1   0             0   0   -1
+----------------------------------------------------------------------
+                 Arm Ddg Sth Shd   Inv Evo            HP  MP  Exp
+
+
+                 Fgt SBl LBl M&F Axs Pla Stv UC    Thr Slg Bws Crb
+----------------------------------------------------------------------
+Human              0   0   0   0   0   0   0   0     0   0   0   0
+Centaur            0  -1  -1  -1  -1  -1  -1   0    +3  +1  +3  +1
+Demigod           -1  -1  -1  -1  -1  -1  -1  -1    -1  -1  -1  -1
+Demonspawn         0  -1  -1  -1  -1  -1  -1  -1    -1  -1  -1  -1
+Draconian         +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+         Black    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+         Green    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+          Grey    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+       Mottled    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+          Pale    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+        Purple    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+           Red    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+         White    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+        Yellow    +1   0   0   0   0   0   0   0    -1  -1  -1  -1
+Deep Dwarf        -1  -1   0   0  +1  -1  -1  -1    -1  +1  -3  +1
+Deep Elf          -2   0  -1  -3  -2  -3   0  -2    +1  -2  +1  -1
+High Elf           0  +2  +2  -2  -2  -2   0  -2    +1  -2  +3   0
+Felid              0  NA  NA  NA  NA  NA  NA   0    NA  NA  NA  NA
+Gargoyle          +1  -1  -1  +1  -1  -1  +1  +1     0  -1   0   0
+Ghoul             +1  -1  -1  -1  -1  -1  -1  +1    -1  -1  -1  -1
+Halfling          -1  +3   0  -2  -1  -3  -2  -2    +3  +4  +2  -1
+Kobold            +1  +3  -2   0  -1  -2  -1   0    +3  +2  -1  +2
+Merfolk           +1  +2  +1  -2  -2  +4  -2  +1     0  -2  -2  -2
+Minotaur          +2  +1  +2  +2  +2  +2  +2  +1     0  +1  +1  +1
+Mummy              0  -2  -2  -2  -2  -2  -2  -2    -2  -2  -2  -2
+Naga               0   0   0   0   0   0  -1   0    -1  -1  -1  -1
+Octopode           0   0   0   0   0   0   0   0     0   0   0   0
+Ogre              +3  -4  -3  +3  -3   0  -1  -1    +1  -3  -3  -3
+Hill Orc          +2   0  +1  +1  +3  +1  -1  +1     0  -1  -1  -1
+Spriggan          -2  +1  -2  -3  -2  -3  -3  -2    +1  +2  +2   0
+Tengu              0  +1  +1  +1  +1  +1  +1  +1    +1   0  +1  +1
+Troll             -2  -2  -2  -1  -2  -2  -2   0    -1  -4  -4  -4
+Vampire           -1  +1   0  -2  -1  -1  -2  +1    -2  -2  -2  -2
+----------------------------------------------------------------------
+                 Fgt SBl LBl M&F Axs Pla Stv UC    Thr Slg Bws Crb
+
+
+                 Spc Coj Hex Cha Sum Nec Trl Trm   Fir Ice Air Ear Poi
+----------------------------------------------------------------------
+Human             -1   0   0   0   0   0   0   0     0   0   0   0   0
+Centaur           -3  -1  -1  -1  -1  -1  -1  -1    -1  -1  -1  -1  -2
+Demigod           -2  -1  -1  -1  -1  -1  -1  -1    -1  -1  -1  -1  -1
+Demonspawn        -1   0   0  -1   0  +1  -1  -1    -1  -1  -1  -1   0
+Draconian         -1   0  -1  -1   0   0   0   0     0   0   0   0   0
+         Black    -1   0  -1  -1   0   0   0   0     0   0  +2  -2   0
+         Green    -1   0  -1  -1   0   0   0   0     0   0   0   0  +2
+          Grey    -1   0  -1  -1   0   0   0   0     0   0  -2  +2   0
+       Mottled    -1   0  -1  -1   0   0   0   0    +1   0   0   0   0
+          Pale    -1   0  -1  -1   0   0   0   0    +1   0  +1   0   0
+        Purple    +1   0  +1  +1   0   0   0   0     0   0   0   0   0
+           Red    -1   0  -1  -1   0   0   0   0    +2  -2   0   0   0
+         White    -1   0  -1  -1   0   0   0   0    -2  +2   0   0   0
+        Yellow    -1   0  -1  -1   0   0   0   0     0   0   0   0   0
+Deep Dwarf        -2  -1  -2  -1  -1  +1  +1  -1    -1  -1  -3  +3  -2
+Deep Elf          +3  +1  +3  +4  +1  +2  +1  +1    +1  +1   0  +1  +1
+High Elf          +1  +1   0  +2  -1  -2  +1  +1     0   0  +2  -2  -2
+Felid             -1  -1  +4  +2   0   0  +4  +1    -1  -2  -1  -2  -1
+Gargoyle          -1  +1  -1  -1  -1  -2  -1  -2     0   0  -2  +2   0
+Ghoul             -2  -2  -2  -1  -1   0  -1  -1    -2  +1  -2  +1   0
+Halfling          -3  -2  -1  +1  -1  -2  +1  -4     0   0  +1   0  -1
+Kobold            -1  -1   0  -2   0   0   0  -1     0   0   0   0   0
+Merfolk           -1  -2   0  +1   0  -2  -2  +3    -3  +1  -2  -2  +1
+Minotaur          -4  -3  -4  -4  -3  -3  -3  -2    -3  -3  -3  -2  -3
+Mummy             -1  -2  -1  -2  -2   0  -2  -2    -2  -2  -2  -2  -2
+Naga              -1   0   0   0   0   0   0   0     0   0   0   0  +3
+Octopode          -1   0   0   0   0   0   0   0     0   0   0   0  +2
+Ogre              +1  -3  -3  -3  -3  -3  -3  -3    -3  -3  -3  -3  -3
+Hill Orc          -3   0   0  -1   0   0  -2  -3    +1  -1  -2   0  -1
+Spriggan          +2  -3  +2  +4  -2  -1  +4  +3    -2  -2  -1  -1   0
+Tengu             -1  +3  -3  -2  +2  +1  -2  -2    +1  -1  +3  -3   0
+Troll             -5  -3  -4  -4  -3  -2  -3  -3    -3  -3  -4  -1  -3
+Vampire           -1  -3  +4  +1   0  +1  -2  +1    -2   0   0   0  -1
+----------------------------------------------------------------------
+                 Spc Coj Hex Cha Sum Nec Trl Trm   Fir Ice Air Ear Poi

@@ -1,0 +1,851 @@
+######################################################
+# Randart Names
+# -------------
+# rand_arm.txt: keywords for randart ARMOUR
+#
+# This file contains the lists of keywords (and their
+# weights) for most of the keywords used for randart
+# armour. You will find others in rand_wpn.txt and
+# rand_all.txt, respectively.
+#
+# See the explanation in the main file, randname.txt,
+# for more details.
+######################################################
+%%%%
+_armour_animal_
+
+# microorganisms
+아메바
+
+박테리아
+
+# insects
+나비
+
+매미
+
+크리켓
+
+바늘두더지
+
+무당벌레
+
+메뚜기
+
+개미
+
+귀뚜라미
+
+베짱이
+
+바퀴벌레
+
+# invertebrates
+민달팽이
+
+달팽이
+
+복족류
+
+지네
+
+지렁이
+
+삼엽충
+
+갑오징어
+
+# arachnids and clams
+타란튤라
+
+조개
+
+바나클
+
+바닷가재
+
+# amphibians and reptiles
+남생이
+
+거북이
+
+개구리
+
+코모도 왕도마뱀_SUFFIX_
+
+용
+
+도마뱀
+
+샐러맨더
+
+비단구렁이
+
+# birds
+산비둘기
+
+나이팅게일
+
+들종다리
+
+이글
+
+팔콘
+
+송골매
+
+독수리
+
+왜가리
+
+까마귀
+
+참새
+
+백조
+
+오리
+
+# mammals
+토끼
+
+캥거루
+
+코끼리
+
+얼룩말
+
+하마
+
+원숭이
+
+물소
+
+기린
+
+돌고래
+
+두더지
+
+사슴
+
+사자
+
+호랑이
+
+표범
+
+하이에나
+
+재규어
+
+퓨마
+
+치타
+
+종자말
+
+# not strictly an animal... :)
+유인원
+
+침팬지
+
+고릴라
+
+오랑우탄
+
+보노보
+
+#classical mythical animals
+바실리스크
+
+드래곤
+
+그리폰
+
+크라켄
+
+# modern mythical animals
+드라프베어_SUFFIX_
+
+재칼로프_SUFFIX_
+
+하기스_SUFFIX_
+
+츄파카브라_SUFFIX_
+
+전투 코알라_SUFFIX_
+%%%%
+_flower_name_
+
+라일락
+
+수선화
+
+장미
+
+나팔꽃
+
+제비꽃
+
+달맞이꽃
+
+물망초
+
+해바라기
+
+릴리
+
+수레국화
+
+벚꽃
+
+패랭이
+
+튤립
+
+데이지_SUFFIX_
+
+코스모스_SUFFIX_
+
+델피니움_SUFFIX_
+
+리시안사스_SUFFIX_
+
+공중 정원_SUFFIX_
+%%%%
+# non-Crawl critters
+_critter_name_
+
+진창
+
+알파고르곤_SUFFIX_
+
+# from the crawl.akrasiac.org patch.
+뜨거운 오셀롯_SUFFIX_
+
+여덟 목화 바구미_SUFFIX_
+
+몸서리
+
+전율
+
+무의미한 말_SUFFIX_
+
+w:1
+토끼 인간_SUFFIX_
+
+범프스
+%%%%
+_discomfort_and_inaction_
+
+# discomfort
+저자극
+
+쓰디씀
+
+부정
+
+실패
+
+예속
+
+복종
+
+# inaction
+무생물
+
+지루
+
+권태
+
+저돌
+
+형벌
+
+오명
+
+활발
+
+휴면
+%%%%
+_mental_illness_armour_
+
+파라노이아_SUFFIX_
+
+클라우스트로포비아_SUFFIX_
+
+아고라포비아_SUFFIX_
+
+디스프랙시어_SUFFIX_
+
+정신 분열_SUFFIX_
+
+캐타토니아_SUFFIX_
+
+불경기
+
+히스테리
+
+도벽
+
+우울
+
+가학성 변태성욕_SUFFIX_
+
+자아도취_SUFFIX_
+%%%%
+_good_or_divine_
+
+# good things
+선함
+
+잎사귀
+
+삼잎
+
+선율
+
+지저귐
+
+광명
+
+편안함
+
+희학
+
+환희
+
+행복
+
+행복
+
+놀라움
+
+이상함
+
+호기심
+
+창조욕
+
+미모
+
+생명
+
+삶
+
+쟁취
+
+자유
+
+혁신
+
+만족
+
+환락
+
+# divine events
+신들의 통치_SUFFIX_
+
+보이지 않는 손_SUFFIX_
+
+신성한 개입_SUFFIX_
+
+중재
+
+기적
+
+구원
+
+신의 의지_SUFFIX_
+%%%%
+# in contrast to "_wacky_armour_name_" these do have some
+# connection to armour and protection
+_armour_name_shielding_
+
+차폐
+
+불침투
+
+방어
+
+죽음의 아가리_SUFFIX_
+
+관문
+
+구세주
+
+불가촉천민
+
+무장한 자
+
+배척
+
+반발력
+
+불가침
+
+피난
+
+보루_SUFFIX_
+
+차단
+
+강화
+%%%%
+# other armour properties (beside protection)
+_armour_property_name_
+
+강인
+
+죽음에의 항전_SUFFIX_
+
+은총
+
+가벼움
+
+그림자와 안개_SUFFIX_
+
+변장
+
+최소한의 저항_SUFFIX_
+
+구치
+
+회복
+
+최신 유행
+
+눈에 확 띄는_NOPOS_
+%%%%
+_wacky_armour_name_
+
+회전
+
+양파
+
+브라드 공_SUFFIX_
+
+영혼의 열매_SUFFIX_
+
+유연
+
+대머리
+
+공포
+
+전율
+
+올바른 생각_SUFFIX_
+
+아르카나
+
+무통각
+
+아르마딜로
+
+초자연
+
+격정
+
+호운
+
+손해
+
+보험
+
+배상
+
+제약
+
+배척
+
+알려지지 않은 비밀_SUFFIX_
+
+대지
+
+유한한 책임
+
+하잠
+
+야만
+
+강인
+
+공간
+
+진공
+
+가압
+
+감압
+
+수세미
+
+사랑의 몰락_SUFFIX_
+
+과다 노출
+
+도보 여행_SUFFIX_
+
+맹인 사수 _SUFFIX_
+
+쓸모 없는_NOPOS_
+
+세 저주와 축복_SUFFIX_
+
+오리 이빨_SUFFIX_
+%%%%
+# Lemuel's suggestions
+_celestial_bodies_
+
+태양
+
+달
+
+별
+
+행성
+
+성운
+
+샛별
+
+태백성
+
+혜성
+
+월식
+
+w:5
+미드나잇 썬_SUFFIX_
+
+w:5
+블루문_SUFFIX_
+
+w:5
+하베스트 문_SUFFIX_
+
+# astrological
+흑월
+%%%%
+_instrument_name_
+
+나팔
+
+케틀드럼
+
+아코디언
+
+백파이프
+
+류트
+
+종소리
+
+차임
+
+플루트
+
+하프
+
+구슬라
+%%%%
+_evil_being_
+
+악마
+
+마왕
+
+반마족
+
+마족
+
+임프
+
+악마숭배
+
+대악마
+
+강철의 악마_SUFFIX_
+
+더 데빌스 애드버킷_SUFFIX_
+
+악마 왕자_SUFFIX_
+
+사악한 자_SUFFIX_
+
+퓨리스_SUFFIX_
+
+어둠의 왕자_SUFFIX_
+
+마왕
+
+사탄
+
+소악마
+%%%%
+_weather_name_
+
+첫눈
+
+몰아치는 파도_SUFFIX_
+
+가뭄
+
+폭풍우
+
+템페스트_SUFFIX_
+
+태풍
+
+푸른 하늘_SUFFIX_
+
+잔잔한 바람_SUFFIX_
+
+매서운 추위_SUFFIX_
+
+눈보라
+%%%%
+_profession_name_
+
+길드
+
+길드마스터
+
+도자기장인
+
+대장장이
+
+목수
+
+나무꾼
+
+미장이
+
+어부
+
+사냥꾼
+
+노동자
+
+수호자
+
+양봉가
+
+정원사
+
+병사
+
+수의사
+
+기술자
+
+이발사
+
+여행자
+
+학자
+
+음유시인
+
+장의사
+
+거지
+
+상인
+
+선원
+
+묘지기
+
+해적
+
+해적왕
+%%%%
+# something for Xom
+_game_name_
+
+# general games
+놀이
+
+위대한 놀이_SUFFIX_
+
+왕의 시험_SUFFIX_
+
+# children's games
+술래잡기
+
+숨바꼭질
+
+목마
+
+사방치기
+
+나를 따르라_SUFFIX_
+
+언덕 위의 왕_SUFFIX_
+
+잭나이프
+
+# board games etc.
+생태계
+
+카드트릭
+
+사형수
+
+주사위
+
+직소
+
+두더지
+
+사다리
+
+대리석
+
+틱-택-토_SUFFIX_
+%%%%
+_politics_name_armour_
+
+군주
+
+여왕
+
+왕족
+
+귀족
+
+공화국
+
+제국
+
+대관식
+
+평민
+
+농부
+
+마을
+
+도시
+
+국가
+
+교외
+
+반란
+
+왕관
+
+공작
+
+후작
+
+백작
+
+자작
+
+남작
+
+폭도
+
+왕자
+
+군주
+
+공주
+
+과두제
+
+시장
+
+쿠데타
+%%%%
+_other_armour_name_
+
+지저분함
+
+지저분한_NOPOS_
+
+더러움
+
+쓰레기
+
+쓰레기_NOPOS_
+
+# magic
+마법
+
+마법학
+
+깨진 금기_SUFFIX_
+
+괴롬힘
+
+# other
+기어감
+
+오브
+
+오브수호자
+
+뇌신
+
+매달린 자_SUFFIX_
+
+해지
+
+연회
+
+끝없는 배고픔_SUFFIX_
+
+불완전
+
+시행착오
+
+재앙
+
+오판단
+
+명료함
+
+길잃음
+
+대인기피
+
+공간 낭비_SUFFIX_
+
+또다른 세계_SUFFIX_
+
+불가피한_NOPOS_
+%%%%
+_plain_armour_name_
+
+물망초
+
+영웅의 친구_SUFFIX_
+
+믿음의 동반자_SUFFIX_
+
+경호
+
+농담
+
+희학
+
+끊임없는 경계
+
+겁쟁이
+
+초자연
+
+호운
+
+책무
+
+유지
+
+묵비
+%%%%
