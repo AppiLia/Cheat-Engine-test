@@ -1,5 +1,6 @@
 type = normal
 name = DCSS
-species = Octopode
-background = Transmuter
+species = Troll
+background = Berserker
+weapon = mace
 fully_random = no
